@@ -9,18 +9,20 @@
 <body>
   <header class="main-header">
     <div class="main-header__container container">
-      <h1 class="visually-hidden">Меню сайта</h1>
+      <span class="visually-hidden">Меню сайта</span>
       <nav class="main-nav">
+        <div class="main-nav__header header-block">
+          <a class="header-block__link header-block__link--fox">
+            <span class="visually-hidden">Логотип сайта. Лиса</span>
+          </a>
+          <a class="header-block__link header-block__link--title">
+            <span class="visually-hidden">Надпись "Cat enegry" рядом с логотипом сайта</span>
+          </a>
+          <button class="header-block__btn btn" type="button">
+            <span class="visually-hidden">Кнопка открытия меню сайта</span>
+          </button>
+        </div>
         <ul class="main-nav__itmes">
-          <li class="main-nav__item logo-block">
-            <a class="logo-block__link logo-block__link--fox">
-              <h1 class="visually-hidden">Логотип сайта. Лиса</h1>
-            </a>
-            <a class="logo-block__link logo-block__link--title">
-              <h1 class="visually-hidden">Надпись "Cat enegry" рядом с логотипом сайта</h1>
-            </a>
-            <button class="logo-block__btn btn" type="button"></button>
-          </li>
           <li class="main-nav__item">
             <a href="#">Главная</a>
           </li>
@@ -32,6 +34,12 @@
           </li>
         </ul>
       </nav>
+      <div class="main-header__text text-block">
+        <h1 class="text-block__title">Функциональное питание для котов</h1>
+        <p class="text-block__text">Занялся собой? Займись котом!</p>
+      </div>
+        <img src="" alt="" class="main-header__photo">
+        <a href="form.html" class="main-header__btn btn">Подобрать программу</a>
     </div>
   </header>
   <main class="catalog">
@@ -42,9 +50,9 @@
           <picture class="catalog__img" aria-label="Фото упаковки: Cat Energy  PRO 500 г">
             <scource></scource>
           </picture>
-          <div class="catalog__text text-block">
-            <p class="text-block__title">Cat Energy PRO 500 г</p>
-            <table class="text-block__table">
+          <div class="catalog__text text-catalog">
+            <p class="text-catalog__title">Cat Energy PRO 500 г</p>
+            <table class="text-catalog__table">
               <tbody>
                 <tr>
                   <td>Объем</td>
@@ -67,9 +75,9 @@
           <picture class="catalog__img" aria-label="Фото упаковки: Cat Energy  PRO 1000 г">
             <scource></scource>
           </picture>
-          <div class="catalog__text text-block">
-            <p class="text-block__title">Cat Energy PRO 1000 г</p>
-            <table class="text-block__table">
+          <div class="catalog__text text-catalog">
+            <p class="text-catalog__title">Cat Energy PRO 1000 г</p>
+            <table class="text-catalog__table">
               <tbody>
                 <tr>
                   <td>Объем</td>
@@ -92,9 +100,9 @@
           <picture class="catalog__img" aria-label="Фото упаковки: Cat Energy  PRO 500 г">
             <scource></scource>
           </picture>
-          <div class="catalog__text text-block">
-            <p class="text-block__title">Cat Energy PRO 500 г</p>
-            <table class="text-block__table">
+          <div class="catalog__text text-catalog">
+            <p class="text-catalog__title">Cat Energy PRO 500 г</p>
+            <table class="text-catalog__table">
               <tbody>
                 <tr>
                   <td>Объем</td>
@@ -117,9 +125,9 @@
           <picture class="catalog__img" aria-label="Фото упаковки: Cat Energy  PRO 1000 г">
             <scource></scource>
           </picture>
-          <div class="catalog__text text-block">
-            <p class="text-block__title">Cat Energy PRO 1000 г</p>
-            <table class="text-block__table">
+          <div class="catalog__text text-catalog">
+            <p class="text-catalog__title">Cat Energy PRO 1000 г</p>
+            <table class="text-catalog__table">
               <tbody>
                 <tr>
                   <td>Объем</td>
@@ -142,9 +150,9 @@
           <picture class="catalog__img" aria-label="Фото упаковки: Cat Energy  Slim 500 г">
             <scource></scource>
           </picture>
-          <div class="catalog__text text-block">
-            <p class="text-block__title">Cat Energy Slim 500 г</p>
-            <table class="text-block__table">
+          <div class="catalog__text text-catalog">
+            <p class="text-catalog__title">Cat Energy Slim 500 г</p>
+            <table class="text-catalog__table">
               <tbody>
                 <tr>
                   <td>Объем</td>
@@ -167,9 +175,9 @@
           <picture class="catalog__img" aria-label="Фото упаковки: Cat Energy  Slim 1000 г">
             <scource></scource>
           </picture>
-          <div class="catalog__text text-block">
-            <p class="text-block__title">Cat Energy Slim 1000 г</p>
-            <table class="text-block__table">
+          <div class="catalog__text text-catalog">
+            <p class="text-catalog__title">Cat Energy Slim 1000 г</p>
+            <table class="text-catalog__table">
               <tbody>
                 <tr>
                   <td>Объем</td>
@@ -192,9 +200,9 @@
           <picture class="catalog__img" aria-label="Фото упаковки: Cat Energy  Slim 500 г">
             <scource></scource>
           </picture>
-          <div class="catalog__text text-block">
-            <p class="text-block__title">Cat Energy Slim 500 г</p>
-            <table class="text-block__table">
+          <div class="catalog__text text-catalog">
+            <p class="text-catalog__title">Cat Energy Slim 500 г</p>
+            <table class="text-catalog__table">
               <tbody>
                 <tr>
                   <td>Объем</td>
@@ -215,9 +223,9 @@
         </li>
         <li class="catalog__item">
           <picture class="catalog__img" aria-label="Иконка плюс"></picture>
-          <div class="catalog__text text-block">
-            <p class="text-block__title">Показать еще 100500 товаров</p>
-            <p class="text-block__text">На самом деле вкусов гораздо больше!</p>
+          <div class="catalog__text text-catalog">
+            <p class="text-catalog__title">Показать еще 100500 товаров</p>
+            <p class="text-catalog__text">На самом деле вкусов гораздо больше!</p>
           </div>
           <button class="catalog__btn btn" type="button">Показать все</button>
         </li>
@@ -229,30 +237,30 @@
     </div>
   </main>
   <footer class="main-footer">
-    <h1 class="visually-hidden">Низ сайта. Подвал</h1>
+    <span class="visually-hidden">Низ сайта. Подвал</span>
     <div class="main-footer__container container">
       <p class="main-footer__logo"></p>
-      <ul class="main-footer__social-btns">
-        <li class="main-footer__social-btn main-footer__social-btn--vk btn">
-          <a href="">
-            <h1 class="visually-hidden">Социальная сеть Вконтакте</h1>
+      <ul class="main-footer__social-links">
+        <li class="main-footer__social-link ">
+          <a href="#" class="main-footer__social-link--vk">
+            <span class="visually-hidden">Ссылка ведующая в социальную сеть Вконтакте</span>
           </a>
         </li>
-        <li class="main-footer__social-btn main-footer__social-btn--inst btn">
-          <a href="">
-            <h1 class="visually-hidden">Социальная сеть Инстаграмм</h1>
+        <li class="main-footer__social-link ">
+          <a href="#" class="main-footer__social-link--inst">
+            <span class="visually-hidden">Ссылка ведующая в социальную сеть Инстаграмм</span>
           </a>
         </li>
-        <li class="main-footer__social-btn main-footer__social-btn--fb btn">
-          <a href="">
-            <h1 class="visually-hidden">Социальная сеть Фейсбук</h1>
+        <li class="main-footer__social-link ">
+          <a href="#" class="main-footer__social-link--fb">
+            <span class="visually-hidden">Ссылка ведующая в социальную сеть Фейсбук</span>
           </a>
         </li>
       </ul>
-      <ul class="main-footer__academy-link">
-        <li>HTML Academy</li>
-        <li></li>
-      </ul>
+      <div class="main-footer__academy">
+        <a href="#">HTML Academy</a>
+        <a href="#"></a>
+      </div>
     </div>
   </footer>
 </body>

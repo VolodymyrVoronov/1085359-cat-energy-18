@@ -9,18 +9,20 @@
 <body>
   <header class="main-header">
     <div class="main-header__container container">
-      <h1 class="visually-hidden">Меню сайта</h1>
+      <span class="visually-hidden">Меню сайта</span>
       <nav class="main-nav">
+        <div class="main-nav__header header-block">
+          <a class="header-block__link header-block__link--fox">
+            <span class="visually-hidden">Логотип сайта. Лиса</span>
+          </a>
+          <a class="header-block__link header-block__link--title">
+            <span class="visually-hidden">Надпись "Cat enegry" рядом с логотипом сайта</span>
+          </a>
+          <button class="header-block__btn btn" type="button">
+            <span class="visually-hidden">Кнопка открытия меню сайта</span>
+          </button>
+        </div>
         <ul class="main-nav__itmes">
-          <li class="main-nav__item logo-block">
-            <a class="logo-block__link logo-block__link--fox">
-              <h1 class="visually-hidden">Логотип сайта. Лиса</h1>
-            </a>
-            <a class="logo-block__link logo-block__link--title">
-              <h1 class="visually-hidden">Надпись "Cat enegry" рядом с логотипом сайта</h1>
-            </a>
-            <button class="logo-block__btn btn" type="button" aria-label="Кнопка открытия меню сайта"></button>
-          </li>
           <li class="main-nav__item">
             <a href="#">Главная</a>
           </li>
@@ -35,17 +37,14 @@
       <div class="main-header__text text-block">
         <h1 class="text-block__title">Функциональное питание для котов</h1>
         <p class="text-block__text">Занялся собой? Займись котом!</p>
-        <a href="#" class="text-block__btn btn">Подобрать программу</a>
       </div>
-      <div class="main-header__img img-block">
-        <img src="" alt="" class="img-block__photo">
-        <a href="form.html" class="img-block__btn btn">Подобрать программу</a>
-      </div>
+        <img src="" alt="" class="main-header__photo">
+        <a href="form.html" class="main-header__btn btn">Подобрать программу</a>
     </div>
   </header>
   <main class="main-content">
     <section class="diatprogramms">
-      <h1 class="visually-hidden">Программы для похудения</h1>
+      <span class="visually-hidden">Программы для похудения</span>
       <div class="diatprogramms__container container">
         <div class="diatprogramm">
           <p class="diatprogramms__title">Похудение</p>
@@ -80,34 +79,36 @@
         </ul>
       </div>
     </section>
-    <setcion class="example">
+    <section class="example">
       <div class="example__container container">
-        <div class="exaple__info info-block">
-          <h2 class="info-block__title">Живой пример</h2>
-          <p class="info-block__text">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy
+        <div class="exapmle__info info-example">
+          <h2 class="info-example__title">Живой пример</h2>
+          <p class="info-example__text">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy
             Slim. Отличный результат т без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит
             по 16 часов в день.</p>
-          <ul class="info-block__items">
-            <li class="info-block__item">
-              <p class="info-block__weight">5 Кг</p>
+          <ul class="info-example__items">
+            <li class="info-example__item">
+              <p class="info-example__weight">5 Кг</p>
             </li>
-            <li class="info-block__item">
-              <p class="info-block__days">60 дней</p>
+            <li class="info-example__item">
+              <p class="info-example__days">60 дней</p>
             </li>
           </ul>
           <p class="info-block__costs">Затраты на питание: 15 000 руб.</p>
         </div>
-        <div class="example__slide slide-block">
-          <img class="slide-block__photo" src="" alt="">
-          <div class="slide-block__toggles"></div>
+        <div class="example__slide slide-example">
+          <img class="example-block__photo" src="" alt="">
+          <div class="example-block__toggles">
+            <input class="example-block__toggle" type="checkbox" name="" id="">
+          </div>
         </div>
       </div>
-    </setcion>
+    </section>
     <section class="cooperation">
       <div class="cooperation__container container">
-        <div class="cooperation__text text-block">
-          <h2 class="text-block__title">Приглашаем к сотрудничеству дилеров!</h2>
-          <p class="text-block__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+        <div class="cooperation__text text-cooperation">
+          <h2 class="text-cooperation__title">Приглашаем к сотрудничеству дилеров!</h2>
+          <address class="text-cooperation__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
         </div>
       </div>
       <div class="cooperation__map">
@@ -115,30 +116,30 @@
     </section>
   </main>
   <footer class="main-footer">
-    <h1 class="visually-hidden">Низ сайта. Подвал</h1>
+    <span class="visually-hidden">Низ сайта. Подвал</span>
     <div class="main-footer__container container">
       <p class="main-footer__logo"></p>
-      <ul class="main-footer__social-btns">
-        <li class="main-footer__social-btn main-footer__social-btn--vk btn">
-          <a href="">
-            <h1 class="visually-hidden">Социальная сеть Вконтакте</h1>
+      <ul class="social">
+        <li class="social__link ">
+          <a href="#" class="social__link--vk">
+            <span class="visually-hidden">Ссылка ведующая в социальную сеть Вконтакте</span>
           </a>
         </li>
-        <li class="main-footer__social-btn main-footer__social-btn--inst btn">
-          <a href="">
-            <h1 class="visually-hidden">Социальная сеть Инстаграмм</h1>
+        <li class="social__link ">
+          <a href="#" class="social__link--inst">
+            <span class="visually-hidden">Ссылка ведующая в социальную сеть Инстаграмм</span>
           </a>
         </li>
-        <li class="main-footer__social-btn main-footer__social-btn--fb btn">
-          <a href="">
-            <h1 class="visually-hidden">Социальная сеть Фейсбук</h1>
+        <li class="social__link ">
+          <a href="#" class="social__link--fb">
+            <span class="visually-hidden">Ссылка ведующая в социальную сеть Фейсбук</span>
           </a>
         </li>
       </ul>
-      <ul class="main-footer__academy-link">
-        <li>HTML Academy</li>
-        <li></li>
-      </ul>
+      <div class="main-footer__academy">
+        <a href="#">HTML Academy</a>
+        <a href="#"></a>
+      </div>
     </div>
   </footer>
 </body>

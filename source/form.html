@@ -10,27 +10,27 @@
   <header class="main-header">
     <div class="main-header__container container">
       <span class="visually-hidden">Меню сайта</span>
+      <div class="logo">
+        <a class="logo__link logo__link--fox">
+          <span class="visually-hidden">Логотип сайта. Лиса</span>
+        </a>
+        <a class="logo__link logo__link--title">
+          <span class="visually-hidden">Надпись "Cat enegry" рядом с логотипом сайта</span>
+        </a>
+        <button class="logo__btn btn" type="button">
+          <span class="visually-hidden">Кнопка открытия меню сайта</span>
+        </button>
+      </div>
       <nav class="main-nav">
-        <div class="main-nav__header header-block">
-          <a class="header-block__link header-block__link--fox">
-            <span class="visually-hidden">Логотип сайта. Лиса</span>
-          </a>
-          <a class="header-block__link header-block__link--title">
-            <span class="visually-hidden">Надпись "Cat enegry" рядом с логотипом сайта</span>
-          </a>
-          <button class="header-block__btn btn" type="button">
-            <span class="visually-hidden">Кнопка открытия меню сайта</span>
-          </button>
-        </div>
         <ul class="main-nav__itmes">
           <li class="main-nav__item">
-            <a href="#">Главная</a>
+            <a href="index.html">Главная</a>
           </li>
           <li class="main-nav__item">
             <a href="catalog.html">Каталог продукции</a>
           </li>
           <li class="main-nav__item">
-            <a href="#">Подбор программы</a>
+            <a>Подбор программы</a>
           </li>
         </ul>
       </nav>
@@ -44,25 +44,98 @@
   </header>
   <main class="programm">
     <div class="programm__container container">
+      <h2 class="programm__title">Подбор программы</h2>
+      <p class="programm__text">Заполните анкету и мы подберем  программу питания для вашего кота</p>
+      <form action="https://echo.htmlacademy.ru" class="programm__form form-block" method="post">
+        <ul class="form-block__fields">
+          <li class="form-block__field">
+            <label for="name">Имя:*</label><input type="text" name="name" id="name" placeholder="Барсик">
+          </li>
+          <li class="form-block__field">
+            <label for="weight">Вес (КГ):*</label><input type="text" name="weight" id="weight" placeholder="7">
+          </li>
+          <li class="form-block__field">
+            <label for="age">Возраст (ЛЕТ):</label><input type="text" name="age" id="age" placeholder="7">
+          </li>
+        </ul>
+        <ul class="form-block__radios">
+          <span class="visually-hidden">Цель программы</span>
+          <li class="form-block__radio">
+            <input type="radio" name="diat" id="diat"><label for="diat">Похудение</label>
+          </li>
+          <li class="form-block__radio">
+            <input type="radio" name="gain" id="gain"><label for="gain">Набор массы</label>
+          </li>
+          <li class="form-block__radio">
+            <input type="radio" name="question" id="question"><label for="question">Не знаю (Нужен ваш совет)</label>
+          </li>
+        </ul>
+        <div class="form-block__owner owner-info">
+          <h2 class="owner-info__title">Контактные данные (владельца кота)</h2>
+          <ul class="onwer-info__flieds">
+            <li class="owner-info__field">
+              <label for="email">E-mail:*</label><input type="email" name="email" id="email" placeholder="kuklachev@gmail.com">
+            </li>
+            <li class="owner-info__field">
+              <label for="phone">Телефон:*</label><input type="tel" name="phone" id="phone" placeholder="8 (960) 900-60-90">
+            </li>
+          </ul>
+        </div>
+        <div class="form-block__comment comment-add">
+          <h2 class="comment-add__title">Комментарий</h2>
+          <textarea name="" id="" cols="0" rows="0" class="comment-add__write" placeholder="Расскажите обо всех повадках кота"></textarea>
+        </div>
+        <div class="form-block__extra extra-info">
+          <h2 class="extra-info__title">Дополнительно</h2>
+          <ul class="extra-info__options">
+            <li class="extra-info__option">
+              <input type="checkbox" name="sweetener" id="sweetener"><label for="sweetener">Сахарозаменитель</label>
+            </li>
+            <li class="extra-info__option">
+              <input type="checkbox" name="drinkingwater" id="drinkingwater"><label for="drinkingwater">Питьевая вода</label>
+            </li>
+            <li class="extra-info__option">
+              <input type="checkbox" name="milk" id="milk"><label for="milk">Молоко</label>
+            </li>
+            <li class="extra-info__option">
+              <input type="checkbox" name="vitamins" id="vitamins"><label for="vitamins">Витамины</label>
+            </li>
+          </ul>
+        </div>
+        <div class="form-block__send send-block">
+          <button type="submit" class="send-block__btn btn">Отправить заявку</button>
+          <p class="send-block__obligatorily">* — Обязательные поля</p>
+        </div>
+      </form>
     </div>
   </main>
+  <section class="cooperation">
+    <div class="cooperation__container container">
+      <div class="cooperation__text text-cooperation">
+        <h2 class="text-cooperation__title">Приглашаем к сотрудничеству дилеров!</h2>
+        <address class="text-cooperation__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
+      </div>
+    </div>
+    <div class="cooperation__map">
+    </div>
+  </section>
   <footer class="main-footer">
     <span class="visually-hidden">Низ сайта. Подвал</span>
     <div class="main-footer__container container">
       <p class="main-footer__logo"></p>
-      <ul class="main-footer__social-links">
-        <li class="main-footer__social-link ">
-          <a href="#" class="main-footer__social-link--vk">
+      <ul class="social">
+        <li class="social__link ">
+          <a href="#" class="social__link--vk">
             <span class="visually-hidden">Ссылка ведующая в социальную сеть Вконтакте</span>
           </a>
         </li>
-        <li class="main-footer__social-link ">
-          <a href="#" class="main-footer__social-link--inst">
+        <li class="social__link ">
+          <a href="#" class="social__link--inst">
             <span class="visually-hidden">Ссылка ведующая в социальную сеть Инстаграмм</span>
           </a>
         </li>
-        <li class="main-footer__social-link ">
-          <a href="#" class="main-footer__social-link--fb">
+        <li class="social__link ">
+          <a href="#" class="social__link--fb">
             <span class="visually-hidden">Ссылка ведующая в социальную сеть Фейсбук</span>
           </a>
         </li>

@@ -1,0 +1,4 @@
+.main-header__container {
+  @include container(280px, 20px, 20px);
+  background-color: $green;
+}

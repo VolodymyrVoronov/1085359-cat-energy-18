@@ -1,3 +1,31 @@
-body {
-  background: rosybrown;
-}
+@import "blocks/fonts.scss";
+@import "blocks/mixins.scss";
+@import "blocks/colors.scss";
+@import "blocks/additional-classes.scss";
+
+@import "blocks/main-header.scss";
+@import "blocks/logo.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/text-block.scss";
+@import "blocks/main-content.scss";
+@import "blocks/diatprogramms.scss";
+@import "blocks/process.scss";
+@import "blocks/example.scss";
+@import "blocks/info-example.scss";
+@import "blocks/slide-example.scss";
+@import "blocks/cooperation.scss";
+@import "blocks/text-cooperation.scss";
+@import "blocks/main-footer.scss";
+@import "blocks/social.scss";
+
+@import "blocks/catalog.scss";
+@import "blocks/text-catalog.scss";
+@import "blocks/catalog-more.scss";
+@import "blocks/goods.scss";
+
+@import "blocks/programm.scss";
+@import "blocks/form-block.scss";
+@import "blocks/onwer-info.scss";
+@import "blocks/comment-add.scss";
+@import "blocks/extra-info.scss";
+@import "blocks/send-block.scss";

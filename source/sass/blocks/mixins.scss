@@ -5,6 +5,7 @@
 
 @mixin bm {
   display: block;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -14,8 +15,4 @@
   padding-left: $padding-left;
   padding-right: $padding-right;
   margin: $margin;
-}
-
-@mixin bs {
-  box-sizing: border-box;
 }

@@ -1,7 +1,7 @@
 .main-footer {
   @include bm;
   background-color: $light-gray;
-} 
+}
 
 .main-footer__container {
   @include bm;
@@ -26,4 +26,3 @@
   color: $light-black;
   text-decoration: none;
 }
-

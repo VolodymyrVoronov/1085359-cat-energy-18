@@ -1,6 +1,6 @@
 .process {
   @include bm;
-} 
+}
 
 .process__container {
   @include bm;
@@ -23,6 +23,7 @@
 .process__item {
   @include bm;
   margin-top: 26px;
+
   &:nth-child(1) {
     margin-top: 41px;
   }

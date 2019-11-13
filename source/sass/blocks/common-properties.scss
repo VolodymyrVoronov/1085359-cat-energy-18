@@ -1,8 +1,0 @@
-body {
-  @include bm;
-}
-
-.container {
-  @include bm;
-  @include container(280px, 20px, 20px);
-}

@@ -1,7 +1,9 @@
-@import "blocks/fonts.scss";
-@import "blocks/mixins.scss";
-@import "blocks/colors.scss";
-@import "blocks/additional-classes.scss";
+@import "normalize.scss";
+@import "fonts.scss";
+@import "mixins.scss";
+@import "colors.scss";
+@import "additional-classes.scss";
+@import "common-properties.scss";
 
 @import "blocks/main-header.scss";
 @import "blocks/logo.scss";
@@ -30,4 +32,4 @@
 @import "blocks/extra-info.scss";
 @import "blocks/send-block.scss";
 
-@import "blocks/common-properties.scss";
+

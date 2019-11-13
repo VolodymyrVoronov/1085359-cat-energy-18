@@ -1,0 +1,13 @@
+.example {
+  @include bm;
+  background-color: $light-gray;
+} 
+
+.example__container {
+  @include bm;
+  @include container(280px, 0px, 0px);
+}
+
+.exapmle__info {
+  @include bm;
+}

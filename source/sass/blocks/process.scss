@@ -1,0 +1,35 @@
+.process {
+  @include bm;
+} 
+
+.process__container {
+  @include bm;
+  @include container(280px, 0px, 0px);
+}
+
+.process__title {
+  @include bm;
+  @include or;
+  font-size: 36px;
+  line-height: 60px;
+  color: $black;
+}
+
+.process__items {
+  @include bm;
+  @include nolist;
+}
+
+.process__item {
+  @include bm;
+  margin-top: 26px;
+  &:nth-child(1) {
+    margin-top: 41px;
+  }
+}
+
+.process__text {
+  @include bm;
+  @include a;
+  color: $light-black;
+}

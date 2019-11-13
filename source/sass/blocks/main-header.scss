@@ -1,53 +1,41 @@
 .main-header {
   @include bm;
+  background-image: url("../../img/index-background-mobile@1x.jpg");
+  background-position: center 65px;
+  background-repeat: no-repeat;
 }
 
 .main-header__container {
-  position: relative;
+  @include bm;
+  @include container(280px, 0px, 0px);
 }
 
 .logo {
   @include bm;
-  padding-top: 11px;
-  padding-bottom: 16px;
-  background-color: $white;
+  min-height: 65px;
 }
 
 .logo__link {
-  @include size(190px, 40px);
   @include bm;
 }
 
 .main-header__btn-menu {
-  position: absolute;
   @include bm;
-  width: 24px;
-  height: 18px;
-  right: 0;
-  top: 0;
-  background: transparent;
-  background: linear-gradient(to bottom,
-      $white 45%, $black 45% 55%, $white 55%);
-  border: none;
-  cursor: pointer;
+}
 
-  &::before {
-    position: absolute;
-    content: "";
-    left: 0;
-    bottom: 0;
-    width: 24px;
-    height: 2px;
-    background-color: $black;
-  }
+.main-header__text {
+  @include bm;
+}
 
-  &::after {
-    position: absolute;
-    content: "";
-    left: 0;
-    top: 0;
-    width: 24px;
-    height: 2px;
-    background-color: $black;
-  }
+.main-header__photo {
+  @include bm;
+}
+
+.main-header__btn {
+  @include bm;
+  @include or;
+  font-size: 14px;
+  line-height: 18px;
+  color: $white;
+  text-decoration: none;
 }

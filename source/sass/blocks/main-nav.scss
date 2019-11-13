@@ -1,0 +1,24 @@
+.main-nav {
+  @include bm;
+}
+
+.main-nav__items {
+  @include bm;
+  @include nolist;
+}
+
+.main-nav__item {
+  @include bm;
+}
+
+.main-nav__link {
+  @include bm;
+  @include om;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  color: $black;
+  @include nolist;
+}
+

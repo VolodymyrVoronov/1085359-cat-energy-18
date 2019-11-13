@@ -1,0 +1,8 @@
+.programm {
+  @include bm;
+} 
+
+.programm__container {
+  @include bm;
+  @include container(280px, 0px, 0px);
+}

@@ -1,0 +1,29 @@
+.main-footer {
+  @include bm;
+  background-color: $light-gray;
+} 
+
+.main-footer__container {
+  @include bm;
+  @include container(280px, 0px, 0px);
+}
+
+.main-footer__logo {
+  @include bm;
+  width: 128px;
+  height: 24px;
+  margin: 0 auto;
+}
+
+.main-footer__academy {
+  @include bm;
+}
+
+.main-footer__academy-link {
+  @include bm;
+  @include a;
+  line-height: 16px;
+  color: $light-black;
+  text-decoration: none;
+}
+

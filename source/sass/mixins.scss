@@ -16,3 +16,11 @@
   padding-right: $padding-right;
   margin: $margin;
 }
+
+@mixin nolist {
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}

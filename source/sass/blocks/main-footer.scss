@@ -26,3 +26,7 @@
   color: $light-black;
   text-decoration: none;
 }
+
+.academy-logo {
+  @include bm;
+}

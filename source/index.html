@@ -14,6 +14,11 @@
       <div class="logo">
         <a class="logo__link">
           <span class="visually-hidden">Логотип сайта. Лиса. Надпись "Cat enegry" рядом с логотипом сайта</span>
+          <picture>
+            <source media="(min-width: 767px)" srcset="img/logo-desktop.svg">
+            <source media="(min-width: 321px)" srcset="img/logo-tablet.svg">
+            <img src="img/logo-mobile.svg" alt="">
+          </picture>
         </a>
       </div>
       <button class="main-header__btn-menu btn" type="button">
@@ -40,7 +45,9 @@
         <p class="text-block__text">Занялся собой? Займись котом!</p>
       </div>
         <picture class="main-header__photo">
-          <source media="(min-width: )" srcset="">
+          <source media="(min-width: 768px)" srcset="img/index-can-desktop@1x.png">
+          <source media="(min-width: 321px)" srcset="img/index-can-tablet@1x.jpg">
+            <img src="img/index-can-mobile@1x.png" alt="">
         </picture>
         <a href="form.html" class="main-header__btn btn">Подобрать программу</a>
     </div>
@@ -50,13 +57,13 @@
       <span class="visually-hidden">Программы для похудения</span>
       <div class="diatprogramms__container container">
         <div class="diatprogramm">
-          <p class="diatprogramms__title">Похудение</p>
+          <p class="diatprogramms__title  diatprogramms__title--cat-slim">Похудение</p>
           <p class="diatprogramms__text">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям?
-            Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
+            Пора на диету! Cat Enegry Slim поможет вашему питомцу сбросить лишний вес.</p>
           <a href="#" class="diatprogramms__catalog-link diatprogramms__catalog-link--slim">Каталог Slim</a>
         </div>
         <div class="diatprogramm">
-          <p class="diatprogramms__title">Набор массы</p>
+          <p class="diatprogramms__title diatprogramms__title--cat-pro">Набор массы</p>
           <p class="diatprogramms__text">Заработать авторитет среди дворовых котов и даже собак? Серия Cat Enegry Pro
             поможет вашему коту нарастить необходимые мышцы!</p>
           <a href="#" class="diatprogramms__catalog-link diatprogramms__catalog-link--pro">Каталог pro</a>
@@ -181,7 +188,7 @@
       </ul>
       <div class="main-footer__academy">
         <a class="main-footer__academy-link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
-        <a class="main-footer__academy-logo" href="https://htmlacademy.ru/intensive/adaptive"></a>
+        <a class="academy-logo" href="https://htmlacademy.ru/intensive/adaptive"></a>
       </div>
     </div>
   </footer>

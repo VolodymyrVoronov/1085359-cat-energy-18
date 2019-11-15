@@ -27,7 +27,7 @@
 }
 
 @mixin or {
-  font-family: "Oswald Regular", sans-serif;
+  font-family: "Oswald Regular", "Arial", sans-serif;
   font-size: 14px;
   line-break: 18px;
   font-weight: 500;
@@ -35,7 +35,7 @@
 }
 
 @mixin om {
-  font-family: "Oswald Medium", sans-serif;
+  font-family: "Oswald Medium", "Arial", sans-serif;
   font-size: 14px;
   line-break: 18px;
   font-weight: 700;

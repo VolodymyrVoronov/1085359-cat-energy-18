@@ -1,0 +1,28 @@
+.info-example {
+  @include bm;
+}
+
+.info-example__title {
+  @include bm;
+  padding-top: 17px;
+  padding-left: 8px;
+  @include or;
+  font-size: 36px;
+  line-height: 60px;
+  color: $black;
+}
+
+.info-example__text {
+  @include bm;
+  padding-top: 24px;
+  padding-left: 9px;
+  @include a;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.info-example__items {
+  @include bm;
+  @include nolist;
+}
+

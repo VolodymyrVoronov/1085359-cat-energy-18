@@ -4,6 +4,8 @@
 
 .diatprogramms__container {
   @include bm;
+  display: flex;
+  flex-direction: column;
   @include container(280px, 0px, 0px);
 }
 

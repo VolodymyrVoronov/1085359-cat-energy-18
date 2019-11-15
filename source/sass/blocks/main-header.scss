@@ -1,0 +1,41 @@
+.main-header {
+  @include bm;
+  background-image: url("../img/index-background-mobile@1x.jpg");
+  background-position: center 65px;
+  background-repeat: no-repeat;
+}
+
+.main-header__container {
+  @include bm;
+  @include container(280px, 0px, 0px);
+}
+
+.logo {
+  @include bm;
+  min-height: 65px;
+}
+
+.logo__link {
+  @include bm;
+}
+
+.main-header__btn-menu {
+  @include bm;
+}
+
+.main-header__text {
+  @include bm;
+}
+
+.main-header__photo {
+  @include bm;
+}
+
+.main-header__btn {
+  @include bm;
+  @include or;
+  font-size: 14px;
+  line-height: 18px;
+  color: $white;
+  text-decoration: none;
+}

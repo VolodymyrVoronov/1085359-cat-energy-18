@@ -1,0 +1,20 @@
+.text-catalog {
+  @include bm;
+}
+
+.text-catalog__title {
+  @include bm;
+  @include or;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: $black;
+}
+
+.text-catalog__table {
+  @include bm;
+  @include a;
+  font-size: 12px;
+  line-height: 16px;
+  color: $light-black;
+}

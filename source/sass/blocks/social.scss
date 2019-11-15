@@ -1,0 +1,31 @@
+.social {
+  @include bm;
+  display: flex;
+}
+
+.social__link {
+  @include bm;
+  @include nolist;
+}
+
+.social__website {
+  @include bm;
+
+  &--vk {
+    @include bm;
+    width: 22px;
+    height: 12px;
+  }
+
+  &--inst {
+    @include bm;
+    width: 16px;
+    height: 16px;
+  }
+
+  &--fb {
+    @include bm;
+    width: 10px;
+    height: 19px;
+  }
+}

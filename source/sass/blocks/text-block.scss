@@ -1,0 +1,19 @@
+.text-block {
+  @include bm;
+}
+
+.text-block__title {
+  @include bm;
+  @include or;
+  font-size: 36px;
+  line-height: 36px;
+  color: $white;
+}
+
+.text-block__text {
+  @include bm;
+  @include or;
+  font-size: 14px;
+  line-height: 14px;
+  color: $white;
+}

@@ -1,0 +1,26 @@
+@mixin size ($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin bm {
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin container ($width, $padding-left, $padding-right, $margin: 0 auto) {
+  width: $width;
+  padding-left: $padding-left;
+  padding-right: $padding-right;
+  margin: $margin;
+}
+
+@mixin nolist {
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}

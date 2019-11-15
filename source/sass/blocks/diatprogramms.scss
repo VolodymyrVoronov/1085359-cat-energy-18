@@ -1,0 +1,39 @@
+.diatprogramms {
+  @include bm;
+}
+
+.diatprogramms__container {
+  @include bm;
+  @include container(280px, 0px, 0px);
+}
+
+.diatprogramm {
+  @include bm;
+  margin-top: 22px;
+  width: 280px;
+  min-height: 266px;
+  background-color: $light-gray;
+}
+
+.diatprogramms__title {
+  @include bm;
+  @include or;
+  font-size: 24px;
+  line-height: 37px;
+  color: $black;
+}
+
+.diatprogramms__text {
+  @include bm;
+  @include a;
+  color: $light-black;
+}
+
+.diatprogramms__catalog-link {
+  @include bm;
+  @include or;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+}

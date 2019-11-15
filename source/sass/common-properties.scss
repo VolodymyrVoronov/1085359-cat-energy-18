@@ -1,5 +1,23 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
   @include bm;
+}
+
+img {
+  max-width: 100%
+}
+
+a {
+  text-decoration: none
 }
 
 .container {

@@ -50,9 +50,11 @@
   color: $white;
   text-decoration: none;
   background-color: $bg-green;
+
   &:hover {
     background-color: $bg-green-hover;
   }
+
   &:focus {
     color: $bg-green-focus;
   }
@@ -62,8 +64,7 @@
   @include bm;
   width: 280px;
   min-height: 289px;
-  background-image: 
+  background-image:
     url("../img/icon-gift.svg"),
-    url("../img/gift-photo-mobile@1x.jpg")
-    ;
+    url("../img/gift-photo-mobile@1x.jpg");
 }

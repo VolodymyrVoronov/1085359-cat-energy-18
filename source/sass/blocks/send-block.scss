@@ -16,9 +16,11 @@
   text-decoration: none;
   background-color: $bg-green;
   border: none;
+
   &:hover {
     background-color: $bg-green-hover;
   }
+
   &:focus {
     color: $bg-green-focus;
   }

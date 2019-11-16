@@ -1,0 +1,31 @@
+.owner-info {
+  @include bm;
+}
+
+.owner-info__title {
+  @include bm;
+  @include or;
+  font-size: 24px;
+  line-height: 24px;
+  color: $black;
+}
+
+.onwer-info__flieds {
+  @include bm;
+  @include nolist;
+}
+
+.owner-info__field {
+  @include bm;
+  display: flex;
+  flex-direction: row;
+}
+
+.owner-info__field-name {
+  @include bm;
+  @include or;
+  font-size: 16px;
+  line-height: 18px;
+  color: $light-black;
+  text-transform: uppercase;
+}

@@ -1,0 +1,33 @@
+.send-block {
+  @include bm;
+}
+
+.send-block__btn {
+  @include bm;
+  width: 280px;
+  margin-top: 3px;
+  padding: 11.5px 0;
+  @include or;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $white;
+  text-decoration: none;
+  background-color: $bg-green;
+  border: none;
+  &:hover {
+    background-color: $bg-green-hover;
+  }
+  &:focus {
+    color: $bg-green-focus;
+  }
+}
+
+.send-block__obligatorily {
+  @include bm;
+  @include a;
+  font-size: 14px;
+  line-height: 16px;
+  color: $light-black;
+}

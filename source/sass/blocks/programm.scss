@@ -4,5 +4,26 @@
 
 .programm__container {
   @include bm;
-  @include container(280px, 0px, 0px);
+  @include container(320px, 20px, 20px);
+}
+
+.programm__title {
+  @include bm;
+  @include or;
+  font-size: 36px;
+  line-height: 60px;
+  color: $black;
+}
+
+.programm__text {
+  @include bm;
+  @include or;
+  font-size: 14px;
+  line-height: 18px;
+  color: $light-black;
+  text-transform: uppercase;
+}
+
+.programm__form {
+  @include bm;
 }

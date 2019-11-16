@@ -6,13 +6,12 @@
   @include bm;
   display: flex;
   flex-direction: column;
-  @include container(280px, 0px, 0px);
+  @include container(320px, 20px, 20px);
 }
 
 .diatprogramm {
   @include bm;
   margin-top: 22px;
-  margin-left: 8px;
   width: 280px;
   min-height: 266px;
   background-color: $light-gray;

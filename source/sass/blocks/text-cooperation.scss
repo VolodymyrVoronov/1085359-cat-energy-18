@@ -1,0 +1,25 @@
+.text-cooperation {
+  display: flex;
+}
+
+.text-cooperation__title {
+  @include bm;
+  width: 140px;
+  @include or;
+  font-size: 16px;
+  line-height: 20px;
+  color: $black;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.text-cooperation__address {
+  @include bm;
+  width: 140px;
+  @include a;
+  font-size: 14px;
+  line-height: 20px;
+  font-style: normal;
+  color: $black;
+  text-align: left;
+}

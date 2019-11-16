@@ -4,13 +4,12 @@
 
 .process__container {
   @include bm;
-  @include container(280px, 0px, 0px);
+  @include container(320px, 20px, 20px);
 }
 
 .process__title {
   @include bm;
   padding-top: 17px;
-  padding-left: 8px;
   @include or;
   font-size: 36px;
   line-height: 60px;
@@ -28,7 +27,7 @@
   @include bm;
   width: 200px;
   margin-top: 26px;
-  margin-left: 89px;
+  margin-left: 81px;
   &:nth-child(1) {
     position: relative;
     margin-top: 30px;

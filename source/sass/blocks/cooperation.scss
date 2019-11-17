@@ -15,8 +15,15 @@
 .cooperation__map {
   @include bm;
   width: 320px;
-  min-height: 365px;
+  height: 360px;
   margin-top: 25px;
   margin: 0 auto;
-  background-color: seagreen;
+  background-color: $light-black;
+  background-image:
+    url("../img/map-pin.png"), 
+    url("../img/bg-map-mobile@1x.png")
+    ;
+  background-size: 55px 53px, 320px 400px;
+  background-repeat: no-repeat;
+  background-position: 130px 180px, top center;
 }

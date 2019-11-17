@@ -1,0 +1,24 @@
+.academy-address {
+  display: flex;
+  flex-direction: row;
+}
+
+.academy-address__link {
+  @include bm;
+  @include a;
+  font-size: 16px;
+  line-height: 16px;
+  color: $light-black;
+  text-decoration: none;
+}
+
+.academy-address__logo {
+  @include bm;
+  width: 27px;
+  height: 34px;
+  margin-left: auto;
+}
+
+.academy-address__logo-icon {
+  fill: $light-black;
+}

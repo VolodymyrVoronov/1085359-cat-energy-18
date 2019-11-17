@@ -2,7 +2,8 @@
   @include bm;
   &--before {
     @include bm;
-    margin-top: 40px;
+    margin-top: 34px;
+    margin-left: -20px;
   }
   &--after {
     @include bm;

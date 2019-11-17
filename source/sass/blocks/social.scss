@@ -1,6 +1,9 @@
 .social {
   @include bm;
   display: flex;
+  justify-content: space-between;
+  width: 125px;
+  margin-left: 73px;
 }
 
 .social__link {
@@ -10,6 +13,10 @@
 
 .social__website {
   @include bm;
+  font-size: 0px;
+  svg {
+    fill: $light-black;
+  }
 
   &--vk {
     @include bm;

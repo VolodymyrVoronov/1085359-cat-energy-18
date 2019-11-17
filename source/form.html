@@ -14,6 +14,11 @@
       <div class="logo">
         <a class="logo__link">
           <span class="visually-hidden">Логотип сайта. Лиса. Надпись "Cat enegry" рядом с логотипом сайта</span>
+          <picture>
+            <source media="(min-width: 1023px)" srcset="img/logo-desktop.svg">
+            <source media="(min-width: 767px)" srcset="img/logo-tablet.svg">
+            <img src="img/logo-mobile.svg" alt="">
+          </picture>
         </a>
       </div>
       <button class="main-header__btn-menu btn" type="button">
@@ -44,35 +49,43 @@
       <form action="https://echo.htmlacademy.ru" class="programm__form form-block" method="post">
         <ul class="form-block__fields">
           <li class="form-block__field">
-            <label for="name">Имя:*</label><input type="text" name="name" id="name" placeholder="Барсик">
+            <label class="form-block__field-name" for="name">Имя:*</label>
+            <input class="form-block__field-input" type="text" name="name" id="name" placeholder="Барсик">
           </li>
           <li class="form-block__field">
-            <label for="weight">Вес (КГ):*</label><input type="text" name="weight" id="weight" placeholder="7">
+            <label class="form-block__field-name" for="weight">Вес (КГ):*</label>
+            <input class="form-block__field-input" type="text" name="weight" id="weight" placeholder="7">
           </li>
           <li class="form-block__field">
-            <label for="age">Возраст (ЛЕТ):</label><input type="text" name="age" id="age" placeholder="7">
+            <label class="form-block__field-name" for="age">Возраст (ЛЕТ):</label>
+            <input class="form-block__field-input" type="text" name="age" id="age" placeholder="7">
           </li>
         </ul>
         <ul class="form-block__radios">
           <span class="visually-hidden">Цель программы</span>
           <li class="form-block__radio">
-            <input type="radio" name="programm" id="diet"><label for="diet">Похудение</label>
+            <input type="radio" name="programm" id="diet">
+            <label class="form-block__radio-name" for="diet">Похудение</label>
           </li>
           <li class="form-block__radio">
-            <input type="radio" name="programm" id="gain"><label for="gain">Набор массы</label>
+            <input type="radio" name="programm" id="gain">
+            <label class="form-block__radio-name" for="gain">Набор массы</label>
           </li>
           <li class="form-block__radio">
-            <input type="radio" name="programm" id="question"><label for="question">Не знаю (Нужен ваш совет)</label>
+            <input type="radio" name="programm" id="question">
+            <label class="form-block__radio-name" for="question">Не знаю (Нужен ваш совет)</label>
           </li>
         </ul>
         <div class="form-block__owner owner-info">
           <h2 class="owner-info__title">Контактные данные (владельца кота)</h2>
           <ul class="onwer-info__flieds">
             <li class="owner-info__field">
-              <label for="email">E-mail:*</label><input type="email" name="email" id="email" placeholder="kuklachev@gmail.com">
+              <label class="owner-info__field-name" for="email">E-mail:*</label>
+              <input class="owner-info__field-input" type="email" name="email" id="email" placeholder="kuklachev@gmail.com">
             </li>
             <li class="owner-info__field">
-              <label for="phone">Телефон:*</label><input type="tel" name="phone" id="phone" placeholder="8 (960) 900-60-90">
+              <label class="owner-info__field-name" for="phone">Телефон:*</label>
+              <input class="owner-info__field-input" type="tel" name="phone" id="phone" placeholder="8 (960) 900-60-90">
             </li>
           </ul>
         </div>
@@ -84,16 +97,20 @@
           <h2 class="extra-info__title">Дополнительно</h2>
           <ul class="extra-info__options">
             <li class="extra-info__option">
-              <input type="checkbox" name="sweetener" id="sweetener"><label for="sweetener">Сахарозаменитель</label>
+              <input class="extra-info__option-input" type="checkbox" name="sweetener" id="sweetener">
+              <label class="extra-info__option-name" for="sweetener">Сахарозаменитель</label>
             </li>
             <li class="extra-info__option">
-              <input type="checkbox" name="drinkingwater" id="drinkingwater"><label for="drinkingwater">Питьевая вода</label>
+              <input class="extra-info__option-input" type="checkbox" name="drinkingwater" id="drinkingwater">
+              <label class="extra-info__option-name" for="drinkingwater">Питьевая вода</label>
             </li>
             <li class="extra-info__option">
-              <input type="checkbox" name="milk" id="milk"><label for="milk">Молоко</label>
+              <input class="extra-info__option-input" type="checkbox" name="milk" id="milk">
+              <label class="extra-info__option-name" for="milk">Молоко</label>
             </li>
             <li class="extra-info__option">
-              <input type="checkbox" name="vitamins" id="vitamins"><label for="vitamins">Витамины</label>
+              <input class="extra-info__option-input" type="checkbox" name="vitamins" id="vitamins">
+              <label class="extra-info__option-name" for="vitamins">Витамины</label>
             </li>
           </ul>
         </div>
@@ -137,7 +154,7 @@
       </ul>
       <div class="main-footer__academy">
         <a class="main-footer__academy-link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
-        <a class="main-footer__academy-logo" href="https://htmlacademy.ru/intensive/adaptive"></a>
+        <a class="academy-logo" href="https://htmlacademy.ru/intensive/adaptive"></a>
       </div>
     </div>
   </footer>

@@ -1,0 +1,22 @@
+.cooperation {
+  @include bm;
+  margin-top: 118px;
+}
+
+.cooperation__container {
+  @include bm;
+  @include container(320px, 20px, 20px);
+}
+
+.cooperation__text {
+  @include bm;
+}
+
+.cooperation__map {
+  @include bm;
+  width: 320px;
+  min-height: 365px;
+  margin-top: 25px;
+  margin: 0 auto;
+  background-color: seagreen;
+}

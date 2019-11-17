@@ -1,5 +1,6 @@
 .main-nav {
   @include bm;
+  display: none;
 }
 
 .main-nav__items {

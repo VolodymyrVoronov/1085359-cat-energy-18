@@ -1,0 +1,62 @@
+.form-block {
+  @include bm;
+}
+
+.form-block__fields {
+  @include bm;
+  @include nolist;
+}
+
+.form-block__field {
+  @include bm;
+  display: flex;
+  flex-direction: row;
+}
+
+.form-block__field-name {
+  @include bm;
+  @include or;
+  font-size: 16px;
+  line-height: 18px;
+  color: $light-black;
+  text-transform: uppercase;
+}
+
+.form-block__field-input {
+  @include bm;
+  @include or;
+  font-size: 16px;
+  line-height: 18px;
+  color: $light-black;
+  text-transform: uppercase;
+}
+
+.form-block__radios {
+  @include bm;
+  @include nolist;
+}
+
+.form-block__radio-name {
+  @include bm;
+  @include or;
+  font-size: 16px;
+  line-height: 18px;
+  color: $light-black;
+  text-transform: uppercase;
+}
+
+.form-block__owner {
+  @include bm;
+}
+
+.form-block__comment {
+  @include bm;
+}
+
+.form-block__extra {
+  @include bm;
+}
+
+.form-block__send {
+  @include bm;
+}

@@ -1,0 +1,70 @@
+.goods {
+  @include bm;
+}
+
+.goods__items {
+  @include bm;
+  @include nolist;
+}
+
+.goods__item {
+  @include bm;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.goods__name {
+  @include bm;
+  width: 280px;
+  @include or;
+  font-size: 16px;
+  line-height: 26px;
+  color: $black;
+}
+
+.goods__volume {
+  @include bm;
+  @include a;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.goods__price {
+  @include bm;
+  margin-left: auto;
+  @include a;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.goods__btn {
+  @include bm;
+  width: 280px;
+  margin-top: 3px;
+  padding: 11.5px 0;
+  @include or;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $white;
+  text-decoration: none;
+  background-color: $bg-green;
+
+  &:hover {
+    background-color: $bg-green-hover;
+  }
+
+  &:focus {
+    color: $bg-green-focus;
+  }
+}
+
+.goods__gift {
+  @include bm;
+  width: 280px;
+  min-height: 289px;
+  background-image:
+    url("../img/icon-gift.svg"),
+    url("../img/gift-photo-mobile@1x.jpg");
+}

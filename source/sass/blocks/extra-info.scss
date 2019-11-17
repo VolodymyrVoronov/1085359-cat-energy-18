@@ -1,0 +1,35 @@
+.extra-info {
+  @include bm;
+}
+
+.extra-info__title {
+  @include bm;
+  @include or;
+  font-size: 24px;
+  line-height: 24px;
+  color: $black;
+}
+
+.extra-info__options {
+  @include bm;
+  @include nolist;
+}
+
+.extra-info__option {
+  @include bm;
+  display: flex;
+  flex-direction: row;
+}
+
+.extra-info__option-input {
+  @include bm;
+}
+
+.extra-info__option-name {
+  @include bm;
+  @include or;
+  font-size: 16px;
+  line-height: 18px;
+  color: $light-black;
+  text-transform: uppercase;
+}

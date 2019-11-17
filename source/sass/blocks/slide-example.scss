@@ -1,0 +1,11 @@
+.slide-example__photo {
+  @include bm;
+  &--before {
+    @include bm;
+    margin-top: 40px;
+  }
+  &--after {
+    @include bm;
+    display: none;
+  }
+}

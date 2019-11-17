@@ -1,26 +1,63 @@
 .main-header {
   @include bm;
-  background-image: url("../img/index-background-mobile@1x.jpg");
-  background-position: center 65px;
-  background-repeat: no-repeat;
+  // background-image: url("../img/index-background-mobile@1x.jpg");
+  // background-position: -1px 66px;
+  // background-repeat: no-repeat;
 }
 
 .main-header__container {
+  position: relative;
   @include bm;
-  @include container(280px, 0px, 0px);
+  @include container(320px, 20px, 20px);
+  background-image: url("../img/index-background-mobile@1x.jpg");
+  background-position: -1px 66px;
+  background-repeat: no-repeat;
 }
 
 .logo {
   @include bm;
   min-height: 65px;
+  padding-top: 13px;
+  padding-left: 0px;
 }
 
 .logo__link {
   @include bm;
+  width: 190px;
+  height: 40px;
 }
 
 .main-header__btn-menu {
+  position: absolute;
   @include bm;
+  top: 23px;
+  left: 276px;
+  width: 24px;
+  height: 18px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.main-header__btn-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 24px;
+  height: 2px;
+  background-color: $black;
+  &:nth-child(1) {
+    top: 0;
+    left: 0;
+  }
+  &:nth-child(2) {
+    top: 8px;
+    left: 0;
+  }
+  &:nth-child(3) {
+    top: 16px;
+    left: 0;
+  }
 }
 
 .main-header__text {
@@ -29,13 +66,28 @@
 
 .main-header__photo {
   @include bm;
+  width: 280px;
+  height: 270px;
+  margin-top: 28px;
 }
 
 .main-header__btn {
   @include bm;
+  width: 280px;
+  margin-top: 3px;
+  padding: 11.5px 0;
   @include or;
   font-size: 14px;
   line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
   color: $white;
   text-decoration: none;
+  background-color: $bg-green;
+  &:hover {
+    background-color: $bg-green-hover;
+  }
+  &:focus {
+    color: $bg-green-focus;
+  }
 }

@@ -1,0 +1,15 @@
+.comment-add {
+  @include bm;
+}
+
+.comment-add__title {
+  @include bm;
+  @include or;
+  font-size: 24px;
+  line-height: 24px;
+  color: $black;
+}
+
+.comment-add__write {
+  @include bm;
+}

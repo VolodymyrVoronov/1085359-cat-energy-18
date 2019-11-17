@@ -4,16 +4,21 @@
 
 .text-block__title {
   @include bm;
+  padding-top: 28px;
   @include or;
   font-size: 36px;
   line-height: 36px;
+  text-align: center;
   color: $white;
 }
 
 .text-block__text {
   @include bm;
+  padding-top: 25px;
   @include or;
   font-size: 14px;
   line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
   color: $white;
 }

@@ -1,13 +1,18 @@
 .example {
   @include bm;
+  margin-top: 46px;
   background-color: $light-gray;
 }
 
 .example__container {
   @include bm;
-  @include container(280px, 0px, 0px);
+  @include container(320px, 20px, 20px);
 }
 
 .exapmle__info {
+  @include bm;
+}
+
+.example__slide {
   @include bm;
 }

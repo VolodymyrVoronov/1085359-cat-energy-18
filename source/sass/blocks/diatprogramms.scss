@@ -182,22 +182,25 @@
   
   .diatprogramm {
     @include bm;
-    margin-top: 22px;
-    width: 280px;
-    min-height: 266px;
+    margin-top: 0px;
+    width: 708px;
+    min-height: 372px;
     background-color: $light-gray;
     &:nth-child(2) {
-      margin-top: 20px;
+      margin-top: 30px;
+    }
+    &:nth-child(2) {
+      padding-right: 35px;
     }
   }
   
   .diatprogramms__title {
     position: relative;
     @include bm;
-    padding-top: 30px;
-    padding-left: 91px;
+    padding-top: 76px;
+    padding-left: 54px;
     @include or;
-    font-size: 24px;
+    font-size: 36px;
     line-height: 37px;
     text-transform: uppercase;
     color: $black;
@@ -206,20 +209,20 @@
       &::before {
         position: absolute;
         content: "";
-        left: 22px;
-        top: 25px;
-        width: 50px;
-        height: 50px;
+        left: 446px;
+        top: 92px;
+        width: 200px;
+        height: 200px;
         background-color: $green;
         border-radius: 50%;
       }
       &::after {
         position: absolute;
         content: "";
-        left: 30px;
-        top: 23px;
-        width: 35px;
-        height: 49px;
+        left: 476px;
+        top: 80px;
+        width: 140px;
+        height: 194px;
         background-image: url("../img/icon-cat-slim.svg");
         background-repeat: no-repeat;
       }
@@ -229,20 +232,20 @@
       &::before {
         position: absolute;
         content: "";
-        left: 22px;
-        top: 25px;
-        width: 50px;
-        height: 50px;
+        left: 448px;
+        top: 91px;
+        width: 200px;
+        height: 200px;
         background-color: $green;
         border-radius: 50%;
       }
       &::after {
         position: absolute;
         content: "";
-        left: 13px;
-        top: 35px;
-        width: 67px;
-        height: 28px;
+        left: 412px;
+        top: 135px;
+        width: 268px;
+        height: 112px;
         background-image: url("../img/icon-cat-pro.svg");
         background-repeat: no-repeat;
       }
@@ -252,13 +255,16 @@
   .diatprogramms__text {
     position: relative;
     @include bm;
-    padding-top: 29px;
-    padding-left: 20px;
-    padding-right: 23px;
+    padding-top: 25px;
+    padding-left: 52px;
+    padding-right: 280px;
     @include a;
     color: $light-black;
+    font-size: 16px;
+    line-height: 24px;
     &::after {
       position: absolute;
+      display: none;
       content: "";
       bottom: -23px;
       left: 20px;
@@ -271,11 +277,12 @@
   .diatprogramms__catalog-link {
     position: relative;
     @include bm;
-    padding-top: 42px;
-    padding-left: 20px;
+    display: inline-flex;
+    padding-top: 57px;
+    padding-left: 52px;
     @include or;
-    font-size: 16px;
-    line-height: 16px;
+    font-size: 20px;
+    line-height: 20px;
     text-transform: uppercase;
     text-decoration: none;
     &:focus {
@@ -286,8 +293,8 @@
       &::after {
         position: absolute;
         content: "";
-        top: 46px;
-        left: 117px;
+        top: 63px;
+        left: 184px;
         width: 24px;
         height: 11px;
         background-image: url("../img/icon-right-arrow-verylong.svg");
@@ -297,8 +304,8 @@
         &::after {
           position: absolute;
         content: "";
-        top: 45px;
-        left: 117px;
+        top: 61px;
+        left: 184px;
         width: 33px;
         height: 11px;
         background-image: url("../img/icon-right-arrow-verylong.svg");
@@ -314,8 +321,8 @@
       &::after {
         position: absolute;
         content: "";
-        top: 46px;
-        left: 115px;
+        top: 62px;
+        left: 178px;
         width: 24px;
         height: 11px;
         background-image: url("../img/icon-right-arrow-verylong.svg");
@@ -325,8 +332,8 @@
         &::after {
           position: absolute;
         content: "";
-        top: 45px;
-        left: 115px;
+        top: 61px;
+        left: 178px;
         width: 33px;
         height: 11px;
         background-image: url("../img/icon-right-arrow-verylong.svg");

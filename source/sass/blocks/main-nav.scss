@@ -1,6 +1,14 @@
 .main-nav {
+  position: absolute;
   @include bm;
   display: none;
+  width: 320px;
+  margin-top: -200px;
+  background-color: $white;
+}
+
+.main-nav--visible {
+  display: block;
 }
 
 .main-nav__items {
@@ -9,16 +17,113 @@
 }
 
 .main-nav__item {
+  position: relative;
   @include bm;
+  &::after {
+    position: absolute;
+    content: "";
+    left: -20px;
+    top: 0;
+    width: 320px;
+    height: 1px;
+    border-top: 1px solid $gray;
+  }
 }
 
 .main-nav__link {
   @include bm;
+  @include nolist;
+  margin-right: 40px;
+  padding-top: 23px;
+  padding-bottom: 23px;
   @include om;
   font-size: 20px;
   line-height: 20px;
   text-transform: uppercase;
   text-align: center;
+  letter-spacing: 0.65px;
   color: $black;
-  @include nolist;
+  &:hover {
+    opacity: 0.6;
+  }
+  &:focus {
+    opacity: 0.3;
+  }
+  &--active {
+    &:hover {
+      list-style: none;
+      text-decoration: none;
+      color: $black;
+      cursor: default;
+      opacity: 1;
+    }
+  }
+}
+
+@media (min-width: $tablet) {
+  .main-nav {
+    position: relative;
+    @include bm;
+    display: block;
+    width: 440px;
+    margin-top: -24px;
+    margin-left: auto;
+    background-color: $white;
+  }
+  
+  .main-nav--visible {
+    display: block;
+  }
+  
+  .main-nav__items {
+    @include bm;
+    @include nolist;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .main-nav__item {
+    position: relative;
+    @include bm;
+    &::after {
+      position: absolute;
+      content: "";
+      left: -20px;
+      top: 0;
+      width: 320px;
+      height: 1px;
+      border-top: 1px solid $gray;
+      border: none;
+    }
+  }
+  
+  .main-nav__link {
+    @include bm;
+    @include nolist;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    @include or;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0px;
+    color: $black;
+    &:hover {
+      opacity: 0.6;
+    }
+    &:focus {
+      opacity: 0.3;
+    }
+    &--active {
+      &:hover {
+        list-style: none;
+        text-decoration: none;
+        color: $black;
+        cursor: default;
+        opacity: 1;
+      }
+    }
+  }
 }

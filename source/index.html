@@ -3,15 +3,17 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="format-detection" content="telephone=no">
   <title>HTML Academy: Кэт энерджи</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <header class="main-header">
+  <header class="main-header main-header--pt">
     <div class="main-header__container container">
       <span class="visually-hidden">Меню сайта</span>
-      <div class="logo">
+      <div class="logo logo--pt">
         <a class="logo__link">
           <span class="visually-hidden">Логотип сайта. Лиса. Надпись "Cat enegry" рядом с логотипом сайта</span>
           <picture>
@@ -21,16 +23,16 @@
           </picture>
         </a>
       </div>
-      <button class="main-header__btn-menu btn" type="button">
+      <button class="main-header__btn-menu main-header__btn-menu--hidden  btn" type="button">
         <span class="visually-hidden">Кнопка открытия меню сайта</span>
         <span class="main-header__btn-line"></span>
         <span class="main-header__btn-line"></span>
         <span class="main-header__btn-line"></span>
       </button>
-      <nav class="main-nav">
+      <nav class="main-nav main-nav--visible">
         <ul class="main-nav__items">
           <li class="main-nav__item">
-            <a class="main-nav__link">Главная</a>
+            <a class="main-nav__link main-nav__link--active">Главная</a>
           </li>
           <li class="main-nav__item">
             <a class="main-nav__link" href="catalog.html">Каталог продукции</a>
@@ -120,7 +122,9 @@
             <img src="img/after-mobile@1x.png" alt="">
           </picture>
           <div class="slide-example__toggles">
-            <input class="slide-example__toggle" type="checkbox" name="" id="">
+            <button class="slide-example__toggle slide-example__btn--before" type="button">Было</button>
+            <div class="slide-example__indicator .slide-example__indicator--on"></div>
+            <button class="slide-example__toggle slide-example__btn--after" type="button">Стало</button>
           </div>
         </div>
       </div>
@@ -230,6 +234,7 @@
       </div>
     </div>
   </footer>
+  <script src="js/menu-open.js"></script>
 </body>
 
 </html>

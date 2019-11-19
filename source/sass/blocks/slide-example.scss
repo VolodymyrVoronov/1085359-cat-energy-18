@@ -10,3 +10,46 @@
     display: none;
   }
 }
+
+.slide-example__toggles {
+  @include bm;
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  margin-top: 28px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slide-example__indicator {
+  position: relative;
+  @include bm;
+  width: 85px;
+  height: 14px;
+  margin-top: 3px;
+  margin-left: 5px;
+  border: 1px solid $light-gray-3;
+  border-radius: 10px;
+  &::before {
+    position: absolute;
+    content: "";
+    top: 3px;
+    left: 6px;
+    width: 35px;
+    height: 6px;
+    background-color: $green;
+    border-radius: 10px;
+  }
+}
+
+.slide-example__toggle {
+  @include bm;
+  @include or;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 2px;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

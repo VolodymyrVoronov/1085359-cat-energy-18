@@ -1,7 +1,7 @@
-var menu = document.querySelector (".main-nav");
-var btn = document.querySelector (".main-header__btn-menu");
 var header = document.querySelector(".main-header");
-var logo = document.querySelector(".logo");
+var menu = header.querySelector (".main-nav");
+var btn = header.querySelector (".main-header__btn-menu");
+var logo = header.querySelector(".logo");
 
 menu.classList.remove("main-nav--visible");
 header.classList.remove("main-header--pt");

@@ -18,3 +18,58 @@
 .main-footer__academy {
   @include bm;
 }
+
+@media (min-width: $tablet) {
+  .main-footer {
+    @include bm;
+    min-height: 150px;
+    padding-top: 64px;
+    background-color: $light-gray;
+  }
+  
+  .main-footer__container {
+    @include bm;
+    @include container(768px, 30px, 30px);
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .main-footer__logo {
+    @include bm;
+    width: 128px;
+    height: 24px;
+    margin: 0;
+  }
+  
+  .main-footer__academy {
+    @include bm;
+  }
+}
+
+@media (min-width: $desktop) {
+  .main-footer {
+    @include bm;
+    min-height: 150px;
+    padding-top: 64px;
+    background-color: $light-gray;
+  }
+  
+  .main-footer__container {
+    @include bm;
+    @include container(1300px, 40px, 40px);
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .main-footer__logo {
+    @include bm;
+    width: 128px;
+    height: 24px;
+    margin: 0;
+  }
+  
+  .main-footer__academy {
+    @include bm;
+  }
+}
+

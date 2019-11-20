@@ -52,3 +52,33 @@
     color: $black;
   }
 }
+
+@media (min-width: $desktop) {
+  .text-block {
+    @include bm;
+  }
+  
+  .text-block__title {
+    @include bm;
+    padding-top: 110px;
+    padding-left: 80px;
+    padding-right: 600px;
+    @include or;
+    font-size: 60px;
+    line-height: 60px;
+    text-align: left;
+    color: $black;
+  }
+  
+  .text-block__text {
+    @include bm;
+    padding-top: 41px;
+    padding-left: 80px;
+    @include or;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: left;
+    text-transform: uppercase;
+    color: $black;
+  }
+}

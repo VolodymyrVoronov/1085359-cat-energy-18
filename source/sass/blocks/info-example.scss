@@ -186,11 +186,116 @@
   
   .info-example__costs {
     @include bm;
-    margin-top: 34px;
+    margin-top: -21px;
+    padding-left: 530px;
     @include or;
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: right;
+    text-transform: uppercase;
+    color: $black;
+  }
+  
+}
+
+
+@media (min-width: $desktop) {
+  .info-example {
+    @include bm;
+  }
+  
+  .info-example__title {
+    @include bm;
+    padding-top: 100px;
+    @include or;
+    font-size: 60px;
+    line-height: 60px;
+    color: $black;
+  }
+  
+  .info-example__text {
+    @include bm;
+    width: 435px;
+    padding-top: 145px;
+    padding-right: 0px;
+    @include a;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .info-example__items {
+    @include bm;
+    @include nolist;
+    display: flex;
+    flex-direction: row;
+    margin-top: 24px;
+    width: 280px;
+  }
+  
+  .info-example__item {
+    @include bm;
+    width: 124px;
+    // height: 56px;
+    padding: 15px 0px;
+    @include or;
+    font-size: 24px;
+    line-height: 24px;
     text-align: center;
+    text-transform: uppercase;
+    border: 1px solid $light-gray-3;
+    border-radius: 5px;
+    &:nth-child(1) {
+      position: relative;
+      margin-right: auto;
+      &::after {
+        position: absolute;
+        content: "снижение веса";
+        bottom: -16px;
+        left: 17px;
+        width: 87px;
+        padding-right: 10px;
+        padding-left: 10px;
+        @include a;
+        font-size: 12px;
+        line-height: 12px;
+        text-transform: none;
+        background-color: $light-gray;
+      }
+    }
+    &:nth-child(2) {
+      position: relative;
+      margin-left: auto;
+      &::after {
+        position: absolute;
+        content: "затрачено времени";
+        bottom: -16px;
+        left: 18px;
+        width: 87px;
+        @include a;
+        font-size: 12px;
+        line-height: 12px;
+        text-transform: none;
+        background-color: $light-gray;
+      }
+    }
+  }
+  
+  .info-example__weight {
+    @include bm;
+  }
+  
+  .info-example__days {
+    @include bm;
+  }
+  
+  .info-example__costs {
+    @include bm;
+    margin-top: 50px;
+    padding-left: 0px;
+    @include or;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
     text-transform: uppercase;
     color: $black;
   }

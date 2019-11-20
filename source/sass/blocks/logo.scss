@@ -53,3 +53,32 @@
     }
   }
 }
+
+@media (min-width: $desktop) {
+  .logo {
+    position: relative;
+    @include bm;
+    min-height: 65px;
+    margin-top: -26px;
+    padding-top: 13px;
+    padding-left: 0;
+  }
+  
+  .logo--pt {
+    margin-top: 0px;
+  }
+  
+  .logo__link {
+    @include bm;
+    width: 202px;
+    height: 59px;
+    &--active {
+      &:hover {
+        opacity: 0.8;
+      }
+      &:focus {
+        opacity: 0.6;
+      }
+    }
+  }
+}

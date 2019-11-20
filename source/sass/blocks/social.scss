@@ -36,3 +36,46 @@
     height: 19px;
   }
 }
+
+@media (min-width: $tablet) {
+  .social {
+    @include bm;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 126px;
+    margin-left: 19px;
+    margin-top: -8px;
+  }
+  
+  .social__link {
+    @include bm;
+    @include nolist;
+  }
+  
+  .social__website {
+    @include bm;
+    font-size: 0px;
+    svg {
+      fill: $light-black;
+    }
+  
+    &--vk {
+      @include bm;
+      width: 30px;
+      height: 16px;
+    }
+  
+    &--inst {
+      @include bm;
+      width: 23px;
+      height: 23px;
+    }
+  
+    &--fb {
+      @include bm;
+      width: 14px;
+      height: 28px;
+    }
+  }
+}

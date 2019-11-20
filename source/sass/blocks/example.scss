@@ -41,3 +41,30 @@
     @include bm;
   }
 }
+
+@media (min-width: $desktop) {
+  .example {
+    @include bm;
+    margin-top: 25px;
+    background-color: $light-gray;
+    background: none;
+  }
+  
+  .example__container {
+    @include bm;
+    display: flex;
+    @include container(1300px, 40px, 40px);
+    min-height: 680px;
+    border-top: 1px solid $gray;
+    border: none;
+  }
+  
+  .exapmle__info {
+    @include bm;
+  }
+  
+  .example__slide {
+    @include bm;
+  }
+}
+

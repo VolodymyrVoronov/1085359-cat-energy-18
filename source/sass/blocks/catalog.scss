@@ -8,22 +8,39 @@
 }
 
 .catalog__title {
+  position: relative;
   @include bm;
+  margin-top: 15px;
+  margin-bottom: 28px;
   @include or;
   font-size: 36px;
   line-height: 60px;
   color: $black;
+  &::before {
+    position: absolute;
+    content: "";
+    top: -16px;
+    left: -20px;
+    width: 320px;
+    height: 1px;
+    background-color: #ededed;
+  }
 }
 
 .catalog__items {
   @include bm;
   @include nolist;
+  display: flex;
+  flex-direction: column;
 }
 
 .catalog__item {
   position: relative;
   @include bm;
-  min-height: 210px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 210px;
 
   &::before {
     position: absolute;
@@ -38,15 +55,24 @@
 
 .catalog__img {
   @include bm;
+  width: 140px;
 }
 
 .catalog__text {
+  @include bm;
+  width: 140px;
+}
+
+.catalog__text-more {
   @include bm;
 }
 
 .catalog__btn {
   @include bm;
   width: 280px;
+  height: 40px;
+  padding: 8px 0px;
+  margin-top: -27px;
   @include or;
   font-size: 16px;
   line-height: 20px;
@@ -55,4 +81,145 @@
   color: $white;
   background-color: $green;
   text-decoration: none;
+  border: none;
+  outline: none;
+  &:hover {
+    background-color: $bg-green-hover;
+    cursor: pointer;
+  }
+
+  &:focus {
+    color: $bg-green-focus;
+  }
+  &--color-gray {
+    color: $black;
+    background-color: $gray;
+    &:hover {
+      background-color: $light-gray-4;
+    }
+    &:focus {
+      color: $light-gray-5;
+    }
+  }
+}
+
+@media (min-width: $tablet) {
+  .catalog {
+    @include bm;
+  }
+  
+  .catalog__container {
+    @include bm;
+    @include container(768px, 30px, 30px);
+  }
+  
+  .catalog__title {
+    position: relative;
+    @include bm;
+    margin-top: 57px;
+    margin-bottom: 28px;
+    @include or;
+    font-size: 60px;
+    line-height: 60px;
+    color: $black;
+    &::before {
+      position: absolute;
+      display: none;
+      content: "";
+      top: -16px;
+      left: -20px;
+      width: 320px;
+      height: 1px;
+      background-color: #ededed;
+    }
+  }
+  
+  .catalog__items {
+    @include bm;
+    @include nolist;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 0px;
+  }
+  
+  .catalog__item {
+    position: relative;
+    @include bm;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 324px;
+    height: 430px;
+    margin-top: 139px;
+    background-color: $light-gray;
+  
+    &::before {
+      position: absolute;
+      display: none;
+      content: "";
+      top: 0px;
+      left: -20px;
+      width: 320px;
+      height: 1px;
+      background-color: #ededed;
+    }
+  }
+  
+  .catalog__img {
+    @include bm;
+    &--big {
+      margin-top: -82px;
+    }
+    &--small {
+      margin-top: -46px;
+    }
+  }
+  
+  .catalog__text {
+    @include bm;
+    width: 249px;
+  }
+  
+  .catalog__text-more {
+    @include bm;
+  }
+  
+  .catalog__btn {
+    @include bm;
+    width: 249px;
+    height: 40px;
+    padding: 8px 0px;
+    margin: 0 auto;
+    margin-top: 0px;
+    @include or;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $white;
+    background-color: $green;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    &:hover {
+      background-color: $bg-green-hover;
+      cursor: pointer;
+    }
+  
+    &:focus {
+      color: $bg-green-focus;
+    }
+    &--color-gray {
+      color: $black;
+      background-color: $gray;
+      &:hover {
+        background-color: $light-gray-4;
+      }
+      &:focus {
+        color: $light-gray-5;
+      }
+    }
+  }
 }

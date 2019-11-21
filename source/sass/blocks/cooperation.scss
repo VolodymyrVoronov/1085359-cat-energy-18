@@ -30,13 +30,25 @@
 
 @media (min-width: $tablet) {
   .cooperation {
+    position: relative;
     @include bm;
     margin-top: 118px;
+    &::before {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 200px;
+      background-color: $gray;
+      z-index: -1;
+    }
   }
   
   .cooperation__container {
     @include bm;
     @include container(768px, 30px, 30px);
+    &--bg-gray-tablet {
+      background-color: red;
+    }
   }
   
   .cooperation__text {

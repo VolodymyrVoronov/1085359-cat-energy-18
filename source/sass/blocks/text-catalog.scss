@@ -10,7 +10,7 @@
     @include bm;
     margin-top: 0px;
     padding-right: 0px;
-    padding: 0 85px;
+    padding: 0 50px;
     @include or;
     font-size: 20px;
     line-height: 20px;
@@ -21,7 +21,7 @@
 
   .text-catalog__table {
     @include bm;
-    width: 250px;
+    width: 169px;
     margin: 0 auto;
     margin-top: 15px;
     @include a;
@@ -34,7 +34,7 @@
 
   .text-catalog__table-body {
     @include bm;
-    width: 250px;
+    width: 169px;
   }
 
   .text-catalog__table-left {
@@ -44,7 +44,7 @@
   }
 
   .text-catalog__table-right {
-    padding: 9px 0px;
+    padding: 7px 0px;
     // padding-left: 140px;
     width: 125px;
     text-align: right;

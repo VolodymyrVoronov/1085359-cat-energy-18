@@ -5,12 +5,17 @@
 .form-block__fields {
   @include bm;
   @include nolist;
+  margin-top: 39px;
 }
 
 .form-block__field {
   @include bm;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  
+  margin-bottom: 14px;
 }
 
 .form-block__field-name {
@@ -24,16 +29,33 @@
 
 .form-block__field-input {
   @include bm;
+  padding: 11px 15px;
   @include or;
   font-size: 16px;
   line-height: 18px;
   color: $light-black;
   text-transform: uppercase;
+  &--nickname {
+    width: 229px;
+  }
+  &--weight {
+    width: 204px;
+  }
+  &--age {
+    width: 172px;
+  }
 }
 
 .form-block__radios {
   @include bm;
   @include nolist;
+  margin-top: 53px;
+}
+
+.form-block__radio {
+  @include bm;
+  display: flex;
+  margin-bottom: 25px;
 }
 
 .form-block__radio-name {
@@ -59,4 +81,100 @@
 
 .form-block__send {
   @include bm;
+}
+
+@media (min-width: $tablet) {
+  .form-block {
+    @include bm;
+    width: 630px;
+    margin: 0 auto;
+  }
+  
+  .form-block__fields {
+    @include bm;
+    @include nolist;
+    margin-top: 67px;
+  }
+  
+  .form-block__field {
+    @include bm;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    margin-bottom: 22px;
+  }
+  
+  .form-block__field-name {
+    @include bm;
+    @include or;
+    font-size: 20px;
+    line-height: 20px;
+    color: $light-black;
+    text-transform: uppercase;
+  }
+  
+  .form-block__field-input {
+    @include bm;
+    padding: 14px 20px;
+    @include or;
+    font-size: 16px;
+    line-height: 18px;
+    color: $light-black;
+    text-transform: uppercase;
+    &--nickname {
+      width: 565px;
+    }
+    &--weight {
+      width: 535px;
+    }
+    &--age {
+      width: 495px;
+    }
+  }
+  
+  .form-block__radios {
+    @include bm;
+    @include nolist;
+    width: 627px;
+    height: 195px;
+    margin: 0 auto;
+    margin-top: 75px;
+    padding: 25px 28px;
+    outline: 1px solid $gray;
+  }
+  
+  .form-block__radio {
+    @include bm;
+    display: flex;
+    margin-bottom: 25px;
+  }
+  
+  .form-block__radio-name {
+    @include bm;
+    margin-top: 8px;
+    margin-left: 48px;
+    @include or;
+    font-size: 20px;
+    line-height: 20px;
+    color: $light-black;
+    text-transform: uppercase;
+  }
+  
+  .form-block__owner {
+    @include bm;
+  }
+  
+  .form-block__comment {
+    @include bm;
+  }
+  
+  .form-block__extra {
+    @include bm;
+  }
+  
+  .form-block__send {
+    @include bm;
+  }
 }

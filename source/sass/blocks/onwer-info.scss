@@ -4,6 +4,7 @@
 
 .owner-info__title {
   @include bm;
+  margin-top: 55px;
   @include or;
   font-size: 24px;
   line-height: 24px;
@@ -13,12 +14,16 @@
 .onwer-info__flieds {
   @include bm;
   @include nolist;
+  margin-top: 35px;
 }
 
 .owner-info__field {
   @include bm;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
 }
 
 .owner-info__field-name {
@@ -28,4 +33,75 @@
   line-height: 18px;
   color: $light-black;
   text-transform: uppercase;
+}
+
+.owner-info__field-input {
+  @include bm;
+  padding: 11px 15px;
+  @include or;
+  font-size: 16px;
+  line-height: 18px;
+  color: $light-black;
+  text-transform: uppercase;
+  &--email {
+    width: 219px;
+  }
+  &--phone {
+    width: 204px;
+  }
+}
+
+@media (min-width: $tablet) {
+  .owner-info {
+    @include bm;
+  }
+  
+  .owner-info__title {
+    @include bm;
+    margin-top: 75px;
+    @include or;
+    font-size: 36px;
+    line-height: 36px;
+    color: $black;
+  }
+  
+  .onwer-info__flieds {
+    @include bm;
+    @include nolist;
+    margin-top: 76px;
+  }
+  
+  .owner-info__field {
+    @include bm;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 22px;
+  }
+  
+  .owner-info__field-name {
+    @include bm;
+    @include or;
+    font-size: 20px;
+    line-height: 20px;
+    color: $light-black;
+    text-transform: uppercase;
+  }
+  
+  .owner-info__field-input {
+    @include bm;
+    padding: 14px 20px;
+    @include or;
+    font-size: 16px;
+    line-height: 18px;
+    color: $light-black;
+    text-transform: uppercase;
+    &--email {
+      width: 549px;
+    }
+    &--phone {
+      width: 534px;
+    }
+  }
 }

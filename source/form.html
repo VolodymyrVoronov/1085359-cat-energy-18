@@ -10,15 +10,15 @@
 </head>
 
 <body>
-  <header class="main-header main-header--pt">
+  <header class="main-header main-header--pt main-header--form">
     <div class="main-header__container container">
       <span class="visually-hidden">Меню сайта</span>
       <div class="logo logo--pt">
         <a class="logo__link logo__link--active" href="index.html">
           <span class="visually-hidden">Логотип сайта. Лиса. Надпись "Cat enegry" рядом с логотипом сайта</span>
           <picture>
-            <source media="(min-width: 1023px)" srcset="img/logo-desktop.svg">
-            <source media="(min-width: 767px)" srcset="img/logo-tablet.svg">
+            <source media="(min-width: 1300px)" srcset="img/logo-desktop.svg">
+            <source media="(min-width: 768px)" srcset="img/logo-tablet.svg">
             <img src="img/logo-mobile.svg" alt="">
           </picture>
         </a>
@@ -32,13 +32,13 @@
       <nav class="main-nav main-nav--visible">
         <ul class="main-nav__items">
           <li class="main-nav__item">
-            <a class="main-nav__link" href="index.html">Главная</a>
+            <a class="main-nav__link main-nav__link--form" href="index.html">Главная</a>
           </li>
           <li class="main-nav__item">
-            <a class="main-nav__link" href="catalog.html">Каталог продукции</a>
+            <a class="main-nav__link main-nav__link--form" href="catalog.html">Каталог продукции</a>
           </li>
           <li class="main-nav__item">
-            <a class="main-nav__link" href="form.html">Подбор программы</a>
+            <a class="main-nav__link main-nav__link--form" href="form.html">Подбор программы</a>
           </li>
         </ul>
       </nav>
@@ -52,15 +52,15 @@
         <ul class="form-block__fields">
           <li class="form-block__field">
             <label class="form-block__field-name" for="name">Имя:*</label>
-            <input class="form-block__field-input" type="text" name="name" id="name" placeholder="Барсик">
+            <input class="form-block__field-input form-block__field-input--nickname" type="text" name="name" id="name" placeholder="Барсик">
           </li>
           <li class="form-block__field">
             <label class="form-block__field-name" for="weight">Вес (КГ):*</label>
-            <input class="form-block__field-input" type="text" name="weight" id="weight" placeholder="7">
+            <input class="form-block__field-input form-block__field-input--weight" type="text" name="weight" id="weight" placeholder="7">
           </li>
           <li class="form-block__field">
             <label class="form-block__field-name" for="age">Возраст (ЛЕТ):</label>
-            <input class="form-block__field-input" type="text" name="age" id="age" placeholder="7">
+            <input class="form-block__field-input form-block__field-input--age" type="text" name="age" id="age" placeholder="7">
           </li>
         </ul>
         <ul class="form-block__radios">
@@ -83,17 +83,17 @@
           <ul class="onwer-info__flieds">
             <li class="owner-info__field">
               <label class="owner-info__field-name" for="email">E-mail:*</label>
-              <input class="owner-info__field-input" type="email" name="email" id="email" placeholder="kuklachev@gmail.com">
+              <input class="owner-info__field-input owner-info__field-input--email" type="email" name="email" id="email" placeholder="kuklachev@gmail.com">
             </li>
             <li class="owner-info__field">
               <label class="owner-info__field-name" for="phone">Телефон:*</label>
-              <input class="owner-info__field-input" type="tel" name="phone" id="phone" placeholder="8 (960) 900-60-90">
+              <input class="owner-info__field-input owner-info__field-input--phone" type="tel" name="phone" id="phone" placeholder="8 (960) 900-60-90">
             </li>
           </ul>
         </div>
         <div class="form-block__comment comment-add">
           <h2 class="comment-add__title">Комментарий</h2>
-          <textarea name="" id="" cols="0" rows="0" class="comment-add__write" placeholder="Расскажите обо всех повадках кота"></textarea>
+          <textarea name="comment" id="" cols="0" rows="0" class="comment-add__write" placeholder="Расскажите обо всех повадках кота"></textarea>
         </div>
         <div class="form-block__extra extra-info">
           <h2 class="extra-info__title">Дополнительно</h2>

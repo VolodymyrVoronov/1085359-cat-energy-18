@@ -66,3 +66,39 @@
     @include bm;
   }
 }
+
+@media (min-width: $desktop) {
+  .programm {
+    @include bm;
+  }
+  
+  .programm__container {
+    @include bm;
+    @include container (1300px, 40px, 40px);
+  }
+  
+  .programm__title {
+    @include bm;
+    margin-top: 67px;
+    @include or;
+    font-size: 60px;
+    line-height: 60px;
+    color: $black;
+  }
+  
+  .programm__text {
+    @include bm;
+    margin-top: 57px;
+    padding-left: 0px;
+    padding-right: 850px;
+    @include or;
+    font-size: 20px;
+    line-height: 30px;
+    color: $light-black;
+    text-transform: uppercase;
+  }
+  
+  .programm__form {
+    @include bm;
+  }
+}

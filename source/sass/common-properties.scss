@@ -2,10 +2,6 @@ body {
   @include bm;
 }
 
-img {
-  max-width: 100%
-}
-
 a {
   text-decoration: none
 }
@@ -24,10 +20,5 @@ html {
   @include bm;
 }
 
-// @media only screen and (min-width: 321px) and (max-width: 767px) {
-//   @include bm;
-// }
-
-// @media only screen and (min-width: 768px) {
-//   @include bm;
-// }
+$tablet: 768px;
+$desktop: 1300px;

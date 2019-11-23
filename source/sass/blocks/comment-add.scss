@@ -4,6 +4,7 @@
 
 .comment-add__title {
   @include bm;
+  margin-top: 27px;
   @include or;
   font-size: 24px;
   line-height: 24px;
@@ -12,4 +13,54 @@
 
 .comment-add__write {
   @include bm;
+  width: 280px;
+  height: 150px;
+  margin-top: 35px;
+  padding: 11px 15px;
+}
+
+@media (min-width: $tablet) {
+  .comment-add {
+    @include bm;
+  }
+  
+  .comment-add__title {
+    @include bm;
+    margin-top: 65px;
+    @include or;
+    font-size: 36px;
+    line-height: 36px;
+    color: $black;
+  }
+  
+  .comment-add__write {
+    @include bm;
+    width: 631px;
+    height: 173px;
+    margin-top: 77px;
+    padding: 14px 19px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .comment-add {
+    @include bm;
+  }
+  
+  .comment-add__title {
+    @include bm;
+    margin-top: 47px;
+    @include or;
+    font-size: 36px;
+    line-height: 36px;
+    color: $black;
+  }
+  
+  .comment-add__write {
+    @include bm;
+    width: 1220px;
+    height: 173px;
+    margin-top: 77px;
+    padding: 14px 19px;
+  }
 }

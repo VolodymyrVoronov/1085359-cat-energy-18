@@ -1,0 +1,75 @@
+.text-more {
+  @include bm;
+}
+
+.text-more__title {
+  @include bm;
+  width: 284px;
+  @include or;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.text-more__text {
+  @include bm;
+  width: 280px;
+  @include a;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+}
+
+@media (min-width: $tablet) {
+  .text-more {
+    @include bm;
+  }
+  
+  .text-more__title {
+    @include bm;
+    width: 284px;
+    @include or;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .text-more__text {
+    @include bm;
+    width: 280px;
+    @include a;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+  }
+}
+
+@media (min-width: $desktop) {
+  .text-more {
+    @include bm;
+    width: 324px;
+  }
+  
+  .text-more__title {
+    @include bm;
+    width: 140px;
+    margin: 0 auto;
+    @include or;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .text-more__text {
+    @include bm;
+    width: 170px;
+    margin: 0 auto;
+    @include a;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+  }
+}

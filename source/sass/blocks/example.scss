@@ -7,6 +7,7 @@
 .example__container {
   @include bm;
   @include container(320px, 20px, 20px);
+  min-height: 705px;
 }
 
 .exapmle__info {
@@ -16,3 +17,54 @@
 .example__slide {
   @include bm;
 }
+
+@media (min-width: $tablet) {
+  .example {
+    @include bm;
+    margin-top: 25px;
+    background-color: $light-gray;
+    background: none;
+  }
+  
+  .example__container {
+    @include bm;
+    @include container(768px, 30px, 30px);
+    min-height: 740px;
+    border-top: 1px solid $gray;
+  }
+  
+  .exapmle__info {
+    @include bm;
+  }
+  
+  .example__slide {
+    @include bm;
+  }
+}
+
+@media (min-width: $desktop) {
+  .example {
+    @include bm;
+    margin-top: 25px;
+    background-color: $light-gray;
+    background: none;
+  }
+  
+  .example__container {
+    @include bm;
+    display: flex;
+    @include container(1300px, 40px, 40px);
+    min-height: 680px;
+    border-top: 1px solid $gray;
+    border: none;
+  }
+  
+  .exapmle__info {
+    @include bm;
+  }
+  
+  .example__slide {
+    @include bm;
+  }
+}
+

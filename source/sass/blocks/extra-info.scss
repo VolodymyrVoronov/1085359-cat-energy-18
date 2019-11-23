@@ -4,6 +4,7 @@
 
 .extra-info__title {
   @include bm;
+  margin-top: 28px;
   @include or;
   font-size: 24px;
   line-height: 24px;
@@ -13,12 +14,14 @@
 .extra-info__options {
   @include bm;
   @include nolist;
+  margin-top: 40px;
 }
 
 .extra-info__option {
   @include bm;
   display: flex;
   flex-direction: row;
+  margin-bottom: 24px;
 }
 
 .extra-info__option-input {
@@ -27,9 +30,105 @@
 
 .extra-info__option-name {
   @include bm;
+  padding-left: 34px;
   @include or;
   font-size: 16px;
   line-height: 18px;
   color: $light-black;
   text-transform: uppercase;
+}
+
+@media (min-width: $tablet) {
+  .extra-info {
+    @include bm;
+  }
+  
+  .extra-info__title {
+    @include bm;
+    margin-top: 65px;
+    @include or;
+    font-size: 36px;
+    line-height: 36px;
+    color: $black;
+  }
+  
+  .extra-info__options {
+    @include bm;
+    @include nolist;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 68px;
+  }
+  
+  .extra-info__option {
+    @include bm;
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    margin-bottom: 51px;
+  }
+  
+  .extra-info__option-input {
+    @include bm;
+  }
+  
+  .extra-info__option-name {
+    @include bm;
+    padding-left: 0px;
+    @include or;
+    font-size: 20px;
+    line-height: 20px;
+    color: $light-black;
+    text-transform: uppercase;
+  }
+}
+
+@media (min-width: $desktop) {
+  .extra-info {
+    @include bm;
+  }
+  
+  .extra-info__title {
+    @include bm;
+    margin-top: 67px;
+    @include or;
+    font-size: 36px;
+    line-height: 36px;
+    color: $black;
+  }
+  
+  .extra-info__options {
+    @include bm;
+    @include nolist;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1220px;
+    margin-top: 66px;
+  }
+  
+  .extra-info__option {
+    @include bm;
+    display: flex;
+    flex-direction: row;
+    width: 245px;
+    margin-bottom: 51px;
+  }
+  
+  .extra-info__option-input {
+    @include bm;
+  }
+  
+  .extra-info__option-name {
+    @include bm;
+    padding-left: 44px;
+    @include or;
+    font-size: 20px;
+    line-height: 20px;
+    color: $light-black;
+    text-transform: uppercase;
+  }
 }

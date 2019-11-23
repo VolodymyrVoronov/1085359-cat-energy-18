@@ -5,11 +5,11 @@
 .send-block__btn {
   @include bm;
   width: 280px;
-  margin-top: 3px;
-  padding: 11.5px 0;
+  margin-top: 41px;
+  padding: 11px 0;
   @include or;
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 16px;
+  line-height: 20px;
   text-align: center;
   text-transform: uppercase;
   color: $white;
@@ -28,8 +28,96 @@
 
 .send-block__obligatorily {
   @include bm;
+  margin-top: 20px;
   @include a;
   font-size: 14px;
   line-height: 16px;
+  text-align: center;
   color: $light-black;
+}
+
+@media (min-width: $tablet) {
+  .send-block {
+    @include bm;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .send-block__btn {
+    @include bm;
+    width: 285px;
+    margin-top: 14px;
+    padding: 16px 0;
+    @include or;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $white;
+    text-decoration: none;
+    background-color: $bg-green;
+    border: none;
+  
+    &:hover {
+      background-color: $bg-green-hover;
+    }
+  
+    &:focus {
+      color: $bg-green-focus;
+    }
+  }
+  
+  .send-block__obligatorily {
+    @include bm;
+    margin-top: 30px;
+    margin-left: 62px;
+    @include a;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: $light-black;
+  }
+}
+
+@media (min-width: $desktop) {
+  .send-block {
+    @include bm;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .send-block__btn {
+    @include bm;
+    width: 568px;
+    margin-top: 20px;
+    padding: 16px 0;
+    @include or;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $white;
+    text-decoration: none;
+    background-color: $bg-green;
+    border: none;
+  
+    &:hover {
+      background-color: $bg-green-hover;
+    }
+  
+    &:focus {
+      color: $bg-green-focus;
+    }
+  }
+  
+  .send-block__obligatorily {
+    @include bm;
+    margin-top: 37px;
+    margin-left: 82px;
+    @include a;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: $light-black;
+  }
 }

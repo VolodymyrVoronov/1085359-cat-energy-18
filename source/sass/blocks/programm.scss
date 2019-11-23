@@ -9,6 +9,7 @@
 
 .programm__title {
   @include bm;
+  margin-top: 15px;
   @include or;
   font-size: 36px;
   line-height: 60px;
@@ -17,6 +18,8 @@
 
 .programm__text {
   @include bm;
+  margin-top: 26px;
+  padding-right: 20px;
   @include or;
   font-size: 14px;
   line-height: 18px;
@@ -26,4 +29,76 @@
 
 .programm__form {
   @include bm;
+}
+
+@media (min-width: $tablet) {
+  .programm {
+    @include bm;
+  }
+  
+  .programm__container {
+    @include bm;
+    @include container(768px, 30px, 30px);
+  }
+  
+  .programm__title {
+    @include bm;
+    margin-top: 57px;
+    @include or;
+    font-size: 60px;
+    line-height: 60px;
+    color: $black;
+  }
+  
+  .programm__text {
+    @include bm;
+    margin-top: 55px;
+    padding-left: 40px;
+    padding-right: 300px;
+    @include or;
+    font-size: 20px;
+    line-height: 30px;
+    color: $light-black;
+    text-transform: uppercase;
+  }
+  
+  .programm__form {
+    @include bm;
+  }
+}
+
+@media (min-width: $desktop) {
+  .programm {
+    @include bm;
+  }
+  
+  .programm__container {
+    @include bm;
+    @include container (1300px, 40px, 40px);
+  }
+  
+  .programm__title {
+    @include bm;
+    margin-top: 67px;
+    @include or;
+    font-size: 60px;
+    line-height: 60px;
+    color: $black;
+  }
+  
+  .programm__text {
+    @include bm;
+    margin-top: 57px;
+    padding-left: 0px;
+    padding-right: 850px;
+    @include or;
+    font-size: 20px;
+    line-height: 30px;
+    color: $light-black;
+    text-transform: uppercase;
+  }
+  
+  .programm__form {
+    @include bm;
+  }
 }

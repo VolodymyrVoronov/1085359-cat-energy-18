@@ -243,9 +243,9 @@
     @include bm;
     min-height: 696px;
     padding-top: 66px;
-    background-image: url("../img/index-background-desktop@1x.jpg");
-    background-position: 674px 0px;
-    background-repeat: no-repeat;
+    // background-image: url("../img/index-background-desktop@1x.jpg");
+    // background-position: 674px 0px;
+    // background-repeat: no-repeat;
     &--catalog {
       min-height: 120px;
       background: none;
@@ -271,6 +271,28 @@
     background-position: 0px 0px;
     background-repeat: no-repeat;
     background: none;
+    &::after {
+      position: absolute;
+      @include bm;
+      content: "";
+      top: -66px;
+      right: -69px;
+      width: 720px;
+      height: 696px;
+      background-image: url("../img/index-background-desktop@1x.jpg");
+      background-repeat: no-repeat;
+      z-index: -1;
+    }
+    &--catalog {
+      &::after {
+        display: none;
+      }
+    }
+    &--form {
+      &::after {
+        display: none;
+      }
+    }
   }
   
   .main-header__btn-menu {

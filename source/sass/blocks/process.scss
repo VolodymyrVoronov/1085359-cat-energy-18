@@ -105,7 +105,6 @@
   .process__container {
     @include bm;
     @include container(768px, 30px, 30px);
-    margin-right: 0;
   }
   
   .process__title {

@@ -30,6 +30,7 @@
     @include bm;
     @include container(768px, 30px, 30px);
     min-height: 740px;
+    margin-right: 0;
     border-top: 1px solid $gray;
   }
   

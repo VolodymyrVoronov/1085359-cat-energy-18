@@ -1,5 +1,6 @@
 .main-footer {
   @include bm;
+  min-height: 235px;
   background-color: $light-gray;
 }
 
@@ -13,6 +14,7 @@
   width: 128px;
   height: 24px;
   margin: 0 auto;
+  padding-top: 68px;
 }
 
 .main-footer__academy {

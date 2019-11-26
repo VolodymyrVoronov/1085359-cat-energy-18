@@ -11,6 +11,9 @@
   color: $black;
   text-align: left;
   text-transform: uppercase;
+  span {
+    display: block;
+  }
 }
 
 .text-cooperation__address {

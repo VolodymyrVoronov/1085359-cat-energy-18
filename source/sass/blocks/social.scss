@@ -2,8 +2,10 @@
   @include bm;
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
   width: 125px;
-  margin-left: 73px;
+  margin-left: 72px;
+  margin-top: 76px;
 }
 
 .social__link {
@@ -34,6 +36,17 @@
     @include bm;
     width: 10px;
     height: 19px;
+  }
+  &:hover {
+    svg {
+      fill: $green;
+    }
+  }
+  &:focus {
+    svg {
+      opacity: 0.3;
+      fill: $green;
+    }
   }
 }
 

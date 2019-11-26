@@ -91,9 +91,11 @@
       left: -20px;
       top: 0;
       width: 320px;
+      width: 0;
       height: 1px;
       border-top: 1px solid $gray;
       border: none;
+      display: none;
     }
   }
   
@@ -159,9 +161,11 @@
       left: -20px;
       top: 0;
       width: 320px;
+      width: 0;
       height: 1px;
       border-top: 1px solid $gray;
       border: none;
+      display: none;
     }
   }
   

@@ -7,8 +7,18 @@
   }
   &--after {
     @include bm;
+    margin-top: 34px;
+    margin-left: -20px;
     display: none;
   }
+}
+
+.slide-example__photo--visible {
+  display: block;
+}
+
+.slide-example__photo--invisible {
+  display: none;
 }
 
 .slide-example__toggles {
@@ -42,6 +52,27 @@
   }
 }
 
+.slide-example__indicator--on {
+  position: relative;
+  @include bm;
+  width: 85px;
+  height: 14px;
+  margin-top: 3px;
+  margin-left: 5px;
+  border: 1px solid $light-gray-3;
+  border-radius: 10px;
+  &::before {
+    position: absolute;
+    content: "";
+    top: 3px;
+    left: 42px;
+    width: 35px;
+    height: 6px;
+    background-color: $green;
+    border-radius: 10px;
+  }
+}
+
 .slide-example__toggle {
   @include bm;
   @include or;
@@ -52,6 +83,30 @@
   background-color: transparent;
   border: none;
   cursor: pointer;
+  &--before {
+    position: relative;
+    &::before {
+      display: block;
+      position: absolute;
+      content: "";
+      left: 57px;
+      width: 42px;
+      height: 20px;
+      z-index: 10;
+    }
+  }
+  &--after {
+    position: relative;
+    &::before {
+      display: block;
+      position: absolute;
+      content: "";
+      left: -57px;
+      width: 42px;
+      height: 20px;
+      z-index: 10;
+    }
+  }
 }
 
 @media (min-width: $tablet) {
@@ -59,7 +114,7 @@
     @include bm;
     &--before {
       @include bm;
-      margin-top: 34px;
+      margin-top: 74px;
       margin-left: -20px;
     }
     &--after {

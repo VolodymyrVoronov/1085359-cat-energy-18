@@ -1,7 +1,6 @@
 .cooperation {
   @include bm;
   margin-top: 28px;
-  background-color: $light-gray;
   background-color: $white;
 }
 
@@ -18,9 +17,8 @@
   @include bm;
   width: 100%;
   height: 360px;
-  margin-top: 25px;
   margin: 0 auto;
-  background-color: $light-black;
+  margin-top: 25px;
   background-image:
     url("../img/map-pin.png"),
     url("../img/bg-map-mobile@1x.png");

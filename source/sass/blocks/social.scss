@@ -1,4 +1,5 @@
 .social {
+  position: relative;
   @include bm;
   display: flex;
   justify-content: space-between;
@@ -6,6 +7,26 @@
   width: 125px;
   margin-left: 72px;
   margin-top: 76px;
+  &::before {
+    display: block;
+    position: absolute;
+    content: "";
+    top: -21px;
+    left: -72px;
+    width: 280px;
+    height: 1px;
+    background-color: $light-gray-2;
+  }
+  &:after {
+    display: block;
+    position: absolute;
+    content: "";
+    bottom: -24px;
+    left: -72px;
+    width: 280px;
+    height: 1px;
+    background-color: $light-gray-2;
+  }
 }
 
 .social__link {

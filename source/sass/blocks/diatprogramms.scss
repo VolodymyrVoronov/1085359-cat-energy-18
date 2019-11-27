@@ -358,6 +358,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
     @include container(1300px, 40px, 40px);
   }
   

@@ -79,7 +79,94 @@
     align-items: center;
     width: 126px;
     margin-left: 19px;
-    margin-top: -8px;
+    margin-top: -27px;
+    &::before {
+      display: block;
+      display: none;
+      position: absolute;
+      content: "";
+      top: -21px;
+      left: -72px;
+      width: 280px;
+      height: 1px;
+      background-color: $light-gray-2;
+    }
+    &:after {
+      display: block;
+      display: none;
+      position: absolute;
+      content: "";
+      bottom: -24px;
+      left: -72px;
+      width: 280px;
+      height: 1px;
+      background-color: $light-gray-2;
+    }
+  }
+  
+  .social__link {
+    @include bm;
+    @include nolist;
+  }
+  
+  .social__website {
+    @include bm;
+    font-size: 0px;
+    svg {
+      fill: $light-black;
+    }
+  
+    &--vk {
+      @include bm;
+      width: 30px;
+      height: 16px;
+    }
+  
+    &--inst {
+      @include bm;
+      width: 23px;
+      height: 23px;
+    }
+  
+    &--fb {
+      @include bm;
+      width: 14px;
+      height: 28px;
+    }
+  }
+}
+
+@media (min-width: $desktop) {
+  .social {
+    @include bm;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 126px;
+    margin-left: 19px;
+    margin-top: -30px;
+    &::before {
+      display: block;
+      display: none;
+      position: absolute;
+      content: "";
+      top: -21px;
+      left: -72px;
+      width: 280px;
+      height: 1px;
+      background-color: $light-gray-2;
+    }
+    &:after {
+      display: block;
+      display: none;
+      position: absolute;
+      content: "";
+      bottom: -24px;
+      left: -72px;
+      width: 280px;
+      height: 1px;
+      background-color: $light-gray-2;
+    }
   }
   
   .social__link {

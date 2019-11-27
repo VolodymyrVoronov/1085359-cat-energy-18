@@ -228,18 +228,18 @@
     @include nolist;
     display: flex;
     flex-direction: row;
-    margin-top: 24px;
-    width: 280px;
+    margin-top: 69px;
+    width: 367px;
   }
   
   .info-example__item {
     @include bm;
-    width: 124px;
+    width: 162px;
     // height: 56px;
-    padding: 15px 0px;
+    padding: 17px 0px;
     @include or;
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 30px;
+    line-height: 37px;
     text-align: center;
     text-transform: uppercase;
     border: 1px solid $light-gray-3;
@@ -250,14 +250,14 @@
       &::after {
         position: absolute;
         content: "снижение веса";
-        bottom: -16px;
-        left: 17px;
-        width: 87px;
+        bottom: -5px;
+        left: 20px;
+        width: 120px;
         padding-right: 10px;
         padding-left: 10px;
         @include a;
-        font-size: 12px;
-        line-height: 12px;
+        font-size: 14px;
+        line-height: 14px;
         text-transform: none;
         background-color: $light-gray;
       }
@@ -268,12 +268,12 @@
       &::after {
         position: absolute;
         content: "затрачено времени";
-        bottom: -16px;
-        left: 18px;
-        width: 87px;
+        bottom: -5px;
+        left: 9px;
+        width: 141px;
         @include a;
-        font-size: 12px;
-        line-height: 12px;
+        font-size: 14px;
+        line-height: 14px;
         text-transform: none;
         background-color: $light-gray;
       }
@@ -290,7 +290,7 @@
   
   .info-example__costs {
     @include bm;
-    margin-top: 50px;
+    margin-top: 55px;
     padding-left: 0px;
     @include or;
     font-size: 20px;
@@ -298,6 +298,9 @@
     text-align: left;
     text-transform: uppercase;
     color: $black;
+    span {
+      margin-right: 60px;
+    }
   }
   
 }

@@ -95,8 +95,7 @@
       <div class="example__container container">
         <div class="exapmle__info info-example">
           <h2 class="info-example__title">Живой пример</h2>
-          <p class="info-example__text">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy
-            Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит
+          <p class="info-example__text">Борис сбросил 5 кг за 2 месяца, просто заменив свой     обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок!      При этом он не менял своих привычек и по-прежнему спит
             по 16 часов в день.</p>
           <ul class="info-example__items">
             <li class="info-example__item">
@@ -106,7 +105,7 @@
               <p class="info-example__days">60 дней</p>
             </li>
           </ul>
-          <p class="info-example__costs">Затраты на питание: 15 000 руб.</p>
+          <p class="info-example__costs">Затраты на питание: <span></span> 15 000 руб.</p>
         </div>
         <div class="example__slide slide-example">
           <picture class="slide-example__photo slide-example__photo--before">
@@ -124,6 +123,9 @@
           <div class="slide-example__toggles">
             <button class="slide-example__toggle slide-example__toggle--before" type="button">Было</button>
             <div class="slide-example__indicator"></div>
+            <div class="slide-example__handle">
+              <button class="slide-example__handle-btn"  draggable="false" type="button"></button>
+            </div>
             <button class="slide-example__toggle slide-example__toggle--after" type="button">Стало</button>
           </div>
         </div>
@@ -235,6 +237,7 @@
   </footer>
   <script src="js/menu-open.js"></script>
   <script src="js/slide-mobile.js"></script>
+  <script src="js/slide-tab-desk.js"></script>
 </body>
 
 </html>

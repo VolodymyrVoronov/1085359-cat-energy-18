@@ -2,6 +2,20 @@
   @include bm;
   margin-top: 28px;
   background-color: $white;
+  &--catalog-gray {
+    position: relative;
+    background-color: $light-gray;
+    &::before {
+      display: block;
+      position: absolute;
+      content: "";
+      top: -30px;
+      width: 100%;
+      height: 114px;
+      background-color: $light-gray;
+      z-index: -1;
+    }
+  }
 }
 
 .cooperation__container {

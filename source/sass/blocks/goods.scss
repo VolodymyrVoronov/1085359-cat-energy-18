@@ -5,25 +5,48 @@
 .goods__items {
   @include bm;
   @include nolist;
+  margin-top: 34px;
 }
 
 .goods__item {
+  position: relative;
   @include bm;
   display: flex;
   flex-wrap: wrap;
+  height: 129px;
+  &::before {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 280px;
+    height: 1px;
+    background-color: $light-gray-3;
+  }
+  &::after {
+    display: block;
+    position: absolute;
+    content: "";
+    bottom: -1px;
+    width: 280px;
+    height: 1px;
+    background-color: $light-gray-3;
+  }
 }
 
 .goods__name {
   @include bm;
   width: 280px;
+  margin-top: 8px;
   @include or;
   font-size: 16px;
   line-height: 26px;
+  text-transform: uppercase;
   color: $black;
 }
 
 .goods__volume {
   @include bm;
+  margin-top: -5px;
   @include a;
   font-size: 14px;
   line-height: 14px;
@@ -31,6 +54,7 @@
 
 .goods__price {
   @include bm;
+  margin-top: -5px;
   margin-left: auto;
   @include a;
   font-size: 14px;
@@ -40,11 +64,12 @@
 .goods__btn {
   @include bm;
   width: 280px;
-  margin-top: 3px;
-  padding: 11.5px 0;
+  height: 40px;
+  margin-top: -2px;
+  padding: 9px 0;
   @include or;
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 16px;
+  line-height: 20px;
   text-align: center;
   text-transform: uppercase;
   color: $white;
@@ -66,20 +91,26 @@
   flex-direction: column;
   width: 280px;
   min-height: 289px;
-  padding: 0px 49px;
+  margin-top: 40px;
+  margin-bottom: 64px;
+  padding: 0px 40px;
   @include a;
   font-size: 16px;
   line-height: 20px;
   color: $white;
   text-align: center;
-  background-image:
-    url("../img/gift-photo-mobile@1x.jpg");
+  background-image: url("../img/gift-photo-mobile@1x.jpg");
+  &:hover {
+    opacity: 0.95;
+  }
 }
 
 .goods__gift-icon {
   width: 55px;
   height: 60px;
   margin: 0 auto;
+  margin-top: 65px;
+  margin-bottom: 61px;
   fill: $white;
 }
 

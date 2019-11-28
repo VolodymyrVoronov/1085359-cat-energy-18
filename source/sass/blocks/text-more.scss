@@ -1,5 +1,17 @@
 .text-more {
+  position: relative;
   @include bm;
+  margin-top: 59px;
+  &::after {
+    display: block;
+    position: absolute;
+    content: "";
+    bottom: -63px;
+    left: -20px;
+    width: 320px;
+    height: 1px;
+    background-color: #ededed;
+  }
 }
 
 .text-more__title {
@@ -15,6 +27,7 @@
 .text-more__text {
   @include bm;
   width: 280px;
+  padding-top: 7px;
   @include a;
   font-size: 12px;
   line-height: 16px;

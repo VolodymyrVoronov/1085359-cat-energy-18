@@ -40,7 +40,9 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  height: 210px;
+  min-height: 209px;
+  font-size: 0px;
+  line-height: 0px;
 
   &::before {
     position: absolute;
@@ -61,6 +63,7 @@
 .catalog__text {
   @include bm;
   width: 140px;
+  @include or;
 }
 
 .catalog__text-more {
@@ -71,8 +74,8 @@
   @include bm;
   width: 280px;
   height: 40px;
-  padding: 8px 0px;
-  margin-top: -27px;
+  padding: 10px 0px;
+  margin-top: -24px;
   @include or;
   font-size: 16px;
   line-height: 20px;
@@ -92,6 +95,7 @@
     color: $bg-green-focus;
   }
   &--color-gray {
+    margin-top: 0px;
     color: $black;
     background-color: $gray;
     &:hover {

@@ -1,5 +1,6 @@
 .programm {
   @include bm;
+  margin-bottom: 60px;
 }
 
 .programm__container {
@@ -34,6 +35,7 @@
 @media (min-width: $tablet) {
   .programm {
     @include bm;
+    // margin-bottom: 58px;
   }
   
   .programm__container {

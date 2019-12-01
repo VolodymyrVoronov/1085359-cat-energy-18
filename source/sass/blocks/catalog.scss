@@ -156,7 +156,7 @@
     flex-wrap: wrap;
     width: 324px;
     height: 430px;
-    margin-top: 139px;
+    margin-top: 140px;
     background-color: $light-gray;
   
     &::before {
@@ -168,6 +168,11 @@
       width: 320px;
       height: 1px;
       background-color: #ededed;
+    }
+    
+    &:last-child {
+      outline: 1px solid $gray;
+      background: none;
     }
   }
   
@@ -197,6 +202,7 @@
     padding: 8px 0px;
     margin: 0 auto;
     margin-top: 0px;
+    margin-bottom: 5px;
     @include or;
     font-size: 16px;
     line-height: 20px;
@@ -216,6 +222,7 @@
       color: $bg-green-focus;
     }
     &--color-gray {
+      margin-top: 50px;
       color: $black;
       background-color: $gray;
       &:hover {
@@ -276,7 +283,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 245px;
-    height: 430px;
+    height: 434px;
     margin-top: 139px;
     background-color: $light-gray;
   
@@ -318,6 +325,7 @@
     padding: 8px 0px;
     margin: 0 auto;
     margin-top: 0px;
+    margin-bottom: 10px;
     @include or;
     font-size: 16px;
     line-height: 20px;
@@ -337,6 +345,8 @@
       color: $bg-green-focus;
     }
     &--color-gray {
+      @include bm;
+      margin: 0 auto;
       color: $black;
       background-color: $gray;
       &:hover {

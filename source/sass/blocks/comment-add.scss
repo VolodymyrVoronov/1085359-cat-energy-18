@@ -3,12 +3,23 @@
 }
 
 .comment-add__title {
+  position: relative;
   @include bm;
-  margin-top: 27px;
+  margin-top: 29px;
   @include or;
   font-size: 24px;
   line-height: 24px;
   color: $black;
+  &::before {
+    display: block;
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: -20px;
+    width: 158px;
+    height: 3px;
+    background-color: $green;
+  }
 }
 
 .comment-add__write {
@@ -17,6 +28,14 @@
   height: 150px;
   margin-top: 35px;
   padding: 11px 15px;
+  border: none;
+  outline: 1px solid $gray;
+  &:hover {
+    outline: 1px solid  $light-gray-3;
+  }
+  &:focus {
+    outline: 2px solid $light-black;
+  }
 }
 
 @media (min-width: $tablet) {
@@ -25,12 +44,33 @@
   }
   
   .comment-add__title {
+    position: relative;
     @include bm;
     margin-top: 65px;
     @include or;
     font-size: 36px;
     line-height: 36px;
     color: $black;
+    &::before {
+      display: block;
+      position: absolute;
+      content: "";
+      top: 23px;
+      right: -69px;
+      width: 479px;
+      height: 3px;
+      background-color: $green;
+    }
+    &::after {
+      display: block;
+      position: absolute;
+      content: "";
+      top: 23px;
+      left: -70px;
+      width: 31px;
+      height: 3px;
+      background-color: $green;
+    }
   }
   
   .comment-add__write {
@@ -39,6 +79,17 @@
     height: 173px;
     margin-top: 77px;
     padding: 14px 19px;
+    @include or;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: none;
+    outline: 1px solid $gray;
+    &:hover {
+      outline: 1px solid  $light-gray-3;
+    }
+    &:focus {
+      outline: 2px solid $light-black;
+    }
   }
 }
 
@@ -48,12 +99,33 @@
   }
   
   .comment-add__title {
+    position: relative;
     @include bm;
     margin-top: 47px;
     @include or;
     font-size: 36px;
     line-height: 36px;
     color: $black;
+    &::before {
+      display: block;
+      position: absolute;
+      content: "";
+      top: 22px;
+      right: -68px;
+      width: 1070px;
+      height: 3px;
+      background-color: $green;
+    }
+    &::after {
+      display: block;
+      position: absolute;
+      content: "";
+      top: 22px;
+      left: -72px;
+      width: 31px;
+      height: 3px;
+      background-color: $green;
+    }
   }
   
   .comment-add__write {
@@ -62,5 +134,16 @@
     height: 173px;
     margin-top: 77px;
     padding: 14px 19px;
+    @include or;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: none;
+    outline: 1px solid $gray;
+    &:hover {
+      outline: 1px solid  $light-gray-3;
+    }
+    &:focus {
+      outline: 2px solid $light-black;
+    }
   }
 }

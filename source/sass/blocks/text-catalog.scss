@@ -63,6 +63,60 @@
     @include bm;
     margin-top: 0px;
     padding-right: 0px;
+    padding: 0 90px;
+    @include or;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $black;
+  }
+
+  .text-catalog__table {
+    @include bm;
+    width: 249px;
+    margin: 0 auto;
+    margin-top: 25px;
+    @include a;
+    font-size: 16px;
+    line-height: 16px;
+    color: $light-black;
+    border-collapse: collapse;
+    border: none;
+  }
+
+  .text-catalog__table-body {
+    @include bm;
+    width: 249px;
+  }
+
+  .text-catalog__table-left {
+    padding: 0px 0px;
+    width: 125px;
+    border-bottom: 1px solid $light-gray-3;
+  }
+
+  .text-catalog__table-right {
+    padding: 7px 0px;
+    // padding-left: 140px;
+    width: 125px;
+    text-align: right;
+    border-bottom: 1px solid $light-gray-3;
+  }
+}
+
+@media (min-width: $desktop) {
+
+  .text-catalog {
+    @include bm;
+    width: 324px;
+    height: 155px;
+  }
+
+  .text-catalog__title {
+    @include bm;
+    margin-top: 0px;
+    padding-right: 0px;
     padding: 0 50px;
     @include or;
     font-size: 20px;
@@ -76,7 +130,7 @@
     @include bm;
     width: 169px;
     margin: 0 auto;
-    margin-top: 15px;
+    margin-top: 22px;
     @include a;
     font-size: 16px;
     line-height: 16px;
@@ -104,3 +158,4 @@
     border-bottom: 1px solid $light-gray-3;
   }
 }
+

@@ -36,7 +36,7 @@
   .text-cooperation__title {
     @include bm;
     width: 160px;
-    margin-top: 68px;
+    margin-top: 64px;
     margin-left: 42px;
     @include or;
     font-size: 20px;
@@ -52,7 +52,7 @@
   .text-cooperation__address {
     @include bm;
     width: 170px;
-    margin-top: 66px;
+    margin-top: 62px;
     margin-right: 42px;
     @include a;
     font-size: 16px;
@@ -72,15 +72,17 @@
     position: absolute;
     display: flex;
     justify-content: space-between;
-    width: 580px;
-    height: 200px;
+    width: 570px;
+    height: 201px;
+    margin-top: 95px;
+    background-color: $white;
   }
   
   .text-cooperation__title {
     @include bm;
     width: 160px;
-    margin-top: 68px;
-    margin-left: 42px;
+    margin-top: 66px;
+    margin-left: 77px;
     @include or;
     font-size: 20px;
     line-height: 25px;
@@ -95,14 +97,14 @@
   .text-cooperation__address {
     @include bm;
     width: 170px;
-    margin-top: 66px;
-    margin-right: 42px;
+    margin-top: 64px;
+    margin-right: 74px;
     @include a;
     font-size: 16px;
     line-height: 20px;
     font-style: normal;
     color: $black;
-    text-align: right;
+    text-align: left;
     span {
       display: block;
       margin-top: 20px;

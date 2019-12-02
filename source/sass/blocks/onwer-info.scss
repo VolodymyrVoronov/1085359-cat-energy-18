@@ -15,8 +15,8 @@
     position: absolute;
     content: "";
     top: 13px;
-    right: -21px;
-    width: 100px;
+    right: -321px;
+    width: 400px;
     height: 3px;
     background-color: $green;
   }
@@ -83,7 +83,7 @@
     }
   }
   &:hover {
-    outline: 1px solid  $light-gray-3;
+    outline: 1px solid  $light-gray-three;
   }
   &:focus {
     outline: 2px solid $light-black;
@@ -103,25 +103,28 @@
     font-size: 36px;
     line-height: 36px;
     color: $black;
+    z-index: 20;
     &::before {
       display: block;
       position: absolute;
       content: "";
+      left: -2000px;
       top: 21px;
-      right: -70px;
-      width: 146px;
+      width: 5000px;
       height: 3px;
       background-color: $green;
+      z-index: -1;
     }
     &::after {
       display: block;
       position: absolute;
       content: "";
+      left: -40px;
       top: 21px;
-      left: -70px;
-      width: 31px;
-      height: 3px;
-      background-color: $green;
+      width: 594px;
+      height: 6px;
+      background-color: $white;
+      z-index: -1;
     }
   }
   
@@ -200,25 +203,28 @@
     font-size: 36px;
     line-height: 36px;
     color: $black;
+    z-index: 20;
     &::before {
       display: block;
       position: absolute;
       content: "";
+      left: -2000px;
       top: 22px;
-      right: -82px;
-      width: 750px;
+      width: 5000px;
       height: 3px;
       background-color: $green;
+      z-index: -1;
     }
     &::after {
       display: block;
       position: absolute;
       content: "";
+      left: -42px;
       top: 22px;
-      left: -72px;
-      width: 31px;
-      height: 3px;
-      background-color: $green;
+      width: 594px;
+      height: 6px;
+      background-color: $white;
+      z-index: -1;
     }
   }
   

@@ -39,7 +39,7 @@
   line-height: 24px;
   text-align: center;
   text-transform: uppercase;
-  border: 1px solid $light-gray-3;
+  border: 1px solid $light-gray-three;
   border-radius: 5px;
   &:nth-child(1) {
     position: relative;
@@ -138,7 +138,7 @@
     line-height: 37px;
     text-align: center;
     text-transform: uppercase;
-    border: 1px solid $light-gray-3;
+    border: 1px solid $light-gray-three;
     border-radius: 5px;
     &:nth-child(1) {
       position: relative;
@@ -242,7 +242,7 @@
     line-height: 37px;
     text-align: center;
     text-transform: uppercase;
-    border: 1px solid $light-gray-3;
+    border: 1px solid $light-gray-three;
     border-radius: 5px;
     &:nth-child(1) {
       position: relative;
@@ -299,7 +299,7 @@
     text-transform: uppercase;
     color: $black;
     span {
-      margin-right: 60px;
+      margin-left: 60px;
     }
   }
   

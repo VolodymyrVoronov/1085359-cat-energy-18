@@ -1,5 +1,6 @@
 body {
   @include bm;
+  overflow-x: hidden;
 }
 
 a {

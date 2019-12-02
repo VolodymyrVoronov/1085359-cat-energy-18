@@ -95,9 +95,6 @@
   @include bm;
   @include a;
   color: $light-black;
-  span {
-    display: none;
-  }
 }
 
 @media (min-width: $tablet) {

@@ -38,7 +38,7 @@
   height: 14px;
   margin-top: 3px;
   margin-left: 5px;
-  border: 1px solid $light-gray-3;
+  border: 1px solid $light-gray-three;
   border-radius: 10px;
   &::before {
     position: absolute;
@@ -59,7 +59,7 @@
   height: 14px;
   margin-top: 3px;
   margin-left: 5px;
-  border: 1px solid $light-gray-3;
+  border: 1px solid $light-gray-three;
   border-radius: 10px;
   &::before {
     position: absolute;
@@ -148,7 +148,7 @@
     height: 14px;
     margin-top: 3px;
     margin-left: 5px;
-    border: 1px solid $light-gray-3;
+    border: 1px solid $light-gray-three;
     border-radius: 10px;
     &::before {
       position: absolute;
@@ -168,7 +168,7 @@
     width: 432px;
     height: 6px;
     margin-top: 6px;
-    background-color: $light-gray-6;
+    background-color: $light-gray-three;
     border-radius: 10px;
   }
 
@@ -182,15 +182,15 @@
     height: 33px;
     background-color: $green;
     border: 12px solid $white;
-    box-shadow: 0px 2px 5px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.15);
     border-radius: 50%;
     cursor: pointer;
     &:hover {
-      box-shadow: 0px 2px 5px 5px rgba(0,0,0,0.25);
+      box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.25);
     }
     &:focus {
       position: relative;
-      box-shadow: 0px 2px 5px 5px rgba(0,0,0,0.30);
+      box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.30);
       &::before {
         display: block;
         position: absolute;
@@ -235,7 +235,7 @@
         bottom: -6px;
         width: 45px;
         height: 1px;
-        border-bottom: 1px dotted $light-gray-7;
+        border-bottom: 1px dotted $light-gray-seven;
       }
     }
     &--after {
@@ -257,7 +257,7 @@
         bottom: -6px;
         width: 49px;
         height: 1px;
-        border-bottom: 1px dotted $light-gray-7;
+        border-bottom: 1px dotted $light-gray-seven;
       }
     }
   }
@@ -301,7 +301,7 @@
     height: 14px;
     margin-top: 3px;
     margin-left: 5px;
-    border: 1px solid $light-gray-3;
+    border: 1px solid $light-gray-three;
     border-radius: 10px;
     &::before {
       position: absolute;
@@ -323,7 +323,7 @@
     width: 432px;
     height: 6px;
     margin-top: 6px;
-    background-color: $light-gray-6;
+    background-color: $light-gray-six;
     border-radius: 10px;
   }
 
@@ -337,15 +337,15 @@
     height: 33px;
     background-color: $green;
     border: 12px solid $white;
-    box-shadow: 0px 2px 5px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.15);
     border-radius: 50%;
     cursor: pointer;
     &:hover {
-      box-shadow: 0px 2px 5px 5px rgba(0,0,0,0.25);
+      box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.25);
     }
     &:focus {
       position: relative;
-      box-shadow: 0px 2px 5px 5px rgba(0,0,0,0.30);
+      box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.30);
       &::before {
         display: block;
         position: absolute;
@@ -390,7 +390,7 @@
         bottom: -6px;
         width: 45px;
         height: 1px;
-        border-bottom: 1px dotted $light-gray-7;
+        border-bottom: 1px dotted $light-gray-seven;
       }
     }
     &--after {
@@ -412,7 +412,7 @@
         bottom: -6px;
         width: 49px;
         height: 1px;
-        border-bottom: 1px dotted $light-gray-7;
+        border-bottom: 1px dotted $light-gray-seven;
       }
     }
   }

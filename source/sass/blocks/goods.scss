@@ -20,7 +20,7 @@
     content: "";
     width: 280px;
     height: 1px;
-    background-color: $light-gray-3;
+    background-color: $light-gray-three;
   }
   &::after {
     display: block;
@@ -29,7 +29,7 @@
     bottom: -1px;
     width: 280px;
     height: 1px;
-    background-color: $light-gray-3;
+    background-color: $light-gray-three;
   }
 }
 
@@ -116,6 +116,8 @@
 
 .good__gift-text {
   @include bm;
+  width: 150px;
+  margin: 0 auto;
   span {
     display: block;
   }
@@ -151,7 +153,7 @@
       content: "";
       width: 280px;
       height: 1px;
-      background-color: $light-gray-3;
+      background-color: $light-gray-three;
     }
     &::after {
       display: block;
@@ -161,7 +163,7 @@
       bottom: -1px;
       width: 280px;
       height: 1px;
-      background-color: $light-gray-3;
+      background-color: $light-gray-three;
     }
   }
   
@@ -171,7 +173,7 @@
     @include or;
     font-size: 20px;
     line-height: 26px;
-    color: $light-black-2;
+    color: $light-black-two;
   }
   
   .goods__volume {
@@ -245,11 +247,15 @@
 
   .good__gift-text {
     @include bm;
-    padding-top: 73px;
-    padding-left: 277px;
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 72px;
+    margin-right: 135px;
+    // padding-top: 73px;
+    // padding-left: 277px;
     text-align: left;
     span {
-      display: block;
+      display: inline;
     }
   }
   
@@ -291,7 +297,7 @@
     @include or;
     font-size: 20px;
     line-height: 26px;
-    color: $light-black-2;
+    color: $light-black-two;
   }
   
   .goods__volume {
@@ -365,13 +371,11 @@
 
   .good__gift-text {
     @include bm;
+    width: 200px;
     margin-top: 20px;
     padding-top: 0px;
     padding-left: 0px;
     text-align: center;
-    span {
-      display: block;
-    }
   }
   
 }

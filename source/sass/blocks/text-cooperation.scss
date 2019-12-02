@@ -25,6 +25,9 @@
   font-style: normal;
   color: $black;
   text-align: left;
+  p {
+    margin-top: 0px;
+  }
 }
 
 @media (min-width: $tablet) {
@@ -36,7 +39,7 @@
   .text-cooperation__title {
     @include bm;
     width: 160px;
-    margin-top: 64px;
+    margin-top: 60px;
     margin-left: 42px;
     @include or;
     font-size: 20px;
@@ -52,7 +55,7 @@
   .text-cooperation__address {
     @include bm;
     width: 170px;
-    margin-top: 62px;
+    margin-top: 60px;
     margin-right: 42px;
     @include a;
     font-size: 16px;
@@ -62,6 +65,9 @@
     text-align: right;
     span {
       display: block;
+      margin-top: 20px;
+    }
+    p {
       margin-top: 20px;
     }
   }
@@ -89,9 +95,6 @@
     color: $black;
     text-align: left;
     text-transform: uppercase;
-    span {
-      display: block;
-    }
   }
   
   .text-cooperation__address {

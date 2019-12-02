@@ -11,9 +11,6 @@
   color: $black;
   text-align: left;
   text-transform: uppercase;
-  span {
-    display: block;
-  }
 }
 
 .text-cooperation__address {
@@ -39,7 +36,7 @@
   .text-cooperation__title {
     @include bm;
     width: 160px;
-    margin-top: 60px;
+    margin-top: 62px;
     margin-left: 42px;
     @include or;
     font-size: 20px;
@@ -47,9 +44,6 @@
     color: $black;
     text-align: left;
     text-transform: uppercase;
-    span {
-      display: block;
-    }
   }
   
   .text-cooperation__address {

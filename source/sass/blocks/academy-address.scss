@@ -13,6 +13,7 @@
   line-height: 16px;
   color: $light-black;
   text-decoration: none;
+
   &:focus {
     opacity: 0.3;
   }
@@ -28,12 +29,14 @@
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: 27px 34px;
+
   &:hover {
     background-image: url("../img/main-footer__academy-link--hover.svg");
     background-repeat: no-repeat;
     background-position: 0 0;
     background-size: 27px 34px;
   }
+
   &:focus {
     background-image: url("../img/main-footer__academy-link--focus.svg");
     background-repeat: no-repeat;
@@ -50,7 +53,7 @@
     width: 162px;
     margin-top: 4px;
   }
-  
+
   .academy-address__link {
     @include bm;
     @include a;
@@ -59,7 +62,7 @@
     color: $light-black;
     text-decoration: none;
   }
-  
+
   .academy-address__logo {
     @include bm;
     width: 27px;

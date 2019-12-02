@@ -1,6 +1,6 @@
 var header = document.querySelector(".main-header");
-var menu = header.querySelector (".main-nav");
-var btn = header.querySelector (".main-header__btn-menu");
+var menu = header.querySelector(".main-nav");
+var btn = header.querySelector(".main-header__btn-menu");
 var logo = header.querySelector(".logo");
 
 menu.classList.remove("main-nav--visible");

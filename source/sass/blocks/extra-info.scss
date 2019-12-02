@@ -3,18 +3,29 @@
 }
 
 .extra-info__title {
+  position: relative;
   @include bm;
   margin-top: 28px;
   @include or;
   font-size: 24px;
   line-height: 24px;
   color: $black;
+  &::before {
+    display: block;
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: -20px;
+    width: 136px;
+    height: 3px;
+    background-color: $green;
+  }
 }
 
 .extra-info__options {
   @include bm;
   @include nolist;
-  margin-top: 40px;
+  margin-top: 41px;
 }
 
 .extra-info__option {
@@ -28,14 +39,70 @@
   @include bm;
 }
 
+.extra-info__option-input[type="checkbox"] {
+  display: none;
+}
+
+.extra-info__option-input[type="checkbox"] + .extra-info__option-name {
+  position: relative;
+  &::before {
+    display: block;
+    position: absolute;
+    content: "";
+    top: -5px;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border: 1px solid $light-gray-8;
+    
+  }
+}
+
+.extra-info__option-input[type="checkbox"] + .extra-info__option-name {
+  position: relative;
+  &:hover {
+    &::before {
+    display: block;
+    position: absolute;
+    content: "";
+    top: -5px;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border: 1px solid $light-gray-7;
+    
+  }
+  }
+  
+}
+
+.extra-info__option-input[type="checkbox"]:checked + .extra-info__option-name {
+  position: relative;
+  &::before {
+    display: block;
+    position: absolute;
+    content: "";
+    top: -5px;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    border: 1px solid $light-gray-8;
+    background-image: url("../img/icon-tick--green.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 21px 16px;
+  }
+}
+
 .extra-info__option-name {
   @include bm;
-  padding-left: 34px;
+  padding-left: 46px;
   @include or;
   font-size: 16px;
   line-height: 18px;
   color: $light-black;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 @media (min-width: $tablet) {
@@ -44,12 +111,33 @@
   }
   
   .extra-info__title {
+    position: relative;
     @include bm;
     margin-top: 65px;
     @include or;
     font-size: 36px;
     line-height: 36px;
     color: $black;
+    &::before {
+      display: block;
+      position: absolute;
+      content: "";
+      top: 23px;
+      right: -69px;
+      width: 446px;
+      height: 3px;
+      background-color: $green;
+    }
+    &::after {
+      display: block;
+      position: absolute;
+      content: "";
+      top: 23px;
+      left: -70px;
+      width: 31px;
+      height: 3px;
+      background-color: $green;
+    }
   }
   
   .extra-info__options {
@@ -66,7 +154,7 @@
     @include bm;
     display: flex;
     flex-direction: row;
-    width: 300px;
+    width: 286px;
     margin-bottom: 51px;
   }
   
@@ -74,12 +162,66 @@
     @include bm;
   }
   
+  .extra-info__option-input[type="checkbox"] {
+    display: none;
+  }
+  
+  .extra-info__option-input[type="checkbox"] + .extra-info__option-name {
+    position: relative;
+    &::before {
+      display: block;
+      position: absolute;
+      content: "";
+      top: -10px;
+      left: 1px;
+      width: 40px;
+      height: 40px;
+      border: 1px solid $light-gray-8;
+      
+    }
+  }
+  
+  .extra-info__option-input[type="checkbox"] + .extra-info__option-name {
+    position: relative;
+    &:hover {
+      &::before {
+      display: block;
+      position: absolute;
+      content: "";
+      top: -10px;
+      left: 1px;
+      width: 40px;
+      height: 40px;
+      border: 1px solid $light-gray-7;
+      }
+    }
+  }
+  
+  .extra-info__option-input[type="checkbox"]:checked + .extra-info__option-name {
+    position: relative;
+    &::before {
+      display: block;
+      position: absolute;
+      content: "";
+      top: -10px;
+      left: 1px;
+      width: 40px;
+      height: 40px;
+      border: 1px solid $light-gray-8;
+      background-image: url("../img/icon-tick--green.svg");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 21px 16px;
+    }
+  }
+  
   .extra-info__option-name {
     @include bm;
-    padding-left: 0px;
+    padding-left: 59px;
     @include or;
     font-size: 20px;
     line-height: 20px;
+    text-align: left;
     color: $light-black;
     text-transform: uppercase;
   }
@@ -91,12 +233,33 @@
   }
   
   .extra-info__title {
+    position: relative;
     @include bm;
     margin-top: 67px;
     @include or;
     font-size: 36px;
     line-height: 36px;
     color: $black;
+    &::before {
+      display: block;
+      position: absolute;
+      content: "";
+      top: 22px;
+      right: -71px;
+      width: 1040px;
+      height: 3px;
+      background-color: $green;
+    }
+    &::after {
+      display: block;
+      position: absolute;
+      content: "";
+      top: 22px;
+      left: -72px;
+      width: 31px;
+      height: 3px;
+      background-color: $green;
+    }
   }
   
   .extra-info__options {
@@ -121,10 +284,63 @@
   .extra-info__option-input {
     @include bm;
   }
+
+  .extra-info__option-input[type="checkbox"] {
+    display: none;
+  }
+  
+  .extra-info__option-input[type="checkbox"] + .extra-info__option-name {
+    position: relative;
+    &::before {
+      display: block;
+      position: absolute;
+      content: "";
+      top: -10px;
+      left: 1px;
+      width: 40px;
+      height: 40px;
+      border: 1px solid $light-gray-8;
+      
+    }
+  }
+  
+  .extra-info__option-input[type="checkbox"] + .extra-info__option-name {
+    position: relative;
+    &:hover {
+      &::before {
+      display: block;
+      position: absolute;
+      content: "";
+      top: -10px;
+      left: 1px;
+      width: 40px;
+      height: 40px;
+      border: 1px solid $light-gray-7;
+      }
+    }
+  }
+  
+  .extra-info__option-input[type="checkbox"]:checked + .extra-info__option-name {
+    position: relative;
+    &::before {
+      display: block;
+      position: absolute;
+      content: "";
+      top: -10px;
+      left: 1px;
+      width: 40px;
+      height: 40px;
+      border: 1px solid $light-gray-8;
+      background-image: url("../img/icon-tick--green.svg");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: 21px 16px;
+    }
+  }
   
   .extra-info__option-name {
     @include bm;
-    padding-left: 44px;
+    padding-left: 57px;
     @include or;
     font-size: 20px;
     line-height: 20px;

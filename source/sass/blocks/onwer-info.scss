@@ -3,12 +3,23 @@
 }
 
 .owner-info__title {
+  position: relative;
   @include bm;
   margin-top: 55px;
   @include or;
   font-size: 24px;
   line-height: 24px;
   color: $black;
+  &::before {
+    display: block;
+    position: absolute;
+    content: "";
+    top: 13px;
+    right: -21px;
+    width: 100px;
+    height: 3px;
+    background-color: $green;
+  }
 }
 
 .onwer-info__flieds {
@@ -23,7 +34,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 15px;
+  margin-bottom: 17px;
 }
 
 .owner-info__field-name {
@@ -37,17 +48,45 @@
 
 .owner-info__field-input {
   @include bm;
-  padding: 11px 15px;
+  padding: 12px 15px;
   @include or;
   font-size: 16px;
   line-height: 18px;
   color: $light-black;
   text-transform: uppercase;
+  border: none;
+  outline: 1px solid $gray;
   &--email {
     width: 219px;
+    background-image: url("../img/icon-mail.svg");
+    background-repeat: no-repeat;
+    background-position: 186px 14px;
+    background-size: 17px 13px;
+    &:hover {
+      background-image: url("../img/icon-mail--green.svg");
+      background-repeat: no-repeat;
+      background-position: 186px 14px;
+      background-size: 17px 13px;
+    }
   }
   &--phone {
     width: 204px;
+    background-image: url("../img/icon-phone.svg");
+    background-repeat: no-repeat;
+    background-position: 171px 11px;
+    background-size: 20px 20px;
+    &:hover {
+      background-image: url("../img/icon-phone--green.svg");
+    background-repeat: no-repeat;
+    background-position: 171px 11px;
+    background-size: 20px 20px;
+    }
+  }
+  &:hover {
+    outline: 1px solid  $light-gray-3;
+  }
+  &:focus {
+    outline: 2px solid $light-black;
   }
 }
 
@@ -57,12 +96,33 @@
   }
   
   .owner-info__title {
+    position: relative;
     @include bm;
     margin-top: 75px;
     @include or;
     font-size: 36px;
     line-height: 36px;
     color: $black;
+    &::before {
+      display: block;
+      position: absolute;
+      content: "";
+      top: 21px;
+      right: -70px;
+      width: 146px;
+      height: 3px;
+      background-color: $green;
+    }
+    &::after {
+      display: block;
+      position: absolute;
+      content: "";
+      top: 21px;
+      left: -70px;
+      width: 31px;
+      height: 3px;
+      background-color: $green;
+    }
   }
   
   .onwer-info__flieds {
@@ -91,17 +151,37 @@
   
   .owner-info__field-input {
     @include bm;
-    padding: 14px 20px;
+    padding: 10px 20px;
     @include or;
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 20px;
+    line-height: 20px;
     color: $light-black;
     text-transform: uppercase;
     &--email {
       width: 549px;
+      background-image: url("../img/icon-mail.svg");
+      background-repeat: no-repeat;
+      background-position: 515px 19px;
+      background-size: 17px 13px;
+      &:hover {
+        background-image: url("../img/icon-mail--green.svg");
+      background-repeat: no-repeat;
+      background-position: 515px 19px;
+      background-size: 17px 13px;
+      }
     }
     &--phone {
       width: 534px;
+      background-image: url("../img/icon-phone.svg");
+      background-repeat: no-repeat;
+      background-position: 500px 16px;
+      background-size: 20px 20px;
+      &:hover {
+        background-image: url("../img/icon-phone--green.svg");
+      background-repeat: no-repeat;
+      background-position: 500px 16px;
+      background-size: 20px 20px;
+      }
     }
   }
 }
@@ -113,12 +193,33 @@
   }
   
   .owner-info__title {
+    position: relative;
     @include bm;
     margin-top: 47px;
     @include or;
     font-size: 36px;
     line-height: 36px;
     color: $black;
+    &::before {
+      display: block;
+      position: absolute;
+      content: "";
+      top: 22px;
+      right: -82px;
+      width: 750px;
+      height: 3px;
+      background-color: $green;
+    }
+    &::after {
+      display: block;
+      position: absolute;
+      content: "";
+      top: 22px;
+      left: -72px;
+      width: 31px;
+      height: 3px;
+      background-color: $green;
+    }
   }
   
   .onwer-info__flieds {
@@ -152,17 +253,37 @@
   
   .owner-info__field-input {
     @include bm;
-    padding: 14px 20px;
+    padding: 10px 18px;
     @include or;
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 20px;
+    line-height: 20px;
     color: $light-black;
     text-transform: uppercase;
     &--email {
       width: 485px;
+      background-image: url("../img/icon-mail.svg");
+      background-repeat: no-repeat;
+      background-position: 447px 20px;
+      background-size: 17px 13px;
+      &:hover {
+        background-image: url("../img/icon-mail--green.svg");
+      background-repeat: no-repeat;
+      background-position: 447px 20px;
+      background-size: 17px 13px;
+      }
     }
     &--phone {
       width: 470px;
+      background-image: url("../img/icon-phone.svg");
+      background-repeat: no-repeat;
+      background-position: 430px 17px;
+      background-size: 20px 20px;
+      &:hover {
+        background-image: url("../img/icon-phone--green.svg");
+      background-repeat: no-repeat;
+      background-position: 430px 17px;
+      background-size: 20px 20px;
+      }
     }
   }
 }

@@ -20,10 +20,21 @@
 
 @media (min-width: $tablet) {
   .example {
+    position: relative;
     @include bm;
     margin-top: 25px;
     background-color: $light-gray;
     background: none;
+    &::before {
+      display: block;
+      position: absolute;
+      content: "";
+      bottom: -74px;
+      width: 100%;
+      height: 462px;
+      background-color: $light-gray;
+      z-index: -1;
+    }
   }
   
   .example__container {
@@ -44,10 +55,21 @@
 
 @media (min-width: $desktop) {
   .example {
+    position: relative;
     @include bm;
     margin-top: 25px;
     background-color: $light-gray;
     background: none;
+    &::before {
+      display: block;
+      position: absolute;
+      content: "";
+      bottom: -17px;
+      width: 100%;
+      height: 462px;
+      background-color: $light-gray;
+      z-index: -1;
+    }
   }
   
   .example__container {

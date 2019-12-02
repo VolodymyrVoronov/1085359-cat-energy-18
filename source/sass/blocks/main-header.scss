@@ -123,11 +123,11 @@
     // background-position: -1px 66px;
     // background-repeat: no-repeat;
   }
-  
+
   .main-header--pt {
     padding-top: 265px;
   }
-  
+
   .main-header__container {
     position: relative;
     @include bm;
@@ -140,7 +140,7 @@
     background-repeat: no-repeat;
     background: none;
   }
-  
+
   .main-header__btn-menu {
     position: absolute;
     @include bm;
@@ -153,7 +153,7 @@
     border: none;
     cursor: pointer;
   }
-  
+
   .main-header__btn-menu--pt {
     margin-top: -265px;
   }
@@ -161,7 +161,7 @@
   .main-header__btn-menu--hidden {
     display: none;
   }
-  
+
   .main-header__btn-line {
     position: absolute;
     top: 0;
@@ -169,40 +169,40 @@
     width: 24px;
     height: 2px;
     background-color: $black;
-  
+
     &:nth-child(1) {
       top: 0;
       left: 0;
     }
-  
+
     &:nth-child(2) {
       top: 8px;
       left: 0;
     }
-  
+
     &:nth-child(3) {
       top: 16px;
       left: 0;
     }
   }
-  
-  
+
+
   .main-header__btn-menu--open .main-header__btn-line:nth-child(2) {
     transform: translateY(0px) rotate(-45deg);
   }
-  
+
   .main-header__btn-menu--open .main-header__btn-line:nth-child(3) {
     opacity: 0;
   }
-  
+
   .main-header__btn-menu--open .main-header__btn-line:nth-child(4) {
     transform: translateY(8px) rotate(45deg);
   }
-  
+
   .main-header__text {
     @include bm;
   }
-  
+
   .main-header__photo {
     @include bm;
     width: 709px;
@@ -210,7 +210,7 @@
     margin: 0 auto;
     margin-top: 20px;
   }
-  
+
   .main-header__btn {
     position: absolute;
     @include bm;
@@ -226,11 +226,11 @@
     color: $white;
     text-decoration: none;
     background-color: $bg-green;
-  
+
     &:hover {
       background-color: $bg-green-hover;
     }
-  
+
     &:focus {
       color: $bg-green-focus;
     }
@@ -243,6 +243,7 @@
     @include bm;
     min-height: 696px;
     padding-top: 66px;
+
     // background-image: url("../img/index-background-desktop@1x.jpg");
     // background-position: 674px 0px;
     // background-repeat: no-repeat;
@@ -250,16 +251,17 @@
       min-height: 120px;
       background: none;
     }
+
     &--form {
       min-height: 120px;
       background: none;
     }
   }
-  
+
   .main-header--pt {
     padding-top: 265px;
   }
-  
+
   .main-header__container {
     position: relative;
     @include bm;
@@ -271,6 +273,7 @@
     background-position: 0px 0px;
     background-repeat: no-repeat;
     background: none;
+
     &::after {
       position: absolute;
       @include bm;
@@ -283,18 +286,20 @@
       background-repeat: no-repeat;
       z-index: -1;
     }
+
     &--catalog {
       &::after {
         display: none;
       }
     }
+
     &--form {
       &::after {
         display: none;
       }
     }
   }
-  
+
   .main-header__btn-menu {
     position: absolute;
     @include bm;
@@ -307,7 +312,7 @@
     border: none;
     cursor: pointer;
   }
-  
+
   .main-header__btn-menu--pt {
     margin-top: -265px;
   }
@@ -315,7 +320,7 @@
   .main-header__btn-menu--hidden {
     display: none;
   }
-  
+
   .main-header__btn-line {
     position: absolute;
     top: 0;
@@ -323,40 +328,40 @@
     width: 24px;
     height: 2px;
     background-color: $black;
-  
+
     &:nth-child(1) {
       top: 0;
       left: 0;
     }
-  
+
     &:nth-child(2) {
       top: 8px;
       left: 0;
     }
-  
+
     &:nth-child(3) {
       top: 16px;
       left: 0;
     }
   }
-  
-  
+
+
   .main-header__btn-menu--open .main-header__btn-line:nth-child(2) {
     transform: translateY(0px) rotate(-45deg);
   }
-  
+
   .main-header__btn-menu--open .main-header__btn-line:nth-child(3) {
     opacity: 0;
   }
-  
+
   .main-header__btn-menu--open .main-header__btn-line:nth-child(4) {
     transform: translateY(8px) rotate(45deg);
   }
-  
+
   .main-header__text {
     @include bm;
   }
-  
+
   .main-header__photo {
     @include bm;
     width: 552px;
@@ -365,7 +370,7 @@
     margin-top: -261px;
     margin-left: 450px;
   }
-  
+
   .main-header__btn {
     position: absolute;
     @include bm;
@@ -381,11 +386,11 @@
     color: $white;
     text-decoration: none;
     background-color: $bg-green;
-  
+
     &:hover {
       background-color: $bg-green-hover;
     }
-  
+
     &:focus {
       color: $bg-green-focus;
     }

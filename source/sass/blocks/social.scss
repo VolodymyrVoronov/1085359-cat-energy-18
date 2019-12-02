@@ -7,6 +7,7 @@
   width: 125px;
   margin-left: 72px;
   margin-top: 76px;
+
   &::before {
     display: block;
     position: absolute;
@@ -17,6 +18,7 @@
     height: 1px;
     background-color: $light-gray-two;
   }
+
   &::after {
     display: block;
     position: absolute;
@@ -37,6 +39,7 @@
 .social__website {
   @include bm;
   font-size: 0px;
+
   svg {
     fill: $light-black;
   }
@@ -58,11 +61,13 @@
     width: 10px;
     height: 19px;
   }
+
   &:hover {
     svg {
       fill: $green;
     }
   }
+
   &:focus {
     svg {
       opacity: 0.3;
@@ -80,6 +85,7 @@
     width: 126px;
     margin-left: 19px;
     margin-top: -30px;
+
     &::before {
       display: block;
       display: none;
@@ -91,6 +97,7 @@
       height: 1px;
       background-color: $light-gray-two;
     }
+
     &::after {
       display: block;
       display: none;
@@ -103,31 +110,32 @@
       background-color: $light-gray-two;
     }
   }
-  
+
   .social__link {
     @include bm;
     @include nolist;
   }
-  
+
   .social__website {
     @include bm;
     font-size: 0px;
+
     svg {
       fill: $light-black;
     }
-  
+
     &--vk {
       @include bm;
       width: 30px;
       height: 16px;
     }
-  
+
     &--inst {
       @include bm;
       width: 23px;
       height: 23px;
     }
-  
+
     &--fb {
       @include bm;
       width: 14px;
@@ -145,6 +153,7 @@
     width: 126px;
     margin-left: 19px;
     margin-top: -30px;
+
     &::before {
       display: block;
       display: none;
@@ -156,6 +165,7 @@
       height: 1px;
       background-color: $light-gray-two;
     }
+
     &::after {
       display: block;
       display: none;
@@ -168,31 +178,32 @@
       background-color: $light-gray-two;
     }
   }
-  
+
   .social__link {
     @include bm;
     @include nolist;
   }
-  
+
   .social__website {
     @include bm;
     font-size: 0px;
+
     svg {
       fill: $light-black;
     }
-  
+
     &--vk {
       @include bm;
       width: 30px;
       height: 16px;
     }
-  
+
     &--inst {
       @include bm;
       width: 23px;
       height: 23px;
     }
-  
+
     &--fb {
       @include bm;
       width: 14px;

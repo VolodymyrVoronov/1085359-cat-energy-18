@@ -2,6 +2,7 @@
   position: relative;
   @include bm;
   margin-top: 59px;
+
   &::after {
     display: block;
     position: absolute;
@@ -36,7 +37,8 @@
 
 @media (min-width: $tablet) {
   .text-more {
-  @include bm;
+    @include bm;
+
     &::after {
       display: block;
       display: none;
@@ -49,7 +51,7 @@
       background-color: #ededed;
     }
   }
-  
+
   .text-more__title {
     @include bm;
     width: 324px;
@@ -62,7 +64,7 @@
     text-align: center;
     text-transform: uppercase;
   }
-  
+
   .text-more__text {
     @include bm;
     width: 324px;
@@ -81,6 +83,7 @@
     width: 324px;
     height: 145px;
     margin-top: 120px;
+
     &::after {
       display: block;
       display: none;
@@ -93,7 +96,7 @@
       background-color: #ededed;
     }
   }
-  
+
   .text-more__title {
     @include bm;
     width: 140px;
@@ -104,7 +107,7 @@
     text-align: center;
     text-transform: uppercase;
   }
-  
+
   .text-more__text {
     @include bm;
     width: 170px;

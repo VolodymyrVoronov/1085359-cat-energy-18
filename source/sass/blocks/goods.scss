@@ -14,6 +14,7 @@
   display: flex;
   flex-wrap: wrap;
   height: 129px;
+
   &::before {
     display: block;
     position: absolute;
@@ -22,6 +23,7 @@
     height: 1px;
     background-color: $light-gray-three;
   }
+
   &::after {
     display: block;
     position: absolute;
@@ -100,6 +102,7 @@
   color: $white;
   text-align: center;
   background-image: url("../img/gift-photo-mobile@1x.jpg");
+
   &:hover {
     opacity: 0.95;
   }
@@ -118,6 +121,7 @@
   @include bm;
   width: 170px;
   margin: 0 auto;
+
   span {
     display: block;
   }
@@ -127,13 +131,13 @@
   .goods {
     @include bm;
   }
-  
+
   .goods__items {
     @include bm;
     @include nolist;
     margin-top: 80px;
   }
-  
+
   .goods__item {
     position: relative;
     @include bm;
@@ -146,6 +150,7 @@
     margin-bottom: 1px;
     padding: 24px 37px;
     outline: 1px solid $gray;
+
     &::before {
       display: block;
       display: none;
@@ -155,6 +160,7 @@
       height: 1px;
       background-color: $light-gray-three;
     }
+
     &::after {
       display: block;
       display: none;
@@ -166,7 +172,7 @@
       background-color: $light-gray-three;
     }
   }
-  
+
   .goods__name {
     @include bm;
     width: 315px;
@@ -175,7 +181,7 @@
     line-height: 26px;
     color: $light-black-two;
   }
-  
+
   .goods__volume {
     @include bm;
     width: 192px;
@@ -184,7 +190,7 @@
     line-height: 20px;
     text-align: right;
   }
-  
+
   .goods__price {
     @include bm;
     width: 63px;
@@ -193,7 +199,7 @@
     line-height: 20px;
     text-align: right;
   }
-  
+
   .goods__btn {
     @include bm;
     width: 630px;
@@ -208,16 +214,16 @@
     color: $white;
     text-decoration: none;
     background-color: $bg-green;
-  
+
     &:hover {
       background-color: $bg-green-hover;
     }
-  
+
     &:focus {
       color: $bg-green-focus;
     }
   }
-  
+
   .goods__gift {
     @include bm;
     display: flex;
@@ -234,7 +240,7 @@
     background-image:
       url("../img/gift-photo-tablet@1x.jpg");
   }
-  
+
   .goods__gift-icon {
     width: 55px;
     height: 60px;
@@ -254,11 +260,12 @@
     // padding-top: 73px;
     // padding-left: 277px;
     text-align: left;
+
     span {
       display: inline;
     }
   }
-  
+
 }
 
 @media (min-width: $desktop) {
@@ -268,13 +275,13 @@
     flex-direction: row;
     justify-content: space-between;
   }
-  
+
   .goods__items {
     @include bm;
     @include nolist;
     margin-top: 80px;
   }
-  
+
   .goods__item {
     @include bm;
     display: flex;
@@ -286,11 +293,12 @@
     outline: 1px solid $gray;
     outline: none;
     border-top: 1px solid $gray;
+
     &:last-child {
       border-bottom: 1px solid $gray;
     }
   }
-  
+
   .goods__name {
     @include bm;
     width: 325px;
@@ -299,7 +307,7 @@
     line-height: 26px;
     color: $light-black-two;
   }
-  
+
   .goods__volume {
     @include bm;
     width: 245px;
@@ -309,7 +317,7 @@
     line-height: 18px;
     text-align: left;
   }
-  
+
   .goods__price {
     @include bm;
     width: 80px;
@@ -319,7 +327,7 @@
     line-height: 20px;
     text-align: left;
   }
-  
+
   .goods__btn {
     @include bm;
     width: 245px;
@@ -334,16 +342,16 @@
     color: $white;
     text-decoration: none;
     background-color: $bg-green;
-  
+
     &:hover {
       background-color: $bg-green-hover;
     }
-  
+
     &:focus {
       color: $bg-green-focus;
     }
   }
-  
+
   .goods__gift {
     @include bm;
     display: flex;
@@ -360,7 +368,7 @@
     text-align: center;
     background-image: url("../img/gift-photo-desktop@1x.jpg");
   }
-  
+
   .goods__gift-icon {
     width: 55px;
     height: 60px;
@@ -377,5 +385,5 @@
     padding-left: 0px;
     text-align: center;
   }
-  
+
 }

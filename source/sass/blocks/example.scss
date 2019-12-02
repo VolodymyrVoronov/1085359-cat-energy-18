@@ -25,6 +25,7 @@
     margin-top: 25px;
     background-color: $light-gray;
     background: none;
+
     &::before {
       display: block;
       position: absolute;
@@ -36,18 +37,18 @@
       z-index: -1;
     }
   }
-  
+
   .example__container {
     @include bm;
     @include container(768px, 30px, 30px);
     min-height: 740px;
     border-top: 1px solid $gray;
   }
-  
+
   .exapmle__info {
     @include bm;
   }
-  
+
   .example__slide {
     @include bm;
   }
@@ -60,6 +61,7 @@
     margin-top: 25px;
     background-color: $light-gray;
     background: none;
+
     &::before {
       display: block;
       position: absolute;
@@ -71,7 +73,7 @@
       z-index: -1;
     }
   }
-  
+
   .example__container {
     @include bm;
     display: flex;
@@ -80,13 +82,12 @@
     border-top: 1px solid $gray;
     border: none;
   }
-  
+
   .exapmle__info {
     @include bm;
   }
-  
+
   .example__slide {
     @include bm;
   }
 }
-

@@ -22,6 +22,7 @@
   font-style: normal;
   color: $black;
   text-align: left;
+
   p {
     margin-top: 0px;
   }
@@ -32,7 +33,7 @@
     display: flex;
     justify-content: space-between;
   }
-  
+
   .text-cooperation__title {
     @include bm;
     width: 160px;
@@ -45,7 +46,7 @@
     text-align: left;
     text-transform: uppercase;
   }
-  
+
   .text-cooperation__address {
     @include bm;
     width: 170px;
@@ -57,10 +58,12 @@
     font-style: normal;
     color: $black;
     text-align: right;
+
     span {
       display: block;
       margin-top: 20px;
     }
+
     p {
       margin-top: 20px;
     }
@@ -77,7 +80,7 @@
     margin-top: 95px;
     background-color: $white;
   }
-  
+
   .text-cooperation__title {
     @include bm;
     width: 160px;
@@ -90,7 +93,7 @@
     text-align: left;
     text-transform: uppercase;
   }
-  
+
   .text-cooperation__address {
     @include bm;
     width: 170px;
@@ -102,6 +105,7 @@
     font-style: normal;
     color: $black;
     text-align: left;
+
     span {
       display: block;
       margin-top: 20px;

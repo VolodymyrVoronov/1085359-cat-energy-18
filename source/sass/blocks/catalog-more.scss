@@ -8,24 +8,36 @@
 }
 
 .catalog-more__title {
+  position: relative;
   @include bm;
   margin-top: 29px;
   @include or;
   font-size: 24px;
   line-height: 24px;
   color: $black;
+
+  &::before {
+    display: block;
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: -367px;
+    width: 400px;
+    height: 3px;
+    background-color: $green;
+  }
 }
 
 @media (min-width: $tablet) {
   .catalog-more {
     @include bm;
   }
-  
+
   .catalog-more__container {
     @include bm;
     @include container (768px, 30px, 30px);
   }
-  
+
   .catalog-more__title {
     position: relative;
     @include bm;
@@ -35,25 +47,30 @@
     font-size: 36px;
     line-height: 36px;
     color: $black;
+    z-index: 20;
+
     &::before {
       display: block;
       position: absolute;
       content: "";
-      left: -80px;
+      left: -2000px;
       top: 22px;
-      width: 40px;
+      width: 5000px;
       height: 3px;
       background-color: $green;
+      z-index: -1;
     }
+
     &::after {
       display: block;
       position: absolute;
       content: "";
-      left: 373px;
+      left: -42px;
       top: 22px;
-      width: 330px;
-      height: 3px;
-      background-color: $green;
+      width: 414px;
+      height: 6px;
+      background-color: $white;
+      z-index: -1;
     }
   }
 }
@@ -62,12 +79,12 @@
   .catalog-more {
     @include bm;
   }
-  
+
   .catalog-more__container {
     @include bm;
     @include container (1300px, 40px, 40px);
   }
-  
+
   .catalog-more__title {
     position: relative;
     @include bm;
@@ -77,25 +94,30 @@
     font-size: 36px;
     line-height: 36px;
     color: $black;
+    z-index: 20;
+
     &::before {
       display: block;
       position: absolute;
       content: "";
-      left: -80px;
+      left: -2000px;
       top: 22px;
-      width: 40px;
+      width: 5000px;
       height: 3px;
       background-color: $green;
+      z-index: -1;
     }
+
     &::after {
       display: block;
       position: absolute;
       content: "";
-      left: 372px;
+      left: -42px;
       top: 22px;
-      width: 910px;
-      height: 3px;
-      background-color: $green;
+      width: 414px;
+      height: 6px;
+      background-color: $white;
+      z-index: -1;
     }
   }
 }

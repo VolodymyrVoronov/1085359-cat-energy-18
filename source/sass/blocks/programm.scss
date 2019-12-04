@@ -37,12 +37,12 @@
     @include bm;
     // margin-bottom: 58px;
   }
-  
+
   .programm__container {
     @include bm;
     @include container(768px, 30px, 30px);
   }
-  
+
   .programm__title {
     @include bm;
     margin-top: 57px;
@@ -51,7 +51,7 @@
     line-height: 60px;
     color: $black;
   }
-  
+
   .programm__text {
     @include bm;
     margin-top: 55px;
@@ -63,7 +63,7 @@
     color: $light-black;
     text-transform: uppercase;
   }
-  
+
   .programm__form {
     @include bm;
   }
@@ -73,12 +73,12 @@
   .programm {
     @include bm;
   }
-  
+
   .programm__container {
     @include bm;
     @include container (1300px, 40px, 40px);
   }
-  
+
   .programm__title {
     @include bm;
     margin-top: 67px;
@@ -87,7 +87,7 @@
     line-height: 60px;
     color: $black;
   }
-  
+
   .programm__text {
     @include bm;
     margin-top: 57px;
@@ -99,7 +99,7 @@
     color: $light-black;
     text-transform: uppercase;
   }
-  
+
   .programm__form {
     @include bm;
   }

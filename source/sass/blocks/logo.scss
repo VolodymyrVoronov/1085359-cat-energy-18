@@ -15,10 +15,12 @@
   @include bm;
   width: 190px;
   height: 40px;
+
   &--active {
     &:hover {
       opacity: 0.8;
     }
+
     &:focus {
       opacity: 0.6;
     }
@@ -34,19 +36,21 @@
     padding-top: 13px;
     padding-left: 0px;
   }
-  
+
   .logo--pt {
     margin-top: 0px;
   }
-  
+
   .logo__link {
     @include bm;
     width: 173px;
     height: 58px;
+
     &--active {
       &:hover {
         opacity: 0.8;
       }
+
       &:focus {
         opacity: 0.6;
       }
@@ -63,19 +67,21 @@
     padding-top: 13px;
     padding-left: 0;
   }
-  
+
   .logo--pt {
     margin-top: 0px;
   }
-  
+
   .logo__link {
     @include bm;
     width: 202px;
     height: 59px;
+
     &--active {
       &:hover {
         opacity: 0.8;
       }
+
       &:focus {
         opacity: 0.6;
       }

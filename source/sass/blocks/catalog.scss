@@ -16,6 +16,7 @@
   font-size: 36px;
   line-height: 60px;
   color: $black;
+
   &::before {
     position: absolute;
     content: "";
@@ -86,6 +87,7 @@
   text-decoration: none;
   border: none;
   outline: none;
+
   &:hover {
     background-color: $bg-green-hover;
     cursor: pointer;
@@ -94,15 +96,18 @@
   &:focus {
     color: $bg-green-focus;
   }
+
   &--color-gray {
     margin-top: 0px;
     color: $black;
     background-color: $gray;
+
     &:hover {
-      background-color: $light-gray-4;
+      background-color: $light-gray-four;
     }
+
     &:focus {
-      color: $light-gray-5;
+      color: $light-gray-five;
     }
   }
 }
@@ -111,12 +116,12 @@
   .catalog {
     @include bm;
   }
-  
+
   .catalog__container {
     @include bm;
     @include container(768px, 30px, 30px);
   }
-  
+
   .catalog__title {
     position: relative;
     @include bm;
@@ -126,6 +131,7 @@
     font-size: 60px;
     line-height: 60px;
     color: $black;
+
     &::before {
       position: absolute;
       display: none;
@@ -137,7 +143,7 @@
       background-color: #ededed;
     }
   }
-  
+
   .catalog__items {
     @include bm;
     @include nolist;
@@ -147,7 +153,7 @@
     justify-content: space-between;
     margin-top: 0px;
   }
-  
+
   .catalog__item {
     position: relative;
     @include bm;
@@ -158,7 +164,7 @@
     height: 430px;
     margin-top: 140px;
     background-color: $light-gray;
-  
+
     &::before {
       position: absolute;
       display: none;
@@ -169,32 +175,34 @@
       height: 1px;
       background-color: #ededed;
     }
-    
+
     &:last-child {
       outline: 1px solid $gray;
       background: none;
     }
   }
-  
+
   .catalog__img {
     @include bm;
+
     &--big {
       margin-top: -82px;
     }
+
     &--small {
       margin-top: -46px;
     }
   }
-  
+
   .catalog__text {
     @include bm;
     width: 249px;
   }
-  
+
   .catalog__text-more {
     @include bm;
   }
-  
+
   .catalog__btn {
     @include bm;
     width: 249px;
@@ -213,23 +221,27 @@
     text-decoration: none;
     border: none;
     outline: none;
+
     &:hover {
       background-color: $bg-green-hover;
       cursor: pointer;
     }
-  
+
     &:focus {
       color: $bg-green-focus;
     }
+
     &--color-gray {
       margin-top: 50px;
       color: $black;
       background-color: $gray;
+
       &:hover {
-        background-color: $light-gray-4;
+        background-color: $light-gray-four;
       }
+
       &:focus {
-        color: $light-gray-5;
+        color: $light-gray-five;
       }
     }
   }
@@ -239,12 +251,12 @@
   .catalog {
     @include bm;
   }
-  
+
   .catalog__container {
     @include bm;
     @include container(1300px, 40px, 40px);
   }
-  
+
   .catalog__title {
     position: relative;
     @include bm;
@@ -254,6 +266,7 @@
     font-size: 60px;
     line-height: 60px;
     color: $black;
+
     &::before {
       position: absolute;
       display: none;
@@ -265,7 +278,7 @@
       background-color: #ededed;
     }
   }
-  
+
   .catalog__items {
     @include bm;
     @include nolist;
@@ -275,7 +288,7 @@
     justify-content: space-between;
     margin-top: 0px;
   }
-  
+
   .catalog__item {
     position: relative;
     @include bm;
@@ -286,7 +299,7 @@
     height: 434px;
     margin-top: 139px;
     background-color: $light-gray;
-  
+
     &::before {
       position: absolute;
       display: none;
@@ -298,26 +311,28 @@
       background-color: #ededed;
     }
   }
-  
+
   .catalog__img {
     @include bm;
+
     &--big {
       margin-top: -82px;
     }
+
     &--small {
       margin-top: -46px;
     }
   }
-  
+
   .catalog__text {
     @include bm;
     width: 169px;
   }
-  
+
   .catalog__text-more {
     @include bm;
   }
-  
+
   .catalog__btn {
     @include bm;
     width: 169px;
@@ -336,24 +351,28 @@
     text-decoration: none;
     border: none;
     outline: none;
+
     &:hover {
       background-color: $bg-green-hover;
       cursor: pointer;
     }
-  
+
     &:focus {
       color: $bg-green-focus;
     }
+
     &--color-gray {
       @include bm;
       margin: 0 auto;
       color: $black;
       background-color: $gray;
+
       &:hover {
-        background-color: $light-gray-4;
+        background-color: $light-gray-four;
       }
+
       &:focus {
-        color: $light-gray-5;
+        color: $light-gray-five;
       }
     }
   }

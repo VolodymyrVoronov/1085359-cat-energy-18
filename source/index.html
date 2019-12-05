@@ -48,9 +48,19 @@
       </div>
         <picture>
           <source 
+            type="image/webp"
+            media="(min-width: 1300px)" 
+            srcset="img/index-can-desktop@1x.webp 1x,
+                    img/index-can-desktop@2x.webp 2x">
+          <source 
             media="(min-width: 1300px)" 
             srcset="img/index-can-desktop@1x.png 1x,
                     img/index-can-desktop@2x.png 2x">
+          <source 
+            type="image/webp"
+            media="(min-width: 768px)" 
+            srcset="img/index-can-tablet@1x.webp 1x,
+                    img/index-can-tablet@2x.webp 2x">
           <source 
             media="(min-width: 768px)" 
             srcset="img/index-can-tablet@1x.jpg 1x,
@@ -58,7 +68,9 @@
           <img 
             class="main-header__photo"
             src="img/index-can-mobile@1x.png" 
-            srcset="img/index-can-mobile@2x.png 2x"      
+            srcset="img/index-can-mobile@1x.webp 1x,
+                    img/index-can-mobile@2x.webp 2x,
+                    img/index-can-mobile@2x.png 2x"   
             alt="Банка с питанием">
         </picture>
         <a href="form.html" class="main-header__btn btn">Подобрать программу</a>
@@ -121,13 +133,28 @@
           <picture>
             <span class="visually-hidden">Фото кота до программы</span>
             <source 
+              type="image/webp"
+              media="(min-width: 1300px)" 
+              srcset="img/before-desktop@1x.webp 1x,
+                      img/before-desktop@2x.webp 2x">
+            <source 
               media="(min-width: 1300px)" 
               srcset="img/before-desktop@1x.png 1x,
                       img/before-desktop@2x.png 2x">
             <source 
+              type="image/webp"
+              media="(min-width: 768px)" 
+              srcset="img/before-tablet@1x.webp 1x,
+                      img/before-tablet@2x.webp 2x">
+            <source 
               media="(min-width: 768px)" 
               srcset="img/before-tablet@1x.png 1x,
                       img/before-tablet@2x.png 2x">
+            <source 
+              type="image/webp"
+              media="(min-width: 320px)" 
+              srcset="img/before-mobile@1x.webp 1x,
+                      img/before-mobile@2x.webp 2x">
             <img 
               class="slide-example__photo slide-example__photo--before"
               src="img/before-mobile@1x.png" 
@@ -136,14 +163,29 @@
           </picture>
           <picture>
             <span class="visually-hidden">Фото кота после программы</span>
+            <source
+              type="image/webp"
+              media="(min-width: 1300px)" 
+              srcset="img/after-desktop@1x.webp 1x,
+                      img/after-desktop@2x.webp 2x">
             <source 
               media="(min-width: 1300px)" 
               srcset="img/after-desktop@1x.png 1x,
                       img/after-desktop@2x.png 2x">
             <source 
+              type="image/webp"
+              media="(min-width: 768px)" 
+              srcset="img/after-tablet@1x.webp 1x,
+                      img/after-tablet@2x.webp 2x">  
+            <source 
               media="(min-width: 768px)" 
               srcset="img/after-tablet@1x.png 1x,
                       img/after-tablet@2x.png 2x">
+            <source 
+              type="image/webp"
+              media="(min-width: 320px)" 
+              srcset="img/after-mobile@1x.webp 1x,
+                      img/after-mobile@2x.webp 2x">
             <img 
               class="slide-example__photo slide-example__photo--after"
               src="img/after-mobile@1x.png" 
@@ -170,7 +212,7 @@
       </div>
     </div>
     <div class="cooperation__map">
-        <!-- <iframe class="cooperation__google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037872533277!2d30.320858716096975!3d59.93871648187614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCDQoNC-0YHRgdC40Y8sIDE5MTE4Ng!5e0!3m2!1sru!2sde!4v1574016208911!5m2!1sru!2sde" width="" height="" frameborder="0"" allowfullscreen=""></iframe> -->
+        <iframe class="cooperation__google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037872533277!2d30.320858716096975!3d59.93871648187614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCDQoNC-0YHRgdC40Y8sIDE5MTE4Ng!5e0!3m2!1sru!2sde!4v1574016208911!5m2!1sru!2sde" width="" height="" frameborder="0" allowfullscreen=""></iframe>
     </div>
   </section>
   <footer class="main-footer">

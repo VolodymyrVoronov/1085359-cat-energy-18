@@ -97,7 +97,7 @@
   display: none;
 }
 
-.form-block__radio input[type="radio"]+.form-block__radio-name {
+.form-block__radio input[type="radio"] + .form-block__radio-name {
   position: relative;
 
   &::before {
@@ -113,7 +113,7 @@
   }
 }
 
-.form-block__radio input[type="radio"]:checked+.form-block__radio-name {
+.form-block__radio input[type="radio"]:checked + .form-block__radio-name {
   &::before {
     display: block;
     position: absolute;
@@ -274,7 +274,7 @@
     display: none;
   }
 
-  .form-block__radio input[type="radio"]+.form-block__radio-name {
+  .form-block__radio input[type="radio"] + .form-block__radio-name {
     position: relative;
 
     &::before {
@@ -290,7 +290,7 @@
     }
   }
 
-  .form-block__radio input[type="radio"]:checked+.form-block__radio-name {
+  .form-block__radio input[type="radio"]:checked + .form-block__radio-name {
     &::before {
       display: block;
       position: absolute;
@@ -457,7 +457,7 @@
     display: none;
   }
 
-  .form-block__radio input[type="radio"]+.form-block__radio-name {
+  .form-block__radio input[type="radio"] + .form-block__radio-name {
     position: relative;
 
     &::before {
@@ -473,7 +473,7 @@
     }
   }
 
-  .form-block__radio input[type="radio"]:checked+.form-block__radio-name {
+  .form-block__radio input[type="radio"]:checked + .form-block__radio-name {
     &::before {
       display: block;
       position: absolute;

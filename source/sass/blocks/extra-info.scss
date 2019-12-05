@@ -44,7 +44,7 @@
   display: none;
 }
 
-.extra-info__option-input[type="checkbox"]+.extra-info__option-name {
+.extra-info__option-input[type="checkbox"] + .extra-info__option-name {
   position: relative;
 
   &::before {
@@ -59,7 +59,7 @@
   }
 }
 
-.extra-info__option-input[type="checkbox"]+.extra-info__option-name {
+.extra-info__option-input[type="checkbox"] + .extra-info__option-name {
   position: relative;
 
   &:hover {
@@ -172,7 +172,7 @@
     display: none;
   }
 
-  .extra-info__option-input[type="checkbox"]+.extra-info__option-name {
+  .extra-info__option-input[type="checkbox"] + .extra-info__option-name {
     position: relative;
 
     &::before {
@@ -187,7 +187,7 @@
     }
   }
 
-  .extra-info__option-input[type="checkbox"]+.extra-info__option-name {
+  .extra-info__option-input[type="checkbox"] + .extra-info__option-name {
     position: relative;
 
     &:hover {
@@ -302,7 +302,7 @@
     display: none;
   }
 
-  .extra-info__option-input[type="checkbox"]+.extra-info__option-name {
+  .extra-info__option-input[type="checkbox"] + .extra-info__option-name {
     position: relative;
 
     &::before {
@@ -317,7 +317,7 @@
     }
   }
 
-  .extra-info__option-input[type="checkbox"]+.extra-info__option-name {
+  .extra-info__option-input[type="checkbox"] + .extra-info__option-name {
     position: relative;
 
     &:hover {

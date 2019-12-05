@@ -128,7 +128,6 @@
   }
 
   .catalog__container {
-    
     @include bm;
     @include container(768px, 30px, 30px);
   }

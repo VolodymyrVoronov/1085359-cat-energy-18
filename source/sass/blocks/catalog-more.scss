@@ -9,8 +9,10 @@
 
 .catalog-more__title {
   position: relative;
+
   @include bm;
   margin-top: 29px;
+
   @include or;
   font-size: 24px;
   line-height: 24px;
@@ -40,9 +42,11 @@
 
   .catalog-more__title {
     position: relative;
+
     @include bm;
     margin-top: 68px;
     margin-left: 38px;
+
     @include or;
     font-size: 36px;
     line-height: 36px;
@@ -82,14 +86,17 @@
 
   .catalog-more__container {
     @include bm;
+
     @include container (1300px, 40px, 40px);
   }
 
   .catalog-more__title {
     position: relative;
+
     @include bm;
     margin-top: 71px;
-    margin-left: 0px;
+    margin-left: 0;
+    
     @include or;
     font-size: 36px;
     line-height: 36px;

@@ -414,17 +414,17 @@
 
   .diatprogramm {
     @include bm;
-    margin-top: 0px;
+    margin-top: 0;
     width: 570px;
     min-height: 372px;
     background-color: $light-gray;
 
     &:nth-child(2) {
-      margin-top: 0px;
+      margin-top: 0;
     }
 
     &:nth-child(2) {
-      padding-right: 0px;
+      padding-right: 0;
     }
   }
 
@@ -526,8 +526,8 @@
     display: inline-flex;
     margin-top: 30px;
     margin-left: 52px;
-    padding-top: 0px;
-    padding-left: 0px;
+    padding-top: 0;
+    padding-left: 0;
 
     @include or;
     font-size: 20px;

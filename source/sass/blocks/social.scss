@@ -1,5 +1,6 @@
 .social {
   position: relative;
+
   @include bm;
   display: flex;
   justify-content: space-between;
@@ -79,6 +80,7 @@
 @media (min-width: $tablet) {
   .social {
     @include bm;
+
     display: flex;
     justify-content: space-between;
     align-items: center;

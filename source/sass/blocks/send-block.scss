@@ -7,6 +7,7 @@
   width: 280px;
   margin-top: 40px;
   padding: 11px 0;
+
   @include or;
   font-size: 16px;
   line-height: 20px;
@@ -31,6 +32,7 @@
 .send-block__obligatorily {
   @include bm;
   margin-top: 20px;
+
   @include a;
   font-size: 14px;
   line-height: 16px;
@@ -50,6 +52,7 @@
     width: 285px;
     margin-top: 14px;
     padding: 16px 0;
+
     @include or;
     font-size: 20px;
     line-height: 20px;
@@ -75,6 +78,7 @@
     @include bm;
     margin-top: 30px;
     margin-left: 62px;
+
     @include a;
     font-size: 16px;
     line-height: 16px;
@@ -95,6 +99,7 @@
     width: 568px;
     margin-top: 20px;
     padding: 16px 0;
+
     @include or;
     font-size: 20px;
     line-height: 20px;
@@ -120,6 +125,7 @@
     @include bm;
     margin-top: 37px;
     margin-left: 82px;
+
     @include a;
     font-size: 16px;
     line-height: 16px;

@@ -1,5 +1,6 @@
 .main-header {
   position: relative;
+
   @include bm;
   padding-top: 66px;
   // background-image: url("../img/index-background-mobile@1x.jpg");
@@ -13,22 +14,27 @@
 
 .main-header__container {
   position: relative;
+
   @include bm;
   @include container(320px, 20px, 20px);
-  background-image: url("../img/index-background-mobile@1x.jpg");
-  background-image: url("../img/index-background-mobile@1x.webp");
+  background-image: 
+    url("../img/index-background-mobile@1x.jpg"),
+    url("../img/index-background-mobile@1x.webp");
   background-position: 0px 0px;
   background-repeat: no-repeat;
+
   @media (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
-    background-image: url("../img/index-background-mobile@2x.jpg");
-    background-image: url("../img/index-background-mobile@2x.webp");
-  background-position: 0px 0px;
-  background-repeat: no-repeat;
+    background-image: 
+      url("../img/index-background-mobile@2x.jpg"),
+      url("../img/index-background-mobile@2x.webp");
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
   }
 }
 
 .main-header__btn-menu {
   position: absolute;
+
   @include bm;
   top: 23px;
   left: 276px;
@@ -68,7 +74,6 @@
   }
 }
 
-
 .main-header__btn-menu--open .main-header__btn-line:nth-child(2) {
   transform: translateY(0px) rotate(-45deg);
 }
@@ -103,6 +108,7 @@
   width: 280px;
   margin-top: 3px;
   padding: 11.5px 0;
+
   @include or;
   font-size: 14px;
   line-height: 18px;
@@ -124,6 +130,7 @@
 @media (min-width: $tablet) {
   .main-header {
     position: relative;
+
     @include bm;
     padding-top: 66px;
     // background-image: url("../img/index-background-mobile@1x.jpg");
@@ -137,6 +144,7 @@
 
   .main-header__container {
     position: relative;
+
     @include bm;
     @include container(768px, 30px, 30px);
     display: flex;
@@ -150,6 +158,7 @@
 
   .main-header__btn-menu {
     position: absolute;
+
     @include bm;
     top: 23px;
     left: 276px;
@@ -225,6 +234,7 @@
     margin-top: 303px;
     margin-left: 89px;
     padding: 16px 0;
+
     @include or;
     font-size: 20px;
     line-height: 20px;
@@ -247,6 +257,7 @@
 @media (min-width: $desktop) {
   .main-header {
     position: relative;
+
     @include bm;
     min-height: 696px;
     padding-top: 66px;
@@ -271,6 +282,7 @@
 
   .main-header__container {
     position: relative;
+
     @include bm;
     @include container(1300px, 40px, 40px);
     display: flex;
@@ -289,8 +301,9 @@
       right: -69px;
       width: 720px;
       height: 696px;
-      background-image: url("../img/index-background-desktop@1x.jpg");
-      background-image: url("../img/index-background-desktop@1x.webp");
+      background-image: 
+        url("../img/index-background-desktop@1x.jpg"),
+        url("../img/index-background-desktop@1x.webp");
       background-repeat: no-repeat;
       z-index: -1;
     }
@@ -303,8 +316,9 @@
         right: -69px;
         width: 720px;
         height: 696px;
-        background-image: url("../img/index-background-desktop@2x.jpg");
-        background-image: url("../img/index-background-desktop@2x.webp");
+        background-image: 
+          url("../img/index-background-desktop@2x.jpg"),
+          url("../img/index-background-desktop@2x.webp");
         background-repeat: no-repeat;
         z-index: -1;
       }
@@ -325,6 +339,7 @@
 
   .main-header__btn-menu {
     position: absolute;
+
     @include bm;
     top: 23px;
     left: 276px;
@@ -396,11 +411,13 @@
 
   .main-header__btn {
     position: absolute;
+
     @include bm;
     width: 245px;
     margin-top: 390px;
     margin-left: 80px;
     padding: 16px 0;
+
     @include or;
     font-size: 20px;
     line-height: 20px;

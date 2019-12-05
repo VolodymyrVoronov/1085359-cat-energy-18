@@ -78,7 +78,7 @@
   }
 }
 
-.extra-info__option-input[type="checkbox"]:checked+.extra-info__option-name {
+.extra-info__option-input[type="checkbox"]:checked + .extra-info__option-name {
   position: relative;
 
   &::before {
@@ -209,7 +209,7 @@
     }
   }
 
-  .extra-info__option-input[type="checkbox"]:checked+.extra-info__option-name {
+  .extra-info__option-input[type="checkbox"]:checked + .extra-info__option-name {
     position: relative;
 
     &::before {
@@ -342,7 +342,7 @@
     }
   }
 
-  .extra-info__option-input[type="checkbox"]:checked+.extra-info__option-name {
+  .extra-info__option-input[type="checkbox"]:checked + .extra-info__option-name {
     position: relative;
 
     &::before {

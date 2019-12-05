@@ -11,6 +11,7 @@
 .programm__title {
   @include bm;
   margin-top: 15px;
+
   @include or;
   font-size: 36px;
   line-height: 60px;
@@ -21,6 +22,7 @@
   @include bm;
   margin-top: 26px;
   padding-right: 20px;
+
   @include or;
   font-size: 14px;
   line-height: 18px;
@@ -46,6 +48,7 @@
   .programm__title {
     @include bm;
     margin-top: 57px;
+
     @include or;
     font-size: 60px;
     line-height: 60px;
@@ -57,6 +60,7 @@
     margin-top: 55px;
     padding-left: 40px;
     padding-right: 300px;
+
     @include or;
     font-size: 20px;
     line-height: 30px;
@@ -82,6 +86,7 @@
   .programm__title {
     @include bm;
     margin-top: 67px;
+
     @include or;
     font-size: 60px;
     line-height: 60px;
@@ -91,8 +96,9 @@
   .programm__text {
     @include bm;
     margin-top: 57px;
-    padding-left: 0px;
+    padding-left: 0;
     padding-right: 850px;
+
     @include or;
     font-size: 20px;
     line-height: 30px;

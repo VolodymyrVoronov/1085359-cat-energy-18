@@ -46,6 +46,11 @@
     width: 173px;
     height: 58px;
 
+    img {
+      width: 173px;
+      height: 58px;
+    }
+
     &--active {
       &:hover {
         opacity: 0.8;
@@ -76,6 +81,11 @@
     @include bm;
     width: 202px;
     height: 59px;
+
+    img {
+      width: 202px;
+      height: 59px;
+    }
 
     &--active {
       &:hover {

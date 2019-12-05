@@ -1,10 +1,11 @@
 .logo {
   position: absolute;
   @include bm;
+
   min-height: 65px;
   margin-top: -65px;
   padding-top: 13px;
-  padding-left: 0px;
+  padding-left: 0;
 }
 
 .logo--pt {
@@ -34,7 +35,7 @@
     min-height: 65px;
     margin-top: -54px;
     padding-top: 13px;
-    padding-left: 0px;
+    padding-left: 0;
   }
 
   .logo--pt {
@@ -45,6 +46,11 @@
     @include bm;
     width: 173px;
     height: 58px;
+
+    img {
+      width: 173px;
+      height: 58px;
+    }
 
     &--active {
       &:hover {
@@ -61,6 +67,7 @@
 @media (min-width: $desktop) {
   .logo {
     position: relative;
+
     @include bm;
     min-height: 65px;
     margin-top: -26px;
@@ -69,13 +76,18 @@
   }
 
   .logo--pt {
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   .logo__link {
     @include bm;
     width: 202px;
     height: 59px;
+
+    img {
+      width: 202px;
+      height: 59px;
+    }
 
     &--active {
       &:hover {

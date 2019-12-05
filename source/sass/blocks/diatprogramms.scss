@@ -6,6 +6,7 @@
   @include bm;
   display: flex;
   flex-direction: column;
+
   @include container(320px, 20px, 20px);
 }
 
@@ -23,9 +24,11 @@
 
 .diatprogramms__title {
   position: relative;
+
   @include bm;
   padding-top: 30px;
   padding-left: 91px;
+
   @include or;
   font-size: 24px;
   line-height: 37px;
@@ -87,10 +90,12 @@
 
 .diatprogramms__text {
   position: relative;
+
   @include bm;
   padding-top: 29px;
   padding-left: 20px;
   padding-right: 23px;
+
   @include a;
   color: $light-black;
 
@@ -107,9 +112,11 @@
 
 .diatprogramms__catalog-link {
   position: relative;
+
   @include bm;
   padding-top: 42px;
   padding-left: 20px;
+
   @include or;
   font-size: 16px;
   line-height: 16px;
@@ -194,12 +201,13 @@
     @include bm;
     display: flex;
     flex-direction: column;
+
     @include container(768px, 30px, 30px);
   }
 
   .diatprogramm {
     @include bm;
-    margin-top: 0px;
+    margin-top: 0;
     width: 708px;
     min-height: 372px;
     background-color: $light-gray;
@@ -215,9 +223,11 @@
 
   .diatprogramms__title {
     position: relative;
+
     @include bm;
     padding-top: 76px;
     padding-left: 54px;
+
     @include or;
     font-size: 36px;
     line-height: 37px;
@@ -279,10 +289,12 @@
 
   .diatprogramms__text {
     position: relative;
+
     @include bm;
     padding-top: 25px;
     padding-left: 52px;
     padding-right: 280px;
+
     @include a;
     color: $light-black;
     font-size: 16px;
@@ -302,10 +314,12 @@
 
   .diatprogramms__catalog-link {
     position: relative;
+
     @include bm;
     display: inline-flex;
     padding-top: 57px;
     padding-left: 52px;
+
     @include or;
     font-size: 20px;
     line-height: 20px;
@@ -394,30 +408,33 @@
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+
     @include container(1300px, 40px, 40px);
   }
 
   .diatprogramm {
     @include bm;
-    margin-top: 0px;
+    margin-top: 0;
     width: 570px;
     min-height: 372px;
     background-color: $light-gray;
 
     &:nth-child(2) {
-      margin-top: 0px;
+      margin-top: 0;
     }
 
     &:nth-child(2) {
-      padding-right: 0px;
+      padding-right: 0;
     }
   }
 
   .diatprogramms__title {
     position: relative;
+
     @include bm;
     padding-top: 76px;
     padding-left: 215px;
+
     @include or;
     font-size: 36px;
     line-height: 37px;
@@ -479,10 +496,12 @@
 
   .diatprogramms__text {
     position: relative;
+
     @include bm;
     padding-top: 75px;
     padding-left: 52px;
     padding-right: 30px;
+
     @include a;
     color: $light-black;
     font-size: 16px;
@@ -502,12 +521,14 @@
 
   .diatprogramms__catalog-link {
     position: relative;
+
     @include bm;
     display: inline-flex;
     margin-top: 30px;
     margin-left: 52px;
-    padding-top: 0px;
-    padding-left: 0px;
+    padding-top: 0;
+    padding-left: 0;
+
     @include or;
     font-size: 20px;
     line-height: 20px;

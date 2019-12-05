@@ -8,6 +8,7 @@
 .academy-address__link {
   @include bm;
   margin-top: 9px;
+
   @include a;
   font-size: 16px;
   line-height: 16px;
@@ -23,7 +24,7 @@
   @include bm;
   width: 27px;
   height: 34px;
-  margin-top: 0px;
+  margin-top: 0;
   margin-left: auto;
   background-image: url("../img/main-footer__academy-link.svg");
   background-repeat: no-repeat;
@@ -51,7 +52,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 162px;
-    margin-top: 4px;
+    margin-top: 2px;
   }
 
   .academy-address__link {

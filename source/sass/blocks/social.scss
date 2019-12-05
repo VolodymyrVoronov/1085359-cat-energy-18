@@ -1,12 +1,13 @@
 .social {
   position: relative;
+
   @include bm;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   width: 125px;
   margin-left: 72px;
-  margin-top: 76px;
+  margin-top: 75px;
 
   &::before {
     display: block;
@@ -79,6 +80,7 @@
 @media (min-width: $tablet) {
   .social {
     @include bm;
+
     display: flex;
     justify-content: space-between;
     align-items: center;

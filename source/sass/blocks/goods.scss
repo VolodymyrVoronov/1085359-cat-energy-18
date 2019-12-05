@@ -10,6 +10,7 @@
 
 .goods__item {
   position: relative;
+
   @include bm;
   display: flex;
   flex-wrap: wrap;
@@ -39,6 +40,7 @@
   @include bm;
   width: 280px;
   margin-top: 8px;
+
   @include or;
   font-size: 16px;
   line-height: 26px;
@@ -49,6 +51,7 @@
 .goods__volume {
   @include bm;
   margin-top: -5px;
+
   @include a;
   font-size: 14px;
   line-height: 14px;
@@ -58,6 +61,7 @@
   @include bm;
   margin-top: -5px;
   margin-left: auto;
+
   @include a;
   font-size: 14px;
   line-height: 14px;
@@ -69,6 +73,7 @@
   height: 40px;
   margin-top: -2px;
   padding: 9px 0;
+
   @include or;
   font-size: 16px;
   line-height: 20px;
@@ -95,13 +100,22 @@
   min-height: 289px;
   margin-top: 40px;
   margin-bottom: 64px;
-  padding: 0px 40px;
+  padding: 0 40px;
+
   @include a;
   font-size: 16px;
   line-height: 20px;
   color: $white;
   text-align: center;
-  background-image: url("../img/gift-photo-mobile@1x.jpg");
+  background-image:
+    url("../img/gift-photo-mobile@1x.jpg"),
+    url("../img/gift-photo-mobile@1x.webp");
+
+  @media (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
+    background-image:
+      url("../img/gift-photo-mobile@2x.jpg"),
+      url("../img/gift-photo-mobile@2x.webp");
+  }
 
   &:hover {
     opacity: 0.95;
@@ -140,6 +154,7 @@
 
   .goods__item {
     position: relative;
+
     @include bm;
     display: flex;
     flex-wrap: wrap;
@@ -176,6 +191,7 @@
   .goods__name {
     @include bm;
     width: 315px;
+
     @include or;
     font-size: 20px;
     line-height: 26px;
@@ -185,6 +201,7 @@
   .goods__volume {
     @include bm;
     width: 192px;
+
     @include a;
     font-size: 16px;
     line-height: 20px;
@@ -194,6 +211,7 @@
   .goods__price {
     @include bm;
     width: 63px;
+
     @include a;
     font-size: 16px;
     line-height: 20px;
@@ -206,6 +224,7 @@
     margin: 0 auto;
     margin-top: 16px;
     padding: 14px 0;
+
     @include or;
     font-size: 16px;
     line-height: 18px;
@@ -231,14 +250,22 @@
     width: 708px;
     min-height: 200px;
     margin-top: 71px;
-    padding: 0px 0px;
+    padding: 0 0;
+
     @include a;
     font-size: 16px;
     line-height: 20px;
     color: $white;
     text-align: center;
     background-image:
-      url("../img/gift-photo-tablet@1x.jpg");
+      url("../img/gift-photo-tablet@1x.jpg"),
+      url("../img/gift-photo-tablet@1x.webp");
+
+    @media (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
+      background-image:
+        url("../img/gift-photo-tablet@2x.jpg"),
+        url("../img/gift-photo-tablet@2x.webp");
+    }
   }
 
   .goods__gift-icon {
@@ -265,7 +292,6 @@
       display: inline;
     }
   }
-
 }
 
 @media (min-width: $desktop) {
@@ -302,6 +328,7 @@
   .goods__name {
     @include bm;
     width: 325px;
+
     @include or;
     font-size: 20px;
     line-height: 26px;
@@ -312,6 +339,7 @@
     @include bm;
     width: 245px;
     margin-top: 6px;
+
     @include a;
     font-size: 16px;
     line-height: 18px;
@@ -322,6 +350,7 @@
     @include bm;
     width: 80px;
     margin-top: 6px;
+
     @include a;
     font-size: 16px;
     line-height: 20px;
@@ -334,6 +363,7 @@
     margin: 0 auto;
     margin-top: 0px;
     padding: 11.5px 0;
+
     @include or;
     font-size: 16px;
     line-height: 20px;
@@ -360,13 +390,21 @@
     width: 245px;
     min-height: 289px;
     margin-top: 80px;
-    padding: 0px 40px;
+    padding: 0 40px;
+
     @include a;
     font-size: 16px;
     line-height: 20px;
     color: $white;
     text-align: center;
-    background-image: url("../img/gift-photo-desktop@1x.jpg");
+    background-image:
+      url("../img/gift-photo-desktop@1x.jpg"),
+      url("../img/gift-photo-desktop@1x.webp");
+    @media (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
+      background-image:
+        url("../img/gift-photo-desktop@2x.jpg"),
+        url("../img/gift-photo-desktop@2x.webp");
+    }
   }
 
   .goods__gift-icon {
@@ -385,5 +423,4 @@
     padding-left: 0px;
     text-align: center;
   }
-
 }

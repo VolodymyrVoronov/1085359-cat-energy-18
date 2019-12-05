@@ -21,6 +21,7 @@
 @media (min-width: $tablet) {
   .example {
     position: relative;
+
     @include bm;
     margin-top: 25px;
     background-color: $light-gray;
@@ -57,6 +58,7 @@
 @media (min-width: $desktop) {
   .example {
     position: relative;
+
     @include bm;
     margin-top: 25px;
     background-color: $light-gray;
@@ -77,6 +79,7 @@
   .example__container {
     @include bm;
     display: flex;
+
     @include container(1300px, 40px, 40px);
     min-height: 680px;
     border-top: 1px solid $gray;

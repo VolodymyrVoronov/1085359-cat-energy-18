@@ -10,6 +10,7 @@
   padding: 0;
   padding-top: 22px;
   padding-right: 50px;
+
   @include or;
   font-size: 16px;
   line-height: 20px;
@@ -23,6 +24,7 @@
   width: 140px;
   margin: 0 auto;
   margin-top: 12px;
+
   @include a;
   font-size: 12px;
   line-height: 16px;
@@ -40,6 +42,7 @@
   padding: 0px 0px;
   width: 125px;
   border-bottom: 1px solid $light-gray-three;
+  border: none;
 }
 
 .text-catalog__table-right {
@@ -48,6 +51,7 @@
   width: 125px;
   text-align: right;
   border-bottom: 1px solid $light-gray-three;
+  border: none;
 }
 
 
@@ -61,9 +65,10 @@
 
   .text-catalog__title {
     @include bm;
-    margin-top: 0px;
-    padding-right: 0px;
+    margin-top: 0;
+    padding-right: 0;
     padding: 0 90px;
+
     @include or;
     font-size: 20px;
     line-height: 20px;
@@ -77,6 +82,7 @@
     width: 249px;
     margin: 0 auto;
     margin-top: 25px;
+
     @include a;
     font-size: 16px;
     line-height: 16px;
@@ -115,9 +121,10 @@
 
   .text-catalog__title {
     @include bm;
-    margin-top: 0px;
-    padding-right: 0px;
+    margin-top: 0;
+    padding-right: 0;
     padding: 0 50px;
+
     @include or;
     font-size: 20px;
     line-height: 20px;
@@ -131,6 +138,7 @@
     width: 169px;
     margin: 0 auto;
     margin-top: 22px;
+
     @include a;
     font-size: 16px;
     line-height: 16px;
@@ -151,7 +159,7 @@
   }
 
   .text-catalog__table-right {
-    padding: 7px 0px;
+    padding: 7px 0;
     // padding-left: 140px;
     width: 125px;
     text-align: right;

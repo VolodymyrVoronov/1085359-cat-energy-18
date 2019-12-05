@@ -4,8 +4,10 @@
 
 .extra-info__title {
   position: relative;
+
   @include bm;
   margin-top: 28px;
+
   @include or;
   font-size: 24px;
   line-height: 24px;
@@ -44,7 +46,7 @@
   display: none;
 }
 
-.extra-info__option-input[type="checkbox"]+.extra-info__option-name {
+.extra-info__option-input[type="checkbox"] + .extra-info__option-name {
   position: relative;
 
   &::before {
@@ -59,7 +61,7 @@
   }
 }
 
-.extra-info__option-input[type="checkbox"]+.extra-info__option-name {
+.extra-info__option-input[type="checkbox"] + .extra-info__option-name {
   position: relative;
 
   &:hover {
@@ -76,7 +78,7 @@
   }
 }
 
-.extra-info__option-input[type="checkbox"]:checked+.extra-info__option-name {
+.extra-info__option-input[type="checkbox"]:checked + .extra-info__option-name {
   position: relative;
 
   &::before {
@@ -98,6 +100,7 @@
 .extra-info__option-name {
   @include bm;
   padding-left: 46px;
+
   @include or;
   font-size: 16px;
   line-height: 18px;
@@ -113,8 +116,10 @@
 
   .extra-info__title {
     position: relative;
+
     @include bm;
     margin-top: 65px;
+
     @include or;
     font-size: 36px;
     line-height: 36px;
@@ -172,7 +177,7 @@
     display: none;
   }
 
-  .extra-info__option-input[type="checkbox"]+.extra-info__option-name {
+  .extra-info__option-input[type="checkbox"] + .extra-info__option-name {
     position: relative;
 
     &::before {
@@ -187,7 +192,7 @@
     }
   }
 
-  .extra-info__option-input[type="checkbox"]+.extra-info__option-name {
+  .extra-info__option-input[type="checkbox"] + .extra-info__option-name {
     position: relative;
 
     &:hover {
@@ -204,7 +209,7 @@
     }
   }
 
-  .extra-info__option-input[type="checkbox"]:checked+.extra-info__option-name {
+  .extra-info__option-input[type="checkbox"]:checked + .extra-info__option-name {
     position: relative;
 
     &::before {
@@ -226,6 +231,7 @@
   .extra-info__option-name {
     @include bm;
     padding-left: 59px;
+
     @include or;
     font-size: 20px;
     line-height: 20px;
@@ -242,8 +248,10 @@
 
   .extra-info__title {
     position: relative;
+
     @include bm;
     margin-top: 67px;
+
     @include or;
     font-size: 36px;
     line-height: 36px;
@@ -302,7 +310,7 @@
     display: none;
   }
 
-  .extra-info__option-input[type="checkbox"]+.extra-info__option-name {
+  .extra-info__option-input[type="checkbox"] + .extra-info__option-name {
     position: relative;
 
     &::before {
@@ -317,7 +325,7 @@
     }
   }
 
-  .extra-info__option-input[type="checkbox"]+.extra-info__option-name {
+  .extra-info__option-input[type="checkbox"] + .extra-info__option-name {
     position: relative;
 
     &:hover {
@@ -334,7 +342,7 @@
     }
   }
 
-  .extra-info__option-input[type="checkbox"]:checked+.extra-info__option-name {
+  .extra-info__option-input[type="checkbox"]:checked + .extra-info__option-name {
     position: relative;
 
     &::before {
@@ -356,6 +364,7 @@
   .extra-info__option-name {
     @include bm;
     padding-left: 57px;
+
     @include or;
     font-size: 20px;
     line-height: 20px;

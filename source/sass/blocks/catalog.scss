@@ -9,9 +9,11 @@
 
 .catalog__title {
   position: relative;
+
   @include bm;
   margin-top: 15px;
   margin-bottom: 28px;
+
   @include or;
   font-size: 36px;
   line-height: 60px;
@@ -37,18 +39,19 @@
 
 .catalog__item {
   position: relative;
+
   @include bm;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   min-height: 209px;
-  font-size: 0px;
-  line-height: 0px;
+  font-size: 0;
+  line-height: 0;
 
   &::before {
     position: absolute;
     content: "";
-    top: 0px;
+    top: 0;
     left: -20px;
     width: 320px;
     height: 1px;
@@ -64,6 +67,7 @@
 .catalog__text {
   @include bm;
   width: 140px;
+
   @include or;
 }
 
@@ -75,8 +79,9 @@
   @include bm;
   width: 280px;
   height: 40px;
-  padding: 10px 0px;
+  padding: 10px 0;
   margin-top: -24px;
+
   @include or;
   font-size: 16px;
   line-height: 20px;
@@ -98,7 +103,7 @@
   }
 
   &--color-gray {
-    margin-top: 0px;
+    margin-top: 0;
     color: $black;
     background-color: $gray;
 
@@ -124,9 +129,11 @@
 
   .catalog__title {
     position: relative;
+
     @include bm;
     margin-top: 57px;
     margin-bottom: 28px;
+
     @include or;
     font-size: 60px;
     line-height: 60px;
@@ -147,15 +154,17 @@
   .catalog__items {
     @include bm;
     @include nolist;
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   .catalog__item {
     position: relative;
+
     @include bm;
     display: flex;
     flex-direction: row;
@@ -169,7 +178,7 @@
       position: absolute;
       display: none;
       content: "";
-      top: 0px;
+      top: 0;
       left: -20px;
       width: 320px;
       height: 1px;
@@ -184,6 +193,7 @@
 
   .catalog__img {
     @include bm;
+    width: 100%;
 
     &--big {
       margin-top: -82px;
@@ -207,10 +217,11 @@
     @include bm;
     width: 249px;
     height: 40px;
-    padding: 8px 0px;
+    padding: 8px 0;
     margin: 0 auto;
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 5px;
+
     @include or;
     font-size: 16px;
     line-height: 20px;
@@ -259,9 +270,11 @@
 
   .catalog__title {
     position: relative;
+
     @include bm;
     margin-top: 68px;
     margin-bottom: 28px;
+
     @include or;
     font-size: 60px;
     line-height: 60px;
@@ -286,11 +299,12 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   .catalog__item {
     position: relative;
+
     @include bm;
     display: flex;
     flex-direction: row;
@@ -304,7 +318,7 @@
       position: absolute;
       display: none;
       content: "";
-      top: 0px;
+      top: 0;
       left: -20px;
       width: 320px;
       height: 1px;
@@ -314,6 +328,7 @@
 
   .catalog__img {
     @include bm;
+    width: 100%;
 
     &--big {
       margin-top: -82px;
@@ -337,10 +352,11 @@
     @include bm;
     width: 169px;
     height: 40px;
-    padding: 8px 0px;
+    padding: 8px 0;
     margin: 0 auto;
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 10px;
+
     @include or;
     font-size: 16px;
     line-height: 20px;

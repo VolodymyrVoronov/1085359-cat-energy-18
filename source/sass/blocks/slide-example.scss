@@ -28,13 +28,14 @@
   display: flex;
   justify-content: space-between;
   width: 200px;
-  margin-top: 28px;
+  margin-top: 32px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .slide-example__indicator {
   position: relative;
+
   @include bm;
   width: 85px;
   height: 14px;
@@ -57,6 +58,7 @@
 
 .slide-example__indicator--on {
   position: relative;
+
   @include bm;
   width: 85px;
   height: 14px;
@@ -145,13 +147,14 @@
     justify-content: space-between;
 
     width: 572px;
-    margin-top: 16px;
+    margin-top: 20px;
     margin-left: auto;
     margin-right: auto;
   }
 
   .slide-example__indicator {
     position: relative;
+
     @include bm;
     display: none;
     width: 85px;
@@ -175,6 +178,7 @@
 
   .slide-example__handle {
     position: relative;
+
     @include bm;
     width: 432px;
     height: 6px;
@@ -185,6 +189,7 @@
 
   .slide-example__handle-btn {
     display: block;
+
     @include bm;
     position: absolute;
     top: -13px;
@@ -221,6 +226,7 @@
 
   .slide-example__toggle {
     position: relative;
+
     @include bm;
     @include or;
     font-size: 20px;
@@ -312,11 +318,12 @@
     margin-right: auto;
     margin: 0;
     margin-left: 213px;
-    margin-top: 38px;
+    margin-top: 40px;
   }
 
   .slide-example__indicator {
     position: relative;
+
     @include bm;
     display: none;
     width: 85px;
@@ -342,6 +349,7 @@
 
   .slide-example__handle {
     position: relative;
+
     @include bm;
     width: 432px;
     height: 6px;
@@ -352,6 +360,7 @@
 
   .slide-example__handle-btn {
     display: block;
+
     @include bm;
     position: absolute;
     top: -13px;
@@ -388,6 +397,7 @@
 
   .slide-example__toggle {
     position: relative;
+
     @include bm;
     @include or;
     font-size: 20px;

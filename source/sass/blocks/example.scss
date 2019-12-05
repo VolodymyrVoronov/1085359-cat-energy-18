@@ -79,7 +79,7 @@
   .example__container {
     @include bm;
     display: flex;
-    
+
     @include container(1300px, 40px, 40px);
     min-height: 680px;
     border-top: 1px solid $gray;

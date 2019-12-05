@@ -17,14 +17,14 @@
 
   @include bm;
   @include container(320px, 20px, 20px);
-  background-image: 
+  background-image:
     url("../img/index-background-mobile@1x.jpg"),
     url("../img/index-background-mobile@1x.webp");
   background-position: 0px 0px;
   background-repeat: no-repeat;
 
   @media (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
-    background-image: 
+    background-image:
       url("../img/index-background-mobile@2x.jpg"),
       url("../img/index-background-mobile@2x.webp");
     background-position: 0px 0px;
@@ -301,7 +301,7 @@
       right: -69px;
       width: 720px;
       height: 696px;
-      background-image: 
+      background-image:
         url("../img/index-background-desktop@1x.jpg"),
         url("../img/index-background-desktop@1x.webp");
       background-repeat: no-repeat;
@@ -316,7 +316,7 @@
         right: -69px;
         width: 720px;
         height: 696px;
-        background-image: 
+        background-image:
           url("../img/index-background-desktop@2x.jpg"),
           url("../img/index-background-desktop@2x.webp");
         background-repeat: no-repeat;

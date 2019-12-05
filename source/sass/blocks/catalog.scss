@@ -184,6 +184,7 @@
 
   .catalog__img {
     @include bm;
+    width: 100%;
 
     &--big {
       margin-top: -82px;
@@ -314,6 +315,7 @@
 
   .catalog__img {
     @include bm;
+    width: 100%;
 
     &--big {
       margin-top: -82px;

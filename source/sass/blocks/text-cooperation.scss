@@ -23,7 +23,7 @@
   color: $black;
   text-align: left;
 
-  p {
+  span {
     margin-top: 0px;
   }
 }
@@ -61,10 +61,6 @@
 
     span {
       display: block;
-      margin-top: 20px;
-    }
-
-    p {
       margin-top: 20px;
     }
   }

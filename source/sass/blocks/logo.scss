@@ -30,7 +30,7 @@
 
 @media (min-width: $tablet) {
   .logo {
-    position: relative
+    position: relative;
     @include bm;
     min-height: 65px;
     margin-top: -54px;

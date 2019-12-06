@@ -3,6 +3,7 @@
 
   @include bm;
   margin-top: 59px;
+
   &::before {
     display: block;
     position: absolute;
@@ -51,6 +52,7 @@
 @media (min-width: $tablet) {
   .text-more {
     @include bm;
+
     &::before {
       display: block;
       position: absolute;
@@ -63,7 +65,7 @@
     }
 
     &::after {
-      display: block;
+      // display: block;
       display: none;
       position: absolute;
       content: "";
@@ -121,7 +123,7 @@
     }
 
     &::after {
-      display: block;
+      // display: block;
       display: none;
       position: absolute;
       content: "";

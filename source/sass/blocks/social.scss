@@ -39,7 +39,7 @@
 
 .social__website {
   @include bm;
-  font-size: 0px;
+  font-size: 0;
 
   svg {
     fill: $light-black;
@@ -89,7 +89,7 @@
     margin-top: -30px;
 
     &::before {
-      display: block;
+      // display: block;
       display: none;
       position: absolute;
       content: "";
@@ -101,7 +101,7 @@
     }
 
     &::after {
-      display: block;
+      // display: block;
       display: none;
       position: absolute;
       content: "";
@@ -120,7 +120,7 @@
 
   .social__website {
     @include bm;
-    font-size: 0px;
+    font-size: 0;
 
     svg {
       fill: $light-black;
@@ -157,7 +157,7 @@
     margin-top: -30px;
 
     &::before {
-      display: block;
+      // display: block;
       display: none;
       position: absolute;
       content: "";
@@ -169,7 +169,7 @@
     }
 
     &::after {
-      display: block;
+      // display: block;
       display: none;
       position: absolute;
       content: "";
@@ -188,7 +188,7 @@
 
   .social__website {
     @include bm;
-    font-size: 0px;
+    font-size: 0;
 
     svg {
       fill: $light-black;

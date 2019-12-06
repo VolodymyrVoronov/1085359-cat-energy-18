@@ -167,7 +167,7 @@
     outline: 1px solid $gray;
 
     &::before {
-      display: block;
+      // display: block;
       display: none;
       position: absolute;
       content: "";
@@ -177,7 +177,7 @@
     }
 
     &::after {
-      display: block;
+      // display: block;
       display: none;
       position: absolute;
       content: "";
@@ -271,7 +271,7 @@
   .goods__gift-icon {
     width: 55px;
     height: 60px;
-    margin: 0 auto;
+    // margin: 0 auto;
     margin: 0;
     margin-top: 65px;
     margin-left: 92px;
@@ -316,7 +316,7 @@
     width: 895px;
     height: 71px;
     margin-bottom: 1px;
-    outline: 1px solid $gray;
+    // outline: 1px solid $gray;
     outline: none;
     border-top: 1px solid $gray;
 
@@ -361,7 +361,7 @@
     @include bm;
     width: 245px;
     margin: 0 auto;
-    margin-top: 0px;
+    margin-top: 0;
     padding: 11.5px 0;
 
     @include or;
@@ -420,8 +420,8 @@
     @include bm;
     width: 200px;
     margin-top: 20px;
-    padding-top: 0px;
-    padding-left: 0px;
+    padding-top: 0;
+    padding-left: 0;
     text-align: center;
   }
 }

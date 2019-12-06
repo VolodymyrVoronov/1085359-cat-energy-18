@@ -48,6 +48,7 @@
       background-repeat: no-repeat;
       background-position: 5px 5px;
       background-color: $green;
+
       @media (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
         position: absolute;
         content: "";
@@ -81,6 +82,7 @@
       background-repeat: no-repeat;
       background-position: 5px 4px;
       background-color: $green;
+
       @media (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
         position: absolute;
         content: "";
@@ -114,6 +116,7 @@
       background-repeat: no-repeat;
       background-position: 4px 5px;
       background-color: $green;
+
       @media (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
         position: absolute;
         content: "";
@@ -147,6 +150,7 @@
       background-repeat: no-repeat;
       background-position: 5px 5px;
       background-color: $green;
+
       @media (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
         position: absolute;
         content: "";
@@ -198,7 +202,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     min-height: 650px;
-
   }
 
   .process__item {
@@ -210,14 +213,14 @@
     &:nth-child(1) {
       position: relative;
       width: 384px;
-      margin-top: 0px;
+      margin-top: 0;
       padding-top: 185px;
 
       &::before {
         position: absolute;
         content: "";
         top: 72px;
-        left: 0px;
+        left: 0;
         width: 80px;
         height: 80px;
         background:
@@ -226,11 +229,12 @@
         background-repeat: no-repeat;
         background-position: 15px 15px;
         background-color: $green;
+
         @media (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
           position: absolute;
           content: "";
           top: 72px;
-          left: 0px;
+          left: 0;
           width: 80px;
           height: 80px;
           background:
@@ -265,7 +269,7 @@
         position: absolute;
         content: "";
         top: 72px;
-        left: 0px;
+        left: 0;
         width: 80px;
         height: 80px;
         background:
@@ -274,11 +278,12 @@
         background-repeat: no-repeat;
         background-position: 15px 15px;
         background-color: $green;
+
         @media (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
           position: absolute;
           content: "";
           top: 72px;
-          left: 0px;
+          left: 0;
           width: 80px;
           height: 80px;
           background:
@@ -313,7 +318,7 @@
         position: absolute;
         content: "";
         top: 56px;
-        left: 0px;
+        left: 0;
         width: 80px;
         height: 80px;
         background:
@@ -322,11 +327,12 @@
         background-repeat: no-repeat;
         background-position: 15px 15px;
         background-color: $green;
+
         @media (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
           position: absolute;
           content: "";
           top: 56px;
-          left: 0px;
+          left: 0;
           width: 80px;
           height: 80px;
           background:
@@ -361,7 +367,7 @@
         position: absolute;
         content: "";
         top: 56px;
-        left: 0px;
+        left: 0;
         width: 80px;
         height: 80px;
         background:
@@ -370,11 +376,12 @@
         background-repeat: no-repeat;
         background-position: 15px 15px;
         background-color: $green;
+
         @media (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
           position: absolute;
           content: "";
           top: 56px;
-          left: 0px;
+          left: 0;
           width: 80px;
           height: 80px;
           background:
@@ -444,7 +451,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
     min-height: 235px;
-
   }
 
   .process__item {
@@ -472,6 +478,7 @@
         background-repeat: no-repeat;
         background-position: 15px 15px;
         background-color: $green;
+
         @media (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
           position: absolute;
           content: "";
@@ -511,7 +518,7 @@
         position: absolute;
         content: "";
         top: 72px;
-        left: 0px;
+        left: 0;
         width: 80px;
         height: 80px;
         background:
@@ -520,6 +527,7 @@
         background-repeat: no-repeat;
         background-position: 15px 15px;
         background-color: $green;
+
         @media (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
           position: absolute;
           content: "";
@@ -568,6 +576,7 @@
         background-repeat: no-repeat;
         background-position: 15px 15px;
         background-color: $green;
+
         @media (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
           position: absolute;
           content: "";
@@ -616,6 +625,7 @@
         background-repeat: no-repeat;
         background-position: 15px 15px;
         background-color: $green;
+
         @media (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
           position: absolute;
           content: "";
@@ -650,6 +660,7 @@
   .process__text {
     @include bm;
     width: 245px;
+
     @include a;
     font-size: 16px;
     line-height: 24px;

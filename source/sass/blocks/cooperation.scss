@@ -45,7 +45,7 @@
   background-position: center 180px, top center;
 
   @media (min-resolution: 1.5dppx),
-  (min-resolution: 144dpi) {
+    (min-resolution: 144dpi) {
     @include bm;
     width: 100%;
     height: 360px;
@@ -83,7 +83,7 @@
       content: "";
       width: 100%;
       height: 200px;
-      background-color: $gray;
+      // background-color: $gray;
       background: none;
       z-index: -1;
     }
@@ -114,7 +114,7 @@
     background-position: center 150px, top center;
 
     @media (min-resolution: 1.5dppx),
-    (min-resolution: 144dpi) {
+      (min-resolution: 144dpi) {
       @include bm;
       width: 100%;
       height: 400px;
@@ -176,7 +176,7 @@
     background-position: 958px center, top center;
 
     @media (min-resolution: 1.5dppx),
-    (min-resolution: 144dpi) {
+      (min-resolution: 144dpi) {
       @include bm;
       width: 100%;
       height: 400px;

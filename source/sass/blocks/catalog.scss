@@ -152,7 +152,7 @@
   }
 
   .catalog__items {
-    @include bm;
+    // @include bm;
     @include nolist;
 
     display: flex;
@@ -293,7 +293,7 @@
   }
 
   .catalog__items {
-    @include bm;
+    // @include bm;
     @include nolist;
     display: flex;
     flex-direction: row;

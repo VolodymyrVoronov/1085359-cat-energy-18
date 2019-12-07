@@ -298,7 +298,7 @@
 
 @media (min-width: $desktop) {
   .goods {
-    @include bm;
+    // @include bm;
     display: flex;
     flex-direction: row;
     justify-content: space-between;

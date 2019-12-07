@@ -19,6 +19,7 @@
 
 .main-nav__item {
   position: relative;
+
   @include bm;
 
   &::after {
@@ -99,7 +100,7 @@
       content: "";
       left: -20px;
       top: 0;
-      width: 320px;
+      // width: 320px;
       width: 0;
       height: 1px;
       border-top: 1px solid $gray;
@@ -236,7 +237,7 @@
       content: "";
       left: -20px;
       top: 0;
-      width: 320px;
+      // width: 320px;
       width: 0;
       height: 1px;
       border-top: 1px solid $gray;
@@ -322,7 +323,7 @@
         position: absolute;
         content: "";
         bottom: -10px;
-        left: 0px;
+        left: 0;
         width: 169px;
         height: 2px;
         background-color: $green;

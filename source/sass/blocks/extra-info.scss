@@ -59,10 +59,6 @@
     height: 30px;
     border: 1px solid $light-gray-eight;
   }
-}
-
-.extra-info__option-input[type="checkbox"] + .extra-info__option-name {
-  position: relative;
 
   &:hover {
     &::before {
@@ -77,6 +73,23 @@
     }
   }
 }
+
+// .extra-info__option-input[type="checkbox"] + .extra-info__option-name {
+//   position: relative;
+
+//   &:hover {
+//     &::before {
+//       display: block;
+//       position: absolute;
+//       content: "";
+//       top: -5px;
+//       left: 0;
+//       width: 30px;
+//       height: 30px;
+//       border: 1px solid $light-gray-seven;
+//     }
+//   }
+// }
 
 .extra-info__option-input[type="checkbox"]:checked + .extra-info__option-name {
   position: relative;
@@ -190,10 +203,6 @@
       height: 40px;
       border: 1px solid $light-gray-eight;
     }
-  }
-
-  .extra-info__option-input[type="checkbox"] + .extra-info__option-name {
-    position: relative;
 
     &:hover {
       &::before {
@@ -208,6 +217,23 @@
       }
     }
   }
+
+  // .extra-info__option-input[type="checkbox"] + .extra-info__option-name {
+  //   position: relative;
+
+  //   &:hover {
+  //     &::before {
+  //       display: block;
+  //       position: absolute;
+  //       content: "";
+  //       top: -10px;
+  //       left: 1px;
+  //       width: 40px;
+  //       height: 40px;
+  //       border: 1px solid $light-gray-seven;
+  //     }
+  //   }
+  // }
 
   .extra-info__option-input[type="checkbox"]:checked + .extra-info__option-name {
     position: relative;
@@ -323,10 +349,6 @@
       height: 40px;
       border: 1px solid $light-gray-eight;
     }
-  }
-
-  .extra-info__option-input[type="checkbox"] + .extra-info__option-name {
-    position: relative;
 
     &:hover {
       &::before {
@@ -341,6 +363,23 @@
       }
     }
   }
+
+  // .extra-info__option-input[type="checkbox"] + .extra-info__option-name {
+  //   position: relative;
+
+  //   &:hover {
+  //     &::before {
+  //       display: block;
+  //       position: absolute;
+  //       content: "";
+  //       top: -10px;
+  //       left: 1px;
+  //       width: 40px;
+  //       height: 40px;
+  //       border: 1px solid $light-gray-seven;
+  //     }
+  //   }
+  // }
 
   .extra-info__option-input[type="checkbox"]:checked + .extra-info__option-name {
     position: relative;

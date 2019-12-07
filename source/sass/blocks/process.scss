@@ -43,11 +43,12 @@
       width: 60px;
       height: 60px;
       background:
-        url("../img/advantage-leaf@1x.png"),
-        url("../img/advantage-leaf@1x.webp");
+        url("../img/advantage-leaf@1x.webp"),
+        url("../img/advantage-leaf@1x.png");
       background-repeat: no-repeat;
       background-position: 5px 5px;
       background-color: $green;
+
       @media (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
         position: absolute;
         content: "";
@@ -56,8 +57,8 @@
         width: 60px;
         height: 60px;
         background:
-          url("../img/advantage-leaf@2x.png"),
-          url("../img/advantage-leaf@2x.webp");
+          url("../img/advantage-leaf@2x.webp"),
+          url("../img/advantage-leaf@2x.png");
         background-repeat: no-repeat;
         background-position: 5px 5px;
         background-color: $green;
@@ -76,11 +77,12 @@
       width: 60px;
       height: 60px;
       background:
-        url("../img/advantage-powder@1x.png"),
-        url("../img/advantage-powder@1x.webp");
+        url("../img/advantage-powder@1x.webp"),
+        url("../img/advantage-powder@1x.png");
       background-repeat: no-repeat;
       background-position: 5px 4px;
       background-color: $green;
+
       @media (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
         position: absolute;
         content: "";
@@ -89,8 +91,8 @@
         width: 60px;
         height: 60px;
         background:
-          url("../img/advantage-powder@2x.png"),
-          url("../img/advantage-powder@2x.webp");
+          url("../img/advantage-powder@2x.webp"),
+          url("../img/advantage-powder@2x.png");
         background-repeat: no-repeat;
         background-position: 5px 4px;
         background-color: $green;
@@ -109,11 +111,12 @@
       width: 60px;
       height: 60px;
       background:
-        url("../img/advantage-dining@1x.png"),
-        url("../img/advantage-dining@1x.webp");
+        url("../img/advantage-dining@1x.webp"),
+        url("../img/advantage-dining@1x.png");
       background-repeat: no-repeat;
       background-position: 4px 5px;
       background-color: $green;
+
       @media (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
         position: absolute;
         content: "";
@@ -122,8 +125,8 @@
         width: 60px;
         height: 60px;
         background:
-          url("../img/advantage-dining@2x.png"),
-          url("../img/advantage-dining@2x.webp");
+          url("../img/advantage-dining@2x.webp"),
+          url("../img/advantage-dining@2x.png");
         background-repeat: no-repeat;
         background-position: 4px 5px;
         background-color: $green;
@@ -142,11 +145,12 @@
       width: 60px;
       height: 60px;
       background:
-        url("../img/advantage-clock@1x.png"),
-        url("../img/advantage-clock@1x.webp");
+        url("../img/advantage-clock@1x.webp"),
+        url("../img/advantage-clock@1x.png");
       background-repeat: no-repeat;
       background-position: 5px 5px;
       background-color: $green;
+
       @media (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
         position: absolute;
         content: "";
@@ -155,8 +159,8 @@
         width: 60px;
         height: 60px;
         background:
-          url("../img/advantage-clock@2x.png"),
-          url("../img/advantage-clock@2x.webp");
+          url("../img/advantage-clock@2x.webp"),
+          url("../img/advantage-clock@2x.png");
         background-repeat: no-repeat;
         background-position: 5px 5px;
         background-color: $green;
@@ -198,7 +202,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     min-height: 650px;
-
   }
 
   .process__item {
@@ -210,32 +213,33 @@
     &:nth-child(1) {
       position: relative;
       width: 384px;
-      margin-top: 0px;
+      margin-top: 0;
       padding-top: 185px;
 
       &::before {
         position: absolute;
         content: "";
         top: 72px;
-        left: 0px;
+        left: 0;
         width: 80px;
         height: 80px;
         background:
-          url("../img/advantage-leaf@1x.png"),
-          url("../img/advantage-leaf@1x.webp");
+          url("../img/advantage-leaf@1x.webp"),
+          url("../img/advantage-leaf@1x.png");
         background-repeat: no-repeat;
         background-position: 15px 15px;
         background-color: $green;
+
         @media (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
           position: absolute;
           content: "";
           top: 72px;
-          left: 0px;
+          left: 0;
           width: 80px;
           height: 80px;
           background:
-            url("../img/advantage-leaf@2x.png"),
-            url("../img/advantage-leaf@2x.webp");
+            url("../img/advantage-leaf@2x.webp"),
+            url("../img/advantage-leaf@2x.png");
           background-repeat: no-repeat;
           background-position: 15px 15px;
           background-color: $green;
@@ -265,25 +269,26 @@
         position: absolute;
         content: "";
         top: 72px;
-        left: 0px;
+        left: 0;
         width: 80px;
         height: 80px;
         background:
-          url("../img/advantage-powder@1x.png"),
-          url("../img/advantage-powder@1x.webp");
+          url("../img/advantage-powder@1x.webp"),
+          url("../img/advantage-powder@1x.png");
         background-repeat: no-repeat;
         background-position: 15px 15px;
         background-color: $green;
+
         @media (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
           position: absolute;
           content: "";
           top: 72px;
-          left: 0px;
+          left: 0;
           width: 80px;
           height: 80px;
           background:
-            url("../img/advantage-powder@2x.png"),
-            url("../img/advantage-powder@2x.webp");
+            url("../img/advantage-powder@2x.webp"),
+            url("../img/advantage-powder@2x.png");
           background-repeat: no-repeat;
           background-position: 15px 15px;
           background-color: $green;
@@ -313,25 +318,26 @@
         position: absolute;
         content: "";
         top: 56px;
-        left: 0px;
+        left: 0;
         width: 80px;
         height: 80px;
         background:
-          url("../img/advantage-dining@1x.png"),
-          url("../img/advantage-dining@1x.webp");
+          url("../img/advantage-dining@1x.webp"),
+          url("../img/advantage-dining@1x.png");
         background-repeat: no-repeat;
         background-position: 15px 15px;
         background-color: $green;
+
         @media (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
           position: absolute;
           content: "";
           top: 56px;
-          left: 0px;
+          left: 0;
           width: 80px;
           height: 80px;
           background:
-            url("../img/advantage-dining@2x.png"),
-            url("../img/advantage-dining@2x.webp");
+            url("../img/advantage-dining@2x.webp"),
+            url("../img/advantage-dining@2x.png");
           background-repeat: no-repeat;
           background-position: 15px 15px;
           background-color: $green;
@@ -361,25 +367,26 @@
         position: absolute;
         content: "";
         top: 56px;
-        left: 0px;
+        left: 0;
         width: 80px;
         height: 80px;
         background:
-          url("../img/advantage-clock@1x.png"),
-          url("../img/advantage-clock@1x.webp");
+          url("../img/advantage-clock@1x.webp"),
+          url("../img/advantage-clock@1x.png");
         background-repeat: no-repeat;
         background-position: 15px 15px;
         background-color: $green;
+
         @media (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
           position: absolute;
           content: "";
           top: 56px;
-          left: 0px;
+          left: 0;
           width: 80px;
           height: 80px;
           background:
-            url("../img/advantage-clock@2x.png"),
-            url("../img/advantage-clock@2x.webp");
+            url("../img/advantage-clock@2x.webp"),
+            url("../img/advantage-clock@2x.png");
           background-repeat: no-repeat;
           background-position: 15px 15px;
           background-color: $green;
@@ -444,7 +451,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
     min-height: 235px;
-
   }
 
   .process__item {
@@ -467,11 +473,12 @@
         width: 80px;
         height: 80px;
         background:
-          url("../img/advantage-leaf@1x.png"),
-          url("../img/advantage-leaf@1x.webp");
+          url("../img/advantage-leaf@1x.webp"),
+          url("../img/advantage-leaf@1x.png");
         background-repeat: no-repeat;
         background-position: 15px 15px;
         background-color: $green;
+
         @media (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
           position: absolute;
           content: "";
@@ -480,8 +487,8 @@
           width: 80px;
           height: 80px;
           background:
-            url("../img/advantage-leaf@2x.png"),
-            url("../img/advantage-leaf@2x.webp");
+            url("../img/advantage-leaf@2x.webp"),
+            url("../img/advantage-leaf@2x.png");
           background-repeat: no-repeat;
           background-position: 15px 15px;
           background-color: $green;
@@ -511,15 +518,16 @@
         position: absolute;
         content: "";
         top: 72px;
-        left: 0px;
+        left: 0;
         width: 80px;
         height: 80px;
         background:
-          url("../img/advantage-powder@1x.png"),
-          url("../img/advantage-powder@1x.webp");
+          url("../img/advantage-powder@1x.webp"),
+          url("../img/advantage-powder@1x.png");
         background-repeat: no-repeat;
         background-position: 15px 15px;
         background-color: $green;
+
         @media (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
           position: absolute;
           content: "";
@@ -528,8 +536,8 @@
           width: 80px;
           height: 80px;
           background:
-            url("../img/advantage-powder@2x.png"),
-            url("../img/advantage-powder@2x.webp");
+            url("../img/advantage-powder@2x.webp"),
+            url("../img/advantage-powder@2x.png");
           background-repeat: no-repeat;
           background-position: 15px 15px;
           background-color: $green;
@@ -563,11 +571,12 @@
         width: 80px;
         height: 80px;
         background:
-          url("../img/advantage-dining@1x.png"),
-          url("../img/advantage-dining@1x.webp");
+          url("../img/advantage-dining@1x.webp"),
+          url("../img/advantage-dining@1x.png");
         background-repeat: no-repeat;
         background-position: 15px 15px;
         background-color: $green;
+
         @media (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
           position: absolute;
           content: "";
@@ -576,8 +585,8 @@
           width: 80px;
           height: 80px;
           background:
-            url("../img/advantage-dining@2x.png"),
-            url("../img/advantage-dining@2x.webp");
+            url("../img/advantage-dining@2x.webp"),
+            url("../img/advantage-dining@2x.png");
           background-repeat: no-repeat;
           background-position: 15px 15px;
           background-color: $green;
@@ -611,11 +620,12 @@
         width: 80px;
         height: 80px;
         background:
-          url("../img/advantage-clock@1x.png"),
-          url("../img/advantage-clock@1x.webp");
+          url("../img/advantage-clock@1x.webp"),
+          url("../img/advantage-clock@1x.png");
         background-repeat: no-repeat;
         background-position: 15px 15px;
         background-color: $green;
+
         @media (min-resolution: 1.5dppx), (min-resolution: 144dpi) {
           position: absolute;
           content: "";
@@ -624,8 +634,8 @@
           width: 80px;
           height: 80px;
           background:
-            url("../img/advantage-clock@2x.png"),
-            url("../img/advantage-clock@2x.webp");
+            url("../img/advantage-clock@2x.webp"),
+            url("../img/advantage-clock@2x.png");
           background-repeat: no-repeat;
           background-position: 15px 15px;
           background-color: $green;
@@ -650,6 +660,7 @@
   .process__text {
     @include bm;
     width: 245px;
+
     @include a;
     font-size: 16px;
     line-height: 24px;

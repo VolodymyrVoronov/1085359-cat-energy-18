@@ -165,7 +165,7 @@
   }
 
   .extra-info__options {
-    @include bm;
+    // @include bm;
     @include nolist;
     display: flex;
     flex-direction: row;
@@ -310,7 +310,7 @@
   }
 
   .extra-info__options {
-    @include bm;
+    // @include bm;
     @include nolist;
     display: flex;
     flex-direction: row;

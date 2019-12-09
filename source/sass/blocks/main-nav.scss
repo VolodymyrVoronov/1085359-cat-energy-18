@@ -93,7 +93,7 @@
   .main-nav__item {
     position: relative;
 
-    @include bm;
+    // @include bm;
 
     &::after {
       position: absolute;
@@ -230,7 +230,8 @@
   .main-nav__item {
     position: relative;
 
-    @include bm;
+    // @include bm;
+    // display: inline;
 
     &::after {
       position: absolute;

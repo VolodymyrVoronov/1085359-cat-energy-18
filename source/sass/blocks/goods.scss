@@ -115,6 +115,7 @@
     background-image:
       url("../img/gift-photo-mobile@2x.webp"),
       url("../img/gift-photo-mobile@2x.jpg");
+    background-size: cover;
   }
 
   &:hover {
@@ -265,6 +266,7 @@
       background-image:
         url("../img/gift-photo-tablet@2x.webp"),
         url("../img/gift-photo-tablet@2x.jpg");
+      background-size: cover;
     }
   }
 
@@ -296,7 +298,7 @@
 
 @media (min-width: $desktop) {
   .goods {
-    @include bm;
+    // @include bm;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -405,6 +407,7 @@
       background-image:
         url("../img/gift-photo-desktop@2x.webp"),
         url("../img/gift-photo-desktop@2x.jpg");
+      background-size: cover;
     }
   }
 

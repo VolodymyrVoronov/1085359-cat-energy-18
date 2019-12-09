@@ -51,8 +51,9 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     width: 162px;
-    margin-top: 2px;
+    margin-top: -2px;
   }
 
   .academy-address__link {
@@ -69,6 +70,38 @@
     width: 27px;
     height: 34px;
     margin-top: -8px;
+    margin-left: none;
+    background-image: url("../img/main-footer__academy-link.svg");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 27px 34px;
+  }
+}
+
+@media (min-width: $desktop) {
+  .academy-address {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 162px;
+    margin-top: -5px;
+  }
+
+  .academy-address__link {
+    @include bm;
+    @include a;
+    font-size: 16px;
+    line-height: 16px;
+    color: $light-black;
+    text-decoration: none;
+  }
+
+  .academy-address__logo {
+    @include bm;
+    width: 27px;
+    height: 34px;
+    // margin-top: -8px;
     margin-left: none;
     background-image: url("../img/main-footer__academy-link.svg");
     background-repeat: no-repeat;

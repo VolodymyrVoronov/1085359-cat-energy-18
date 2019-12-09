@@ -1,3 +1,5 @@
+"use strict";
+
 var slide = document.querySelector(".slide-example");
 var handle = slide.querySelector(".slide-example__handle-btn");
 

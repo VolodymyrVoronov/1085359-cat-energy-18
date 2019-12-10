@@ -305,6 +305,12 @@
       margin-left: 16px;
       display: none;
     }
+
+    &--overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
   }
 
   .slide-example__toggles {
@@ -441,6 +447,7 @@
           border-bottom: 1px solid $light-gray-seven;
         }
       }
+
       &:focus {
         &::after {
           border-bottom: none;
@@ -471,6 +478,7 @@
         height: 1px;
         border-bottom: 1px dotted $light-gray-seven;
       }
+
       &:hover {
         &::after {
           display: block;
@@ -482,6 +490,7 @@
           border-bottom: 1px solid $light-gray-seven;
         }
       }
+
       &:focus {
         &::after {
           border-bottom: none;

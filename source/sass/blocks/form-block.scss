@@ -56,6 +56,7 @@
 
   &:focus {
     outline: 2px solid $light-black;
+
     &:invalid {
       outline-color: $tomato;
     }
@@ -102,8 +103,7 @@
   display: none;
 }
 
-.form-block__radio input[type="radio"] + 
-.form-block__radio-name {
+.form-block__radio input[type="radio"] + .form-block__radio-name {
   position: relative;
 
   &::before {
@@ -119,8 +119,7 @@
   }
 }
 
-.form-block__radio input[type="radio"]:hover + 
-.form-block__radio-name {
+.form-block__radio input[type="radio"]:hover + .form-block__radio-name {
   &::before {
     display: block;
     position: absolute;
@@ -146,8 +145,7 @@
   }
 }
 
-.form-block__radio input[type="radio"]:checked + 
-.form-block__radio-name {
+.form-block__radio input[type="radio"]:checked + .form-block__radio-name {
   &::before {
     display: block;
     position: absolute;
@@ -185,6 +183,7 @@
   color: $light-black;
   text-transform: uppercase;
   cursor: pointer;
+
   &:active {
     opacity: 0.3;
   }
@@ -265,6 +264,7 @@
 
     &:focus {
       outline: 2px solid $light-black;
+
       &:invalid {
         outline-color: $tomato;
       }
@@ -318,8 +318,7 @@
     display: none;
   }
 
-  .form-block__radio input[type="radio"] + 
-  .form-block__radio-name {
+  .form-block__radio input[type="radio"] + .form-block__radio-name {
     position: relative;
 
     &::before {
@@ -335,8 +334,7 @@
     }
   }
 
-  .form-block__radio input[type="radio"]:hover + 
-  .form-block__radio-name {
+  .form-block__radio input[type="radio"]:hover + .form-block__radio-name {
     &::before {
       display: block;
       position: absolute;
@@ -362,8 +360,7 @@
     }
   }
 
-  .form-block__radio input[type="radio"]:active + 
-  .form-block__radio-name {
+  .form-block__radio input[type="radio"]:active + .form-block__radio-name {
     &::before {
       display: block;
       position: absolute;
@@ -427,6 +424,7 @@
     line-height: 20px;
     color: $light-black;
     text-transform: uppercase;
+
     &:active {
       opacity: 0.3;
     }
@@ -515,6 +513,7 @@
 
     &:focus {
       outline: 2px solid $light-black;
+
       &:invalid {
         outline-color: $tomato;
       }
@@ -583,8 +582,7 @@
     }
   }
 
-  .form-block__radio input[type="radio"]:hover + 
-  .form-block__radio-name {
+  .form-block__radio input[type="radio"]:hover + .form-block__radio-name {
     &::before {
       display: block;
       position: absolute;
@@ -610,8 +608,7 @@
     }
   }
 
-  .form-block__radio input[type="radio"]:active + 
-  .form-block__radio-name {
+  .form-block__radio input[type="radio"]:active + .form-block__radio-name {
     &::before {
       display: block;
       position: absolute;

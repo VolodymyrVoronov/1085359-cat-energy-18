@@ -15,15 +15,16 @@
   height: 24px;
   margin: 0 auto;
   padding-top: 43px;
-  
+
   &--active {
     &:hover {
       opacity: 0.8;
     }
+
     &:focus {
       opacity: 0.6;
     }
-  } 
+  }
 }
 
 .main-footer__academy {
@@ -55,10 +56,11 @@
       &:hover {
         opacity: 0.8;
       }
+
       &:focus {
         opacity: 0.6;
       }
-    } 
+    }
   }
 
   .main-footer__academy {
@@ -91,10 +93,11 @@
       &:hover {
         opacity: 0.8;
       }
+
       &:focus {
         opacity: 0.6;
       }
-    }   
+    }
   }
 
   .main-footer__academy {

@@ -344,8 +344,7 @@
     display: none;
   }
 
-  .extra-info__option-input[type="checkbox"] + 
-  .extra-info__option-name {
+  .extra-info__option-input[type="checkbox"] + .extra-info__option-name {
     position: relative;
 
     &::before {

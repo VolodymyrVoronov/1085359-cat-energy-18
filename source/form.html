@@ -52,11 +52,11 @@
         <ul class="form-block__fields">
           <li class="form-block__field">
             <label class="form-block__field-name" for="name">Имя:*</label>
-            <input class="form-block__field-input form-block__field-input--nickname" type="text" name="name" id="name" placeholder="Барсик">
+            <input class="form-block__field-input form-block__field-input--nickname" type="text" name="name" id="name" placeholder="Барсик" required>
           </li>
           <li class="form-block__field">
             <label class="form-block__field-name" for="weight">Вес (КГ):*</label>
-            <input class="form-block__field-input form-block__field-input--weight" type="text" name="weight" id="weight" placeholder="7">
+            <input class="form-block__field-input form-block__field-input--weight" type="text" name="weight" id="weight" placeholder="7" required>
           </li>
           <li class="form-block__field">
             <label class="form-block__field-name" for="age">Возраст (ЛЕТ):</label>
@@ -67,15 +67,15 @@
           <span class="visually-hidden">Цель программы</span>
           <li class="form-block__radio">
             <input type="radio" name="programm" id="diet" checked>
-            <label class="form-block__radio-name" for="diet">Похудение</label>
+            <label class="form-block__radio-name" for="diet" tabindex="0">Похудение</label>
           </li>
           <li class="form-block__radio">
             <input type="radio" name="programm" id="gain">
-            <label class="form-block__radio-name" for="gain">Набор массы</label>
+            <label class="form-block__radio-name" for="gain" tabindex="0">Набор массы</label>
           </li>
           <li class="form-block__radio">
             <input type="radio" name="programm" id="question">
-            <label class="form-block__radio-name" for="question">Не знаю (Нужен ваш совет)</label>
+            <label class="form-block__radio-name" for="question" tabindex="0">Не знаю (Нужен ваш совет)</label>
           </li>
         </ul>
         <div class="form-block__owner owner-info">
@@ -83,11 +83,11 @@
           <ul class="onwer-info__flieds">
             <li class="owner-info__field">
               <label class="owner-info__field-name" for="email">E-mail:*</label>
-              <input class="owner-info__field-input owner-info__field-input--email" type="email" name="email" id="email" placeholder="kuklachev@gmail.com">
+              <input class="owner-info__field-input owner-info__field-input--email" type="email" name="email" id="email" placeholder="kuklachev@gmail.com" required>
             </li>
             <li class="owner-info__field">
               <label class="owner-info__field-name" for="phone">Телефон:*</label>
-              <input class="owner-info__field-input owner-info__field-input--phone" type="tel" name="phone" id="phone" placeholder="8 (960) 900-60-90">
+              <input class="owner-info__field-input owner-info__field-input--phone" type="tel" name="phone" id="phone" placeholder="8 (960) 900-60-90" required>
             </li>
           </ul>
         </div>
@@ -100,19 +100,19 @@
           <ul class="extra-info__options">
             <li class="extra-info__option">
               <input class="extra-info__option-input" type="checkbox" name="sweetener" id="sweetener">
-              <label class="extra-info__option-name" for="sweetener">Сахарозаменитель</label>
+              <label class="extra-info__option-name" for="sweetener" tabindex="0">Сахарозаменитель</label>
             </li>
             <li class="extra-info__option">
               <input class="extra-info__option-input" type="checkbox" name="drinkingwater" id="drinkingwater">
-              <label class="extra-info__option-name" for="drinkingwater">Питьевая вода</label>
+              <label class="extra-info__option-name" for="drinkingwater" tabindex="0">Питьевая вода</label>
             </li>
             <li class="extra-info__option">
               <input class="extra-info__option-input" type="checkbox" name="milk" id="milk">
-              <label class="extra-info__option-name" for="milk">Молоко</label>
+              <label class="extra-info__option-name" for="milk" tabindex="0">Молоко</label>
             </li>
             <li class="extra-info__option">
               <input class="extra-info__option-input" type="checkbox" name="vitamins" id="vitamins">
-              <label class="extra-info__option-name" for="vitamins">Витамины</label>
+              <label class="extra-info__option-name" for="vitamins" tabindex="0">Витамины</label>
             </li>
           </ul>
         </div>
@@ -137,7 +137,7 @@
   <footer class="main-footer">
       <span class="visually-hidden">Низ сайта. Подвал</span>
       <div class="main-footer__container container">
-        <p class="main-footer__logo">
+        <a href="index.html" class="main-footer__logo main-footer__logo--active">
           <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 127.8 23.4" style="enable-background:new 0 0 127.8 23.4;" xml:space="preserve">
             <style type="text/css">
               .st0 {
@@ -170,7 +170,7 @@
               <path class="st0" d="M119.8,15.1l-4.9-14.7h3l3.5,11l3.4-11h3l-4.9,14.7v8h-3V15.1z"/>
             </g>
           </svg>
-        </p>
+        </a>
         <ul class="social">
           <li class="social__link">
             <a href="#" class="social__website social__website--vk">

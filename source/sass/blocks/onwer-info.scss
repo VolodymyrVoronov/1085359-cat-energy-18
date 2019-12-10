@@ -69,10 +69,27 @@
     background-size: 17px 13px;
 
     &:hover {
+      background-image: url("../img/icon-mail.svg");
+      background-repeat: no-repeat;
+      background-position: 186px 14px;
+      background-size: 17px 13px;
+      outline: 1px solid $light-gray-three;
+    }
+
+    &:focus {
       background-image: url("../img/icon-mail--green.svg");
       background-repeat: no-repeat;
       background-position: 186px 14px;
       background-size: 17px 13px;
+      outline: 2px solid $light-black;
+
+      &:invalid {
+        background-image: url("../img/icon-mail--tomato.svg");
+        background-repeat: no-repeat;
+        background-position: 186px 14px;
+        background-size: 17px 13px;
+        outline-color: $tomato;
+      }
     }
   }
 
@@ -84,19 +101,28 @@
     background-size: 20px 20px;
 
     &:hover {
+      background-image: url("../img/icon-phone.svg");
+      background-repeat: no-repeat;
+      background-position: 171px 11px;
+      background-size: 20px 20px;
+      outline: 1px solid $light-gray-three;
+    }
+
+    &:focus {
       background-image: url("../img/icon-phone--green.svg");
       background-repeat: no-repeat;
       background-position: 171px 11px;
       background-size: 20px 20px;
+      outline: 2px solid $light-black;
+
+      &:invalid {
+        background-image: url("../img/icon-phone--tomato.svg");
+        background-repeat: no-repeat;
+        background-position: 171px 11px;
+        background-size: 20px 20px;
+        outline-color: $tomato;
+      }
     }
-  }
-
-  &:hover {
-    outline: 1px solid $light-gray-three;
-  }
-
-  &:focus {
-    outline: 2px solid $light-black;
   }
 }
 
@@ -184,10 +210,27 @@
       background-size: 17px 13px;
 
       &:hover {
+        background-image: url("../img/icon-mail.svg");
+        background-repeat: no-repeat;
+        background-position: 515px 19px;
+        background-size: 17px 13px;
+        outline: 1px solid $light-gray-nine;
+      }
+
+      &:focus {
         background-image: url("../img/icon-mail--green.svg");
         background-repeat: no-repeat;
         background-position: 515px 19px;
         background-size: 17px 13px;
+        outline: 2px solid $light-black;
+
+        &:invalid {
+          background-image: url("../img/icon-mail--tomato.svg");
+          background-repeat: no-repeat;
+          background-position: 515px 19px;
+          background-size: 17px 13px;
+          outline-color: $tomato;;
+        }
       }
     }
 
@@ -199,10 +242,27 @@
       background-size: 20px 20px;
 
       &:hover {
+        background-image: url("../img/icon-phone.svg");
+        background-repeat: no-repeat;
+        background-position: 500px 16px;
+        background-size: 20px 20px;
+        outline: 1px solid $light-gray-nine;
+      }
+
+      &:focus {
         background-image: url("../img/icon-phone--green.svg");
         background-repeat: no-repeat;
         background-position: 500px 16px;
         background-size: 20px 20px;
+        outline: 2px solid $light-black;
+
+        &:invalid {
+          background-image: url("../img/icon-phone--tomato.svg");
+          background-repeat: no-repeat;
+          background-position: 500px 16px;
+          background-size: 20px 20px;
+          outline-color: $tomato;
+        }
       }
     }
   }
@@ -298,10 +358,27 @@
       background-size: 17px 13px;
 
       &:hover {
+        background-image: url("../img/icon-mail.svg");
+        background-repeat: no-repeat;
+        background-position: 447px 20px;
+        background-size: 17px 13px;
+        outline: 1px solid $light-gray-nine;
+      }
+
+      &:focus {
         background-image: url("../img/icon-mail--green.svg");
         background-repeat: no-repeat;
         background-position: 447px 20px;
         background-size: 17px 13px;
+        outline: 2px solid $light-black;
+
+        &:invalid {
+          background-image: url("../img/icon-mail--tomato.svg");
+          background-repeat: no-repeat;
+          background-position: 447px 20px;
+          background-size: 17px 13px;
+          outline-color: $tomato;
+        }
       }
     }
 
@@ -313,10 +390,26 @@
       background-size: 20px 20px;
 
       &:hover {
+        background-image: url("../img/icon-phone.svg");
+        background-repeat: no-repeat;
+        background-position: 430px 17px;
+        background-size: 20px 20px;
+      }
+
+      &:focus {
         background-image: url("../img/icon-phone--green.svg");
         background-repeat: no-repeat;
         background-position: 430px 17px;
         background-size: 20px 20px;
+        outline: 2px solid $light-black;
+
+        &:invalid {
+          background-image: url("../img/icon-phone--tomato.svg");
+          background-repeat: no-repeat;
+          background-position: 430px 17px;
+          background-size: 20px 20px;
+          outline-color: $tomato;
+        }
       }
     }
   }

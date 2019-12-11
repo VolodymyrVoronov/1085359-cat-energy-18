@@ -161,7 +161,7 @@
       content: "";
       left: -40px;
       top: 21px;
-      width: 594px;
+      width: 592px;
       height: 6px;
       background-color: $white;
       z-index: -1;
@@ -194,7 +194,7 @@
 
   .owner-info__field-input {
     @include bm;
-    padding: 10px 20px;
+    padding: 10px 22px;
 
     @include or;
     font-size: 20px;
@@ -264,6 +264,12 @@
           outline-color: $tomato;
         }
       }
+    }
+  }
+
+  @-moz-document url-prefix() {
+    .owner-info__field-input {
+      padding: 15px 22px;
     }
   }
 }
@@ -411,6 +417,12 @@
           outline-color: $tomato;
         }
       }
+    }
+  }
+
+  @-moz-document url-prefix() {
+    .owner-info__field-input {
+      padding: 15px 18px;
     }
   }
 }

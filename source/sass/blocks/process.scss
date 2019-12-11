@@ -179,6 +179,12 @@
   color: $light-black;
 }
 
+@-moz-document url-prefix() {
+  .process__text {
+    letter-spacing: -0.2px;
+  }
+}
+
 @media (min-width: $tablet) {
   .process {
     @include bm;
@@ -429,6 +435,12 @@
       display: block;
     }
   }
+
+  @-moz-document url-prefix() {
+    .process__text {
+      letter-spacing: 0px;
+    }
+  }
 }
 
 @media (min-width: $desktop) {
@@ -677,5 +689,11 @@
     font-size: 16px;
     line-height: 24px;
     color: $light-black;
+  }
+
+  @-moz-document url-prefix() {
+    .process__text {
+      letter-spacing: 0px;
+    }
   }
 }

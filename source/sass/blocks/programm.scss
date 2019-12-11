@@ -1,6 +1,7 @@
 .programm {
   @include bm;
   margin-bottom: 60px;
+  overflow-x: hidden;
 }
 
 .programm__container {
@@ -38,6 +39,7 @@
   .programm {
     @include bm;
     // margin-bottom: 58px;
+    overflow-x: hidden;
   }
 
   .programm__container {
@@ -76,6 +78,7 @@
 @media (min-width: $desktop) {
   .programm {
     @include bm;
+    overflow-x: hidden;
   }
 
   .programm__container {

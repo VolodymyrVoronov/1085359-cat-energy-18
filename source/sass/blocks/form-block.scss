@@ -189,6 +189,18 @@
   }
 }
 
+.form-block__radio-name:focus {
+  position: relative;
+  outline: none;
+  
+  &::before {
+    display: block;
+    position: absolute;
+    content: "";
+    outline: 2px solid $color-outline;
+  }
+}
+
 .form-block__owner {
   @include bm;
 }
@@ -427,6 +439,18 @@
 
     &:active {
       opacity: 0.3;
+    }
+  }
+
+  .form-block__radio-name:focus {
+    position: relative;
+    outline: none;
+    
+    &::before {
+      display: block;
+      position: absolute;
+      content: "";
+      outline: 2px solid $color-outline;
     }
   }
 
@@ -676,6 +700,18 @@
 
     &:active {
       opacity: 0.3;
+    }
+  }
+
+  .form-block__radio-name:focus {
+    position: relative;
+    outline: none;
+    
+    &::before {
+      display: block;
+      position: absolute;
+      content: "";
+      outline: 2px solid $color-outline;
     }
   }
 

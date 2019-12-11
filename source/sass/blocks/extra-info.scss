@@ -126,6 +126,18 @@
   }
 }
 
+.extra-info__option-name:focus {
+  position: relative;
+  outline: none;
+  
+  &::before {
+    display: block;
+    position: absolute;
+    content: "";
+    outline: 2px solid $color-outline;
+  }
+}
+
 @media (min-width: $tablet) {
   .extra-info {
     @include bm;
@@ -271,6 +283,18 @@
 
     &:active {
       opacity: 0.3;
+    }
+  }
+
+  .extra-info__option-name:focus {
+    position: relative;
+    outline: none;
+    
+    &::before {
+      display: block;
+      position: absolute;
+      content: "";
+      outline: 2px solid $color-outline;
     }
   }
 }
@@ -420,6 +444,18 @@
 
     &:active {
       opacity: 0.3;
+    }
+  }
+
+  .extra-info__option-name:focus {
+    position: relative;
+    outline: none;
+    
+    &::before {
+      display: block;
+      position: absolute;
+      content: "";
+      outline: 2px solid $color-outline;
     }
   }
 }

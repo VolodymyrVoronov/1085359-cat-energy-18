@@ -267,7 +267,7 @@
     }
   }
 
-  @-moz-document url-prefix() {
+  @-moz-document url-prefix("") {
     .owner-info__field-input {
       padding: 15px 22px;
     }
@@ -420,7 +420,7 @@
     }
   }
 
-  @-moz-document url-prefix() {
+  @-moz-document url-prefix("") {
     .owner-info__field-input {
       padding: 15px 18px;
     }

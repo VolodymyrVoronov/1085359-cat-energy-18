@@ -22,7 +22,7 @@
   line-height: 18px;
 }
 
-@-moz-document url-prefix() {
+@-moz-document url-prefix("") {
   .info-example__text {
     letter-spacing: -0.1px;
   }
@@ -137,9 +137,9 @@
     line-height: 24px;
   }
 
-  @-moz-document url-prefix() {
+  @-moz-document url-prefix("") {
     .info-example__text {
-      letter-spacing: 0px;
+      letter-spacing: 0;
     }
   }
 
@@ -255,9 +255,9 @@
     line-height: 24px;
   }
 
-  @-moz-document url-prefix() {
+  @-moz-document url-prefix("") {
     .info-example__text {
-      letter-spacing: 0px;
+      letter-spacing: 0;
     }
   }
 

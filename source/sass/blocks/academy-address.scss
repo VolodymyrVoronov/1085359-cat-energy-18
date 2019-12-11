@@ -59,8 +59,8 @@
 
   .academy-address__link {
     @include bm;
-
     margin-top: -4px;
+
     @include a;
     font-size: 16px;
     line-height: 16px;

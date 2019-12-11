@@ -283,7 +283,7 @@
     }
   }
 
-  @-moz-document url-prefix() {
+  @-moz-document url-prefix("") {
     .form-block__field-input {
       padding: 15px 20px;
     }
@@ -550,7 +550,7 @@
     }
   }
 
-  @-moz-document url-prefix() {
+  @-moz-document url-prefix("") {
     .form-block__field-input {
       padding: 15px 20px;
     }

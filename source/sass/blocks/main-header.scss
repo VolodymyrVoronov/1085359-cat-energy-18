@@ -273,6 +273,23 @@
       min-height: 120px;
       background: none;
     }
+
+    &--bg-green {
+      position: relative;
+      overflow-x: hidden;
+
+      &::after {
+        display: block;
+        position: absolute;
+        content: "";
+        top: 0;
+        right: -51vw;
+        width: 100vw;
+        height: 696px;
+        background-color: $green-one;
+        z-index: -2;
+      }
+    }
   }
 
   .main-header--pt {

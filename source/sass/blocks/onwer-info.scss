@@ -25,7 +25,7 @@
   }
 }
 
-.onwer-info__flieds {
+.owner-info__flieds {
   @include bm;
   @include nolist;
   margin-top: 35px;
@@ -168,7 +168,7 @@
     }
   }
 
-  .onwer-info__flieds {
+  .owner-info__flieds {
     @include bm;
     @include nolist;
     margin-top: 76px;
@@ -317,7 +317,7 @@
     }
   }
 
-  .onwer-info__flieds {
+  .owner-info__flieds {
     @include nolist;
     display: flex;
     flex-direction: row;

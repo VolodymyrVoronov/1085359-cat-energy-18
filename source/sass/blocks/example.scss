@@ -10,7 +10,7 @@
   min-height: 705px;
 }
 
-.exapmle__info {
+.example__info {
   @include bm;
 }
 
@@ -45,7 +45,7 @@
     border-top: 1px solid $gray;
   }
 
-  .exapmle__info {
+  .example__info {
     @include bm;
   }
 
@@ -84,7 +84,7 @@
     border: none;
   }
 
-  .exapmle__info {
+  .example__info {
     @include bm;
   }
 

@@ -1,3 +1,5 @@
+"use strict";
+
 var slider = document.querySelector(".example__slide");
 var photoBefore = slider.querySelector(".slide-example__photo--before");
 var photoAfter = slider.querySelector(".slide-example__photo--after");

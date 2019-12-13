@@ -22,6 +22,12 @@
   line-height: 18px;
 }
 
+@-moz-document url-prefix("") {
+  .info-example__text {
+    letter-spacing: -0.1px;
+  }
+}
+
 .info-example__items {
   @include bm;
   @include nolist;
@@ -34,7 +40,6 @@
 .info-example__item {
   @include bm;
   width: 124px;
-  // height: 56px;
   padding: 15px 0;
 
   @include or;
@@ -131,6 +136,12 @@
     line-height: 24px;
   }
 
+  @-moz-document url-prefix("") {
+    .info-example__text {
+      letter-spacing: 0;
+    }
+  }
+
   .info-example__items {
     @include bm;
     @include nolist;
@@ -143,7 +154,6 @@
   .info-example__item {
     @include bm;
     width: 162px;
-    // height: 56px;
     padding: 17px 0;
 
     @include or;
@@ -243,6 +253,12 @@
     line-height: 24px;
   }
 
+  @-moz-document url-prefix("") {
+    .info-example__text {
+      letter-spacing: 0;
+    }
+  }
+
   .info-example__items {
     @include bm;
     @include nolist;
@@ -255,7 +271,6 @@
   .info-example__item {
     @include bm;
     width: 162px;
-    // height: 56px;
     padding: 17px 0;
 
     @include or;

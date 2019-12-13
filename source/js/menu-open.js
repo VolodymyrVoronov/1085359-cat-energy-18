@@ -1,3 +1,5 @@
+"use strict";
+
 var header = document.querySelector(".main-header");
 var menu = header.querySelector(".main-nav");
 var btn = header.querySelector(".main-header__btn-menu");

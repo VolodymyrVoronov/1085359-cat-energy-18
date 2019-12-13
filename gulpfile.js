@@ -38,7 +38,7 @@ gulp.task("images", function () {
     .pipe(imagemin([
       imagemin.optipng({optimizationLevel: 3}),
       imagemin.jpegtran({progressive: true}),
-      // imagemin.svgo()
+      imagemin.svgo()
     ]))
     .pipe(gulp.dest("source/img"));
 });
@@ -98,6 +98,7 @@ gulp.task("clean", function () {
 
 gulp.task("build", gulp.series (
   "clean",
+  "images",
   "copy",
   "css",
   "uglify",

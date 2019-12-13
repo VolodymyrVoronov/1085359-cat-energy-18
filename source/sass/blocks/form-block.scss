@@ -302,7 +302,6 @@
     outline: 1px solid $gray;
 
     &::before {
-      // display: block;
       display: none;
       position: absolute;
       content: "";
@@ -314,7 +313,6 @@
     }
 
     &::after {
-      // display: block;
       display: none;
       position: absolute;
       content: "";
@@ -561,14 +559,12 @@
     @include nolist;
     width: 570px;
     height: 195px;
-    // margin: 0 auto;
     margin: 0;
     margin-top: 66px;
     padding: 25px 28px;
     outline: 1px solid $gray;
 
     &::before {
-      // display: block;
       display: none;
       position: absolute;
       content: "";
@@ -580,7 +576,6 @@
     }
 
     &::after {
-      // display: block;
       display: none;
       position: absolute;
       content: "";
@@ -701,7 +696,6 @@
   .form-block__radio-name {
     @include bm;
     margin-top: 8px;
-    // margin-left: 48px;
     padding-left: 59px;
 
     @include or;

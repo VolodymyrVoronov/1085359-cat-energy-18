@@ -93,14 +93,11 @@
   .main-nav__item {
     position: relative;
 
-    // @include bm;
-
     &::after {
       position: absolute;
       content: "";
       left: -20px;
       top: 0;
-      // width: 320px;
       width: 0;
       height: 1px;
       border-top: 1px solid $gray;
@@ -230,15 +227,11 @@
   .main-nav__item {
     position: relative;
 
-    // @include bm;
-    // display: inline;
-
     &::after {
       position: absolute;
       content: "";
       left: -20px;
       top: 0;
-      // width: 320px;
       width: 0;
       height: 1px;
       border-top: 1px solid $gray;

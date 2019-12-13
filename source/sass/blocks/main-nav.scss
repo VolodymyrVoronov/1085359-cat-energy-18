@@ -65,6 +65,26 @@
       opacity: 1;
     }
   }
+
+  &--active-catalog {
+    &:hover {
+      list-style: none;
+      text-decoration: none;
+      color: $black;
+      cursor: default;
+      opacity: 1;
+    }
+  }
+
+  &--active-form {
+    &:hover {
+      list-style: none;
+      text-decoration: none;
+      color: $black;
+      cursor: default;
+      opacity: 1;
+    }
+  }
 }
 
 @media (min-width: $tablet) {

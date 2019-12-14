@@ -141,6 +141,14 @@
     }
   }
 
+  .slide-example__photo--visible {
+    display: block;
+  }
+
+  .slide-example__photo--invisible {
+    display: none;
+  }
+
   .slide-example__toggles {
     @include bm;
     display: flex;
@@ -299,16 +307,18 @@
 
     &--after {
       @include bm;
-      margin-top: 90px;
-      margin-left: 16px;
+      margin-top: 45px;
+      margin-left: 135px;
       display: none;
     }
+  }
 
-    &--overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
+  .slide-example__photo--visible {
+    display: block;
+  }
+
+  .slide-example__photo--invisible {
+    display: none;
   }
 
   .slide-example__toggles {

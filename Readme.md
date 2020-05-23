@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
-* Студент: [Volodymyr Voronov](https://up.htmlacademy.ru/adaptive/18/user/1085359). 
-* Наставник: [Владислав Кривокора](https://htmlacademy.ru/profile/krivokora).  
+* Студент: [Volodymyr Voronov](https://up.htmlacademy.ru/adaptive/18/user/1085359).
+* Наставник: [Владислав Кривокора](https://htmlacademy.ru/profile/krivokora).
 
 ---
 
